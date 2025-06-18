@@ -32,7 +32,7 @@
       <span><b>John accidentally poisoned the sheriff's coffee and killed him — it was a bizarre accident.</b></span>
       <SliderInput
         left="terrible"
-        right="perfect"
+        right="natural"
         initial="67"
         :response.sync=$magpie.measurements[itemOrder[1]]
       />
@@ -41,7 +41,7 @@
       <span><b>John ended up killing the sheriff in a really odd way.</b></span>
       <SliderInput
         left="terrible"
-        right="perfect"
+        right="natural"
         initial="82"
         :response.sync=$magpie.measurements[itemOrder[2]]
       />
@@ -50,14 +50,14 @@
       <span><b>John caused the sherrif to die.</b></span>
       <SliderInput
         left="terrible"
-        right="perfect"
+        right="natural"
         initial="78"
         :response.sync=$magpie.measurements[itemOrder[3]]
       />
       <span><b>The sheriff died because John unknowingly spilled poison in his coffee — a strange and tragic mistake.</b></span>
       <SliderInput
         left="terrible"
-        right="perfect"
+        right="natural"
         initial="58"
         :response.sync=$magpie.measurements[itemOrder[4]]
       />

@@ -20,7 +20,7 @@
       <span v-html="createAnswerOption(trial, itemOrder[0])"></span>
       <SliderInput
         left="terrible"
-        right="perfect"
+        right="natural"
         initial="50"
         :response.sync=$magpie.measurements[itemOrder[0]]
       />
@@ -29,7 +29,7 @@
       <span v-html="createAnswerOption(trial, itemOrder[1])"></span>
       <SliderInput
         left="terrible"
-        right="perfect"
+        right="natural"
         initial="50"
         :response.sync=$magpie.measurements[itemOrder[1]]
       />
@@ -38,7 +38,7 @@
       <span v-html="createAnswerOption(trial, itemOrder[2])"></span>
       <SliderInput
         left="terrible"
-        right="perfect"
+        right="natural"
         initial="50"
         :response.sync=$magpie.measurements[itemOrder[2]]
       />
@@ -47,14 +47,14 @@
       <span v-html="createAnswerOption(trial, itemOrder[3])"></span>
       <SliderInput
         left="terrible"
-        right="perfect"
+        right="natural"
         initial="50"
         :response.sync=$magpie.measurements[itemOrder[3]]
       />
       <span v-html="createAnswerOption(trial, itemOrder[4])"></span>
       <SliderInput
         left="terrible"
-        right="perfect"
+        right="natural"
         initial="50"
         :response.sync=$magpie.measurements[itemOrder[4]]
       />
@@ -78,7 +78,7 @@
 <script>
 
 function createContext(trial) {
-    var slide_text = ["Imagine the following situation: ", " <br/><b>", trial['state'], "</b><br/>", "How good do you find each of the following sentences for telling a friend about the situation?"].join("");
+    var slide_text = ["Imagine the following situation: ", " <br/><b>", trial['state'], "</b><br/>", "How natural do you find each of the following sentences for telling a friend about the situation?"].join("");
     return slide_text
 }
 
