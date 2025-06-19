@@ -65,20 +65,33 @@ import ParallelRatingScreen from './ParallelRatingScreen';
 import ParallelRatingScreenExample from './ParallelRatingScreenExample';
 
 var group = _.sample(['odd', 'even']);
-
+var conditions = _.shuffle(['s_typical', 's_typical', 's_typical', 's_typical', 's_typical', 's_atypical', 's_atypical', 's_atypical', 's_atypical', 's_atypical']);
+var items = _.shuffle(['1', '4', '6', '8', '10', '13', '14', '16', '19', '20']);
 const n_vignettes = 10;
 const n_fillers = 1;
 
-const trials =
-  group == 'even' ? trialsAll.filter((element, index) => {
-       return index % 2 == 0;
-     }) :
-    //  trialsAll.filter((element, index) => {
-    //     return _.includes(["cafe-pie", "electronics-laptop", "plants-green", "furniture-outdoors"], element["itemName"]);
-    //   });
-  trialsAll.filter((element, index) => {
-       return index % 2 != 0;
-     });
+function filterByCondition(data) {
+  const conditionMap = {}
+  items.forEach((item, i) => {
+    conditionMap[item] = conditions[i]
+  })
+
+  return data.filter(row => {
+    return conditionMap[row.vignette] === row.state_type
+  })
+}
+// const trials =
+//   group == 'even' ? trialsAll.filter((element, index) => {
+//        return index % 2 == 0;
+//      }) :
+//     //  trialsAll.filter((element, index) => {
+//     //     return _.includes(["cafe-pie", "electronics-laptop", "plants-green", "furniture-outdoors"], element["itemName"]);
+//     //   });
+//   trialsAll.filter((element, index) => {
+//        return index % 2 != 0;
+//      });
+const trials = filterByCondition(trialsAll);
+
 const sampled_trials = _.sampleSize(trials, n_vignettes); //_.sampleSize(trials, n_vignettes).map(x => _.fill(Array(6), x)).flat()
 
 const fillers =
@@ -108,7 +121,7 @@ export default {
    },
   data() {
     return {
-      trials: _.shuffle(_.concat( sampled_trials, _.sampleSize(fillers, n_fillers)))
+      trials: _.shuffle(sampled_trials) // _.concat( sampled_trials, _.sampleSize(fillers, n_fillers))
     };
   },
   computed: {
