@@ -53,7 +53,7 @@
         />      
     </template>
 
-    <PostTestScreen />
+    <CustomPostTestScreen />
 
     <SubmitResultsScreen />
 
@@ -66,6 +66,7 @@ import trialsAll from '../trials/updated_trials_randomItems_processed.csv';
 import fillersAll from '../trials/cs3_interpretations_processed.csv';
 import ParallelRatingScreen from './ParallelRatingScreen';
 import ParallelRatingScreenExample from './ParallelRatingScreenExample';
+import CustomPostTestScreen from './CustomPostTestScreen';
 
 var condition = ['too_much', 'too_little', 'marked', 'irrelevant', 'baseline'];
 var maxims = _.sampleSize(['quantity_1', 'quantity_2', 'quality_1', 'quality_2', 'relevance_1', 'manner_1', 'manner_2', 'manner_3', 'manner_4', 'no_violation'], 5);
@@ -85,6 +86,7 @@ const n_vignettes = 6;
 const n_fillers = 1;
 
 const sampled_trials = filterByCondition(trialsAll);
+console.log(sampled_trials);
 // const sampled_trials = trialsAll.filter((element, index) => {
 //        return _.includes(condition, element['inference_type']);
 //      });
@@ -114,7 +116,8 @@ export default {
   name: 'App',
   components: { 
     ParallelRatingScreen,
-    ParallelRatingScreenExample 
+    ParallelRatingScreenExample,
+    CustomPostTestScreen 
   },
   data() {
     return {

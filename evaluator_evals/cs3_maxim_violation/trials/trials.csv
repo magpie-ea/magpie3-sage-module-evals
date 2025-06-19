@@ -1,0 +1,836 @@
+Unnamed: 0.1,model_name,temperature,instructions,overall_index,cot,violated,assumption,trigger,context,speaker_x,experiment_type,dataset,unique_id,Unnamed: 0,assumption_name,item_id,inference_type,target_prejacent,competitor_prejacent,distractor_1_prejacent,distractor_2_prejacent,speaker_y
+5531,gpt-3.5-turbo,0.1,"Context: {context} ""{trigger}""
+Normally, you would make the following assumption about {speaker}'s utterance: {assumption}.
+
+Should we doubt that the assumption is true in this context? The last line of your response should contain be a single word and nothing else: ""yes"" if there are strong reasons to doubt the assumption and ""no"" if there are no strong reasons to doubt the assumption.
+
+Reason step by step. 
+
+Here the the structure of the answer:
+
+""""""
+[brief step-by-step explanation]
+[empty line]
+[yes/no]
+""""""
+
+Your answer:
+",0_119,Yes,1,the answer avoids language that is difficult to understand,The magic tricks were good.,Alex went to a magic show. You ask Alex: 'How were the magic tricks?'. Alex replies:,Alex,gricean_assmuptions,ours,../results/final/3_1_gricean_our/implicatures_FC_gpt-3.5-turbo_20230804_1210_results_1288306/utterance_evaluator.csv,,manner_1,24,baseline,the magic tricks were good.,the magic tricks were not good.,Alex once volunteered as an assistant in a magic trick.,the magician had a trick with birds.,Alex
+1148,gpt-3.5-turbo,0.1,"Context: {context} ""{trigger}""
+Normally, you would make the following assumption about {speaker}'s utterance: {assumption}.
+
+Should we doubt that the assumption is true in this context? The last line of your response should contain be a single word and nothing else: ""yes"" if there are strong reasons to doubt the assumption and ""no"" if there are no strong reasons to doubt the assumption.
+
+Reason step by step. 
+
+Here the the structure of the answer:
+
+""""""
+[brief step-by-step explanation]
+[empty line]
+[yes/no]
+""""""
+
+Your answer:
+",0_127,"Leila's response does not directly address the question about how the class was. Instead, she mentions something unrelated about the participants' outfits. This suggests that she may be avoiding discussing the actual content or quality of the class. Therefore, there are strong reasons to doubt the assumption that her answer avoids difficult language. 
+
+yes",1,the answer avoids language that is difficult to understand,Some participants wore nice outfits.,Leila attended a new photography class in your town. You ask Leila: 'How was the class?'. Leila replies:,Leila,gricean_assmuptions,ours,../results/final/3_1_gricean_our/implicatures_FC_gpt-3.5-turbo_20230810_0111_results_1295545/utterance_evaluator.csv,,manner_1,17,irrelevant,Leila does not want to talk about the photography class.,some participants wore nice outfits.,Leila once modelled for a photo session.,Leila is a fan of arts and crafts.,Leila
+527,gpt-3.5-turbo,0.1,"Context: {context} ""{trigger}""
+Normally, you would make the following assumption about {speaker}'s utterance: {assumption}.
+
+Should we doubt that the assumption is true in this context? The last line of your response should contain be a single word and nothing else: ""yes"" if there are strong reasons to doubt the assumption and ""no"" if there are no strong reasons to doubt the assumption.
+
+Reason step by step. 
+
+Here the the structure of the answer:
+
+""""""
+[brief step-by-step explanation]
+[empty line]
+[yes/no]
+""""""
+
+Your answer:
+",0_58,Yes,1,the answer avoids language that is difficult to understand,The drama caused some attendees to yawn.,Jack attended the premier of a new drama at a renown theatre in your city. You ask Jack: 'How was the drama?'. Jack replies:,Jack,gricean_assmuptions,ours,../results/final/3_1_gricean_our/implicatures_FC_gpt-3.5-turbo_20230801_2143_results_/utterance_evaluator.csv,,manner_1,12,marked,"the performance unintentionally made the audience yawn, e.g., because it was boring.","the performance intentionally made the audience yawn, e.g., because they told the attendees to do so.",Jack used to take acting classes in college.,the drama was based on Jack’s favourite book.,Jack
+563,gpt-3.5-turbo,0.1,"Context: {context} ""{trigger}""
+Normally, you would make the following assumption about {speaker}'s utterance: {assumption}.
+
+Should we doubt that the assumption is true in this context? The last line of your response should contain be a single word and nothing else: ""yes"" if there are strong reasons to doubt the assumption and ""no"" if there are no strong reasons to doubt the assumption.
+
+Reason step by step. 
+
+Here the the structure of the answer:
+
+""""""
+[brief step-by-step explanation]
+[empty line]
+[yes/no]
+""""""
+
+Your answer:
+",0_62,"Sophie's response does not provide any information about the quality or content of Jack's project. It simply states that Jack presented the project. Therefore, there are no strong reasons to doubt the assumption that Sophie's answer avoids difficult language. 
+
+no",0,the answer avoids language that is difficult to understand,Jack presented the project.,Sophie went to a science fair where your mutual friend Jack presented a project. You ask Sophie: 'How was Jack's project?'. Sophie replies:,Sophie,gricean_assmuptions,ours,../results/final/3_1_gricean_our/implicatures_FC_gpt-3.5-turbo_20230810_0110_results_1295543/utterance_evaluator.csv,,manner_1,21,too_little,Jack's project was not very good.,Jack presented the project.,Sophie often helped Jack with his science homework.,Jack once explained the concept of gravity to Sophie using an apple.,Sophie
+1607,gpt-3.5-turbo,0.1,"Context: {context} ""{trigger}""
+Normally, you would make the following assumption about {speaker}'s utterance: {assumption}.
+
+Should we doubt that the assumption is true in this context? The last line of your response should contain be a single word and nothing else: ""yes"" if there are strong reasons to doubt the assumption and ""no"" if there are no strong reasons to doubt the assumption.
+
+Reason step by step. 
+
+Here the the structure of the answer:
+
+""""""
+[brief step-by-step explanation]
+[empty line]
+[yes/no]
+""""""
+
+Your answer:
+",1_26,"Kim's utterance does not avoid language that is difficult to understand. 
+
+Yes",1,the answer avoids language that is difficult to understand,"Ann went to five different stores, bought all the party lights each had on offer, and then moved with her ladder through the whole house to cover every inch of wall or ceiling with a power-hungry electronic light.","You are at Ann’s birthday party with you friend Kim. A couple of minutes ago, the lights turned off. You ask Kim: “What happened to the lights?” Kim replies: ",Kim,gricean_assmuptions,ours,../results/final/3_1_gricean_our/implicatures_FC_gpt-3.5-turbo_20230804_1210_results_1288306/utterance_evaluator.csv,,manner_1,6,too_much,Ann’s decorations led to a power outage in the house.,"Ann set up many fun electronic gadgets for her party, forgetting that a regular house might not support a thousand feet of lights.",the party is coming to an end.,Kim does not like parties.,Kim
+825,gpt-3.5-turbo,0.1,"Context: {context} ""{trigger}""
+Normally, you would make the following assumption about {speaker}'s utterance: {assumption}.
+
+Should we doubt that the assumption is true in this context? The last line of your response should contain be a single word and nothing else: ""yes"" if there are strong reasons to doubt the assumption and ""no"" if there are no strong reasons to doubt the assumption.
+
+Reason step by step. 
+
+Here the the structure of the answer:
+
+""""""
+[brief step-by-step explanation]
+[empty line]
+[yes/no]
+""""""
+
+Your answer:
+",0_91,Jesse's response is straightforward and does not indicate any ambiguity or uncertainty.,error,the answer is unambiguous in the context,I made a nice pot.,Jesse has been looking for a new hobby and attended a pottery class. You ask Jesse: 'How did the class go?’. Jesse replies:,Jesse,gricean_assmuptions,ours,../results/final/3_1_gricean_our/implicatures_FC_gpt-3.5-turbo_20230810_0110_results_1295543/utterance_evaluator.csv,,manner_2,22,baseline,Jesse’s pot was good.,Jesse’s pot was ugly.,"Jesse’s colleagues attended the pottery class, too.",The pottery class teacher required taking a drawing class beforehand.,Jesse
+5199,gpt-3.5-turbo,0.1,"Context: {context} ""{trigger}""
+Normally, you would make the following assumption about {speaker}'s utterance: {assumption}.
+
+Should we doubt that the assumption is true in this context? The last line of your response should contain be a single word and nothing else: ""yes"" if there are strong reasons to doubt the assumption and ""no"" if there are no strong reasons to doubt the assumption.
+
+Reason step by step. 
+
+Here the the structure of the answer:
+
+""""""
+[brief step-by-step explanation]
+[empty line]
+[yes/no]
+""""""
+
+Your answer:
+",2_102,"Sophie's response does not directly address Jack's project, but rather mentions the project to the left of Jack's. This could imply that Sophie either did not pay attention to Jack's project or did not find it noteworthy. Therefore, there are strong reasons to doubt the assumption that the answer is unambiguous in this context.
+
+yes",1,the answer is unambiguous in the context,The project to the left of Jack's was very good.,Sophie went to a science fair where your mutual friend Jack presented a project. You ask Sophie: 'How was Jack's project?'. Sophie replies:,Sophie,gricean_assmuptions,ours,../results/final/3_1_gricean_our/implicatures_FC_gpt-3.5-turbo_20230804_1210_results_1288306/utterance_evaluator.csv,,manner_2,21,irrelevant,Sophie does not want to talk about Jack's project.,the project to the left of Jack's was very good.,Sophie often helped Jack with his science homework.,Jack once explained the concept of gravity to Sophie using an apple.,Sophie
+1221,gpt-3.5-turbo,0.1,"Context: {context} ""{trigger}""
+Normally, you would make the following assumption about {speaker}'s utterance: {assumption}.
+
+Should we doubt that the assumption is true in this context? The last line of your response should contain be a single word and nothing else: ""yes"" if there are strong reasons to doubt the assumption and ""no"" if there are no strong reasons to doubt the assumption.
+
+Reason step by step. 
+
+Here the the structure of the answer:
+
+""""""
+[brief step-by-step explanation]
+[empty line]
+[yes/no]
+""""""
+
+Your answer:
+",0_135,Yes,1,the answer is unambiguous in the context,The king caused the rebellion in his country to end.,"You and your friend Mary watched a history drama on TV, but you missed the end of the movie. You ask Mary: “What happened at the end?” Mary replies: ",Mary,gricean_assmuptions,ours,../results/final/3_1_gricean_our/implicatures_FC_gpt-3.5-turbo_20230810_0109_results_1295541/utterance_evaluator.csv,,manner_2,3,marked,"the king made the rebellion end in an intriguing manner, e.g., by clever plotting.","the king made the rebellion end in a straightforward manner, e.g., by defeating all enemies.",Mary really likes TV in general.,Mary likes historical dramas in general.,Mary
+5019,gpt-3.5-turbo,0.1,"Context: {context} ""{trigger}""
+Normally, you would make the following assumption about {speaker}'s utterance: {assumption}.
+
+Should we doubt that the assumption is true in this context? The last line of your response should contain be a single word and nothing else: ""yes"" if there are strong reasons to doubt the assumption and ""no"" if there are no strong reasons to doubt the assumption.
+
+Reason step by step. 
+
+Here the the structure of the answer:
+
+""""""
+[brief step-by-step explanation]
+[empty line]
+[yes/no]
+""""""
+
+Your answer:
+",0_105,"Jesse's response of ""I was there"" does not provide any information about how the class went. It is possible that Jesse is being dismissive or uninterested in discussing the class, or it could indicate that the class did not go well. Therefore, there are strong reasons to doubt the assumption that the answer is unambiguous in this context.
+
+yes",1,the answer is unambiguous in the context,I was there.,Jesse has been looking for a new hobby and attended a pottery class. You ask Jesse: 'How did the class go?’. Jesse replies:,Jesse,gricean_assmuptions,ours,../results/final/3_1_gricean_our/implicatures_FC_gpt-3.5-turbo_20230804_1210_results_1288306/utterance_evaluator.csv,,manner_2,22,too_little,Jesse’s work was not very successful.,Jesse’s work was not very successful.,"Jesse’s colleagues attended the pottery class, too.",The pottery class teacher required taking a drawing class beforehand.,Jesse
+1050,gpt-3.5-turbo,0.1,"Context: {context} ""{trigger}""
+Normally, you would make the following assumption about {speaker}'s utterance: {assumption}.
+
+Should we doubt that the assumption is true in this context? The last line of your response should contain be a single word and nothing else: ""yes"" if there are strong reasons to doubt the assumption and ""no"" if there are no strong reasons to doubt the assumption.
+
+Reason step by step. 
+
+Here the the structure of the answer:
+
+""""""
+[brief step-by-step explanation]
+[empty line]
+[yes/no]
+""""""
+
+Your answer:
+",0_116,"Jay's response indicates that he tried hard to understand the job-related questions and provided some language in response. This suggests that he made an effort during the interview and actively participated in the conversation. Therefore, there are no strong reasons to doubt the assumption that the answer is unambiguous in this context.
+
+no",0,the answer is unambiguous in the context,"They asked me job-related questions, I tried hard to understand them, and produced some language in response.",Your friend Jay went to a job interview yesterday. You ask Jay: “How did the interview go?” Jay replies:,Jay,gricean_assmuptions,ours,../results/final/3_1_gricean_our/implicatures_FC_gpt-3.5-turbo_20230810_0107_results_1295536/utterance_evaluator.csv,,manner_2,2,too_much,Jay’s performance was not very good.,"Jay was asked job-related questions, Jay tried hard to understand them, and produced some language in response.",Jay was very flattered to have been invited.,Jay wanted a higher salary.,Jay
+466,gpt-3.5-turbo,0.1,"Context: {context} ""{trigger}""
+Normally, you would make the following assumption about {speaker}'s utterance: {assumption}.
+
+Should we doubt that the assumption is true in this context? The last line of your response should contain be a single word and nothing else: ""yes"" if there are strong reasons to doubt the assumption and ""no"" if there are no strong reasons to doubt the assumption.
+
+Reason step by step. 
+
+Here the the structure of the answer:
+
+""""""
+[brief step-by-step explanation]
+[empty line]
+[yes/no]
+""""""
+
+Your answer:
+",0_51,"Li's response is a simple statement that the painting was excellent. There is no indication that the answer is too prolix for the context. 
+
+No",0,the answer is not too prolix for the context,The painting was excellent.,You have heard that there is a new art exhibition featuring a world famous painting. Your friend Li went to see the painting on the weekend. You ask Li: “How was the painting?” Li replies:,Li,gricean_assmuptions,ours,../results/final/3_1_gricean_our/implicatures_FC_gpt-3.5-turbo_20230810_0109_results_1295540/utterance_evaluator.csv,,manner_3,8,baseline,the painting was excellent.,the exhibition was featuring a child’s painting.,Li is a big fan of contemporary art in general.,the city has a vibrant artistic community.,Li
+34,gpt-3.5-turbo,0.1,"Context: {context} ""{trigger}""
+Normally, you would make the following assumption about {speaker}'s utterance: {assumption}.
+
+Should we doubt that the assumption is true in this context? The last line of your response should contain be a single word and nothing else: ""yes"" if there are strong reasons to doubt the assumption and ""no"" if there are no strong reasons to doubt the assumption.
+
+Reason step by step. 
+
+Here the the structure of the answer:
+
+""""""
+[brief step-by-step explanation]
+[empty line]
+[yes/no]
+""""""
+
+Your answer:
+",0_3,"Maxi's response does not directly address the question about the restaurant, indicating a possible lack of interest or avoidance of the topic. Therefore, there are strong reasons to doubt the assumption. 
+
+yes",1,the answer is not too prolix for the context,I also went on a hike last weekend.,Your friend Bo recently opened a new restaurant. Maxi and your other mutual friends tried the restaurant on the last weekend. You ask Maxi: “How was the restaurant?” Maxi replies:,Maxi,gricean_assmuptions,ours,../results/final/3_1_gricean_our/implicatures_FC_gpt-3.5-turbo_20230810_0109_results_1295540/utterance_evaluator.csv,,manner_3,7,irrelevant,Maxi does not want to talk about Bo’s restaurant.,Maxi also went on a hike last weekend.,many new restaurants have opened recently.,Maxi usually likes to go out for diner.,Maxi
+1249,gpt-3.5-turbo,0.1,"Context: {context} ""{trigger}""
+Normally, you would make the following assumption about {speaker}'s utterance: {assumption}.
+
+Should we doubt that the assumption is true in this context? The last line of your response should contain be a single word and nothing else: ""yes"" if there are strong reasons to doubt the assumption and ""no"" if there are no strong reasons to doubt the assumption.
+
+Reason step by step. 
+
+Here the the structure of the answer:
+
+""""""
+[brief step-by-step explanation]
+[empty line]
+[yes/no]
+""""""
+
+Your answer:
+",0_138,No,0,the answer is not too prolix for the context,John's portrait did not cause the attendees to stop in front of it.,Ole went to an art exhibition where your mutual friend John exhibited his paintings. You ask Ole: 'How was John's portrait?'. Ole replies:,Ole,gricean_assmuptions,ours,../results/final/3_1_gricean_our/implicatures_FC_gpt-3.5-turbo_20230810_0107_results_1295536/utterance_evaluator.csv,,manner_3,13,marked,"John's portrait didn’t not cause the interest of the attendees unintentionally, e.g. because it was not very interesting.","John's portrait didn’t not cause the interest of the attendees intentionally, e.g. because it was not exhibited.",Ole admired John's artistic ability in high school.,Ole helped John set up his studio downtown.,Ole
+862,gpt-3.5-turbo,0.1,"Context: {context} ""{trigger}""
+Normally, you would make the following assumption about {speaker}'s utterance: {assumption}.
+
+Should we doubt that the assumption is true in this context? The last line of your response should contain be a single word and nothing else: ""yes"" if there are strong reasons to doubt the assumption and ""no"" if there are no strong reasons to doubt the assumption.
+
+Reason step by step. 
+
+Here the the structure of the answer:
+
+""""""
+[brief step-by-step explanation]
+[empty line]
+[yes/no]
+""""""
+
+Your answer:
+",0_95,"Betsy's response is very brief and does not provide any additional information about Alex's performance. Therefore, there are strong reasons to doubt the assumption that the answer is not too prolix for the context.
+
+yes",1,the answer is not too prolix for the context,Alex sang a song.,Betsy went to a talent show yesterday in which your mutual friend Alex took part. You ask Betsy: “How was Alex’s performance?” Betsy replies:,Betsy,gricean_assmuptions,ours,../results/final/3_1_gricean_our/implicatures_FC_gpt-3.5-turbo_20230810_0108_results_1295537/utterance_evaluator.csv,,manner_3,1,too_little,Alex’s performance was dull.,Alex sang a song.,Betsy really likes talent shows in general.,Betsy is in love with Alex.,Betsy
+916,gpt-3.5-turbo,0.1,"Context: {context} ""{trigger}""
+Normally, you would make the following assumption about {speaker}'s utterance: {assumption}.
+
+Should we doubt that the assumption is true in this context? The last line of your response should contain be a single word and nothing else: ""yes"" if there are strong reasons to doubt the assumption and ""no"" if there are no strong reasons to doubt the assumption.
+
+Reason step by step. 
+
+Here the the structure of the answer:
+
+""""""
+[brief step-by-step explanation]
+[empty line]
+[yes/no]
+""""""
+
+Your answer:
+",5_21,No,0,the answer is not too prolix for the context,"John got into the car, released the handbrake, and moved the car up until the next crossroad.","Mika just met your mutual friend John, who took his driver’s test yesterday. You ask Mika: “How did John’s driver’s test go?” Mika replies: ",Mika,gricean_assmuptions,ours,../results/final/3_1_gricean_our/implicatures_FC_gpt-3.5-turbo_20230804_1210_results_1288306/utterance_evaluator.csv,,manner_3,5,too_much,John messed up his driver’s test.,"John got into the car, released the handbrake, and moved the car up until the next crossroad.",John is a big fan of automotive vehicles.,Mika and John are planning a vacation together.,Mika
+2132,gpt-3.5-turbo,0.1,"Context: {context} ""{trigger}""
+Normally, you would make the following assumption about {speaker}'s utterance: {assumption}.
+
+Should we doubt that the assumption is true in this context? The last line of your response should contain be a single word and nothing else: ""yes"" if there are strong reasons to doubt the assumption and ""no"" if there are no strong reasons to doubt the assumption.
+
+Reason step by step. 
+
+Here the the structure of the answer:
+
+""""""
+[brief step-by-step explanation]
+[empty line]
+[yes/no]
+""""""
+
+Your answer:
+",1_39,"Li's response ""The painting was excellent"" does not provide any specific information about the painting. It is a general statement that does not give any details or description. Therefore, there are no strong reasons to doubt the assumption that the answer provides information in an order that makes sense.
+
+no",0,the answer provides information in an order that makes sense,The painting was excellent.,You have heard that there is a new art exhibition featuring a world famous painting. Your friend Li went to see the painting on the weekend. You ask Li: “How was the painting?” Li replies:,Li,gricean_assmuptions,ours,../results/final/3_1_gricean_our/implicatures_FC_gpt-3.5-turbo_20230804_1210_results_1288306/utterance_evaluator.csv,,manner_4,8,baseline,the painting was excellent.,the exhibition was featuring a child’s painting.,Li is a big fan of contemporary art in general.,the city has a vibrant artistic community.,Li
+1088,gpt-3.5-turbo,0.1,"Context: {context} ""{trigger}""
+Normally, you would make the following assumption about {speaker}'s utterance: {assumption}.
+
+Should we doubt that the assumption is true in this context? The last line of your response should contain be a single word and nothing else: ""yes"" if there are strong reasons to doubt the assumption and ""no"" if there are no strong reasons to doubt the assumption.
+
+Reason step by step. 
+
+Here the the structure of the answer:
+
+""""""
+[brief step-by-step explanation]
+[empty line]
+[yes/no]
+""""""
+
+Your answer:
+",0_120,"Some participants wore nice outfits. 
+
+Step 1: Leila's response does not directly answer the question ""How was the class?"" but instead provides information about the participants' outfits. 
+
+Step 2: The response does not provide any information about the actual class itself, such as the content, teaching style, or overall experience. 
+
+Step 3: The information provided seems unrelated to the question and does not follow a logical order. 
+
+Step 4: Therefore, there are strong reasons to doubt the assumption that the answer provides information in an order that makes sense. 
+
+Yes",1,the answer provides information in an order that makes sense,Some participants wore nice outfits.,Leila attended a new photography class in your town. You ask Leila: 'How was the class?'. Leila replies:,Leila,gricean_assmuptions,ours,../results/final/3_1_gricean_our/implicatures_FC_gpt-3.5-turbo_20230810_0111_results_1295545/utterance_evaluator.csv,,manner_4,17,irrelevant,Leila does not want to talk about the photography class.,some participants wore nice outfits.,Leila once modelled for a photo session.,Leila is a fan of arts and crafts.,Leila
+1259,gpt-3.5-turbo,0.1,"Context: {context} ""{trigger}""
+Normally, you would make the following assumption about {speaker}'s utterance: {assumption}.
+
+Should we doubt that the assumption is true in this context? The last line of your response should contain be a single word and nothing else: ""yes"" if there are strong reasons to doubt the assumption and ""no"" if there are no strong reasons to doubt the assumption.
+
+Reason step by step. 
+
+Here the the structure of the answer:
+
+""""""
+[brief step-by-step explanation]
+[empty line]
+[yes/no]
+""""""
+
+Your answer:
+",0_139,Yes,1,the answer provides information in an order that makes sense,The king caused the rebellion in his country to end.,"You and your friend Mary watched a history drama on TV, but you missed the end of the movie. You ask Mary: “What happened at the end?” Mary replies: ",Mary,gricean_assmuptions,ours,../results/final/3_1_gricean_our/implicatures_FC_gpt-3.5-turbo_20230810_0109_results_1295541/utterance_evaluator.csv,,manner_4,3,marked,"the king made the rebellion end in an intriguing manner, e.g., by clever plotting.","the king made the rebellion end in a straightforward manner, e.g., by defeating all enemies.",Mary really likes TV in general.,Mary likes historical dramas in general.,Mary
+4868,gpt-3.5-turbo,0.1,"Context: {context} ""{trigger}""
+Normally, you would make the following assumption about {speaker}'s utterance: {assumption}.
+
+Should we doubt that the assumption is true in this context? The last line of your response should contain be a single word and nothing else: ""yes"" if there are strong reasons to doubt the assumption and ""no"" if there are no strong reasons to doubt the assumption.
+
+Reason step by step. 
+
+Here the the structure of the answer:
+
+""""""
+[brief step-by-step explanation]
+[empty line]
+[yes/no]
+""""""
+
+Your answer:
+",0_100,"Sophie's answer does not provide any information about the quality or content of Jack's project. It simply states that Jack presented the project. Therefore, there are strong reasons to doubt the assumption that the answer provides information in an order that makes sense. 
+
+yes",1,the answer provides information in an order that makes sense,Jack presented the project.,Sophie went to a science fair where your mutual friend Jack presented a project. You ask Sophie: 'How was Jack's project?'. Sophie replies:,Sophie,gricean_assmuptions,ours,../results/final/3_1_gricean_our/implicatures_FC_gpt-3.5-turbo_20230804_1210_results_1288306/utterance_evaluator.csv,,manner_4,21,too_little,Jack's project was not very good.,Jack presented the project.,Sophie often helped Jack with his science homework.,Jack once explained the concept of gravity to Sophie using an apple.,Sophie
+494,gpt-3.5-turbo,0.1,"Context: {context} ""{trigger}""
+Normally, you would make the following assumption about {speaker}'s utterance: {assumption}.
+
+Should we doubt that the assumption is true in this context? The last line of your response should contain be a single word and nothing else: ""yes"" if there are strong reasons to doubt the assumption and ""no"" if there are no strong reasons to doubt the assumption.
+
+Reason step by step. 
+
+Here the the structure of the answer:
+
+""""""
+[brief step-by-step explanation]
+[empty line]
+[yes/no]
+""""""
+
+Your answer:
+",0_54,"Jo's response provides information in a logical order. First, they mention that Josh uttered a series of words. Then, they describe the intonation of Josh's words, suggesting that they were meant to be jokes. This order makes sense as it follows the natural progression of describing Josh's performance. Therefore, there are no strong reasons to doubt the assumption. 
+
+no",0,the answer provides information in an order that makes sense,Josh uttered a series of words with an intonation that suggested they were meant to be jokes.,Jo went to a stand-up comedy show where their friend Josh performed. You ask Jo: 'How was Josh's performance?'. Jo replies:,Jo,gricean_assmuptions,ours,../results/final/3_1_gricean_our/implicatures_FC_gpt-3.5-turbo_20230810_0111_results_1295544/utterance_evaluator.csv,,manner_4,23,too_much,Josh’s performance was not very good.,Josh uttered a series of words with an intonation that suggested they were meant to be jokes.,Jo was the first to encourage John to try stand-up comedy.,Josh tested his new jokes on Jo before performing them live.,Jo
+605,gpt-3.5-turbo,0.1,"Context: {context} ""{trigger}""
+Normally, you would make the following assumption about {speaker}'s utterance: {assumption}.
+
+Should we doubt that the assumption is true in this context? The last line of your response should contain be a single word and nothing else: ""yes"" if there are strong reasons to doubt the assumption and ""no"" if there are no strong reasons to doubt the assumption.
+
+Reason step by step. 
+
+Here the the structure of the answer:
+
+""""""
+[brief step-by-step explanation]
+[empty line]
+[yes/no]
+""""""
+
+Your answer:
+",0_67,"Emma's response ""Sophie did very well"" indicates that she believes Sophie performed well in the competition. Since there is no additional information or context provided that would suggest otherwise, we have no strong reasons to doubt the assumption that Emma believes her answer to be true.
+
+no",0,Emma believes the answer to be true,Sophie did very well.,Emma attended a cooking competition where your mutual friend Sophie was a participant. You ask Emma: 'How did Sophie do in the competition?'. Emma replies:,Emma,gricean_assmuptions,ours,../results/final/3_1_gricean_our/implicatures_FC_gpt-3.5-turbo_20230810_0108_results_1295537/utterance_evaluator.csv,,quality_1,10,baseline,Sophie did very well.,Sophie's dancing was not good.,Emma tried Sophie's cake.,Emma arrived late to the competition.,Emma
+1244,gpt-3.5-turbo,0.1,"Context: {context} ""{trigger}""
+Normally, you would make the following assumption about {speaker}'s utterance: {assumption}.
+
+Should we doubt that the assumption is true in this context? The last line of your response should contain be a single word and nothing else: ""yes"" if there are strong reasons to doubt the assumption and ""no"" if there are no strong reasons to doubt the assumption.
+
+Reason step by step. 
+
+Here the the structure of the answer:
+
+""""""
+[brief step-by-step explanation]
+[empty line]
+[yes/no]
+""""""
+
+Your answer:
+",0_138,"Oliver's response does not directly address the question about Kirby's poem. Instead, he mentions the venue, which suggests that he may be avoiding giving an opinion on the poem itself. Therefore, there are strong reasons to doubt the assumption that Oliver believes the answer to be true.
+
+yes",1,Oliver believes the answer to be true,The venue was nice.,Oliver went to a poetry reading where your mutual friend Kirby read their poetry. You ask Oliver: 'How was Kirby’s poem?'. Oliver replies:,Oliver,gricean_assmuptions,ours,../results/final/3_1_gricean_our/implicatures_FC_gpt-3.5-turbo_20230810_0111_results_1295545/utterance_evaluator.csv,,quality_1,18,irrelevant,Oliver does not want to talk about Kirby's poem.,the venue was nice.,Oliver and Kirby once co-wrote a poem for their literature class.,the poem was about alpine landscapes.,Oliver
+1217,gpt-3.5-turbo,0.1,"Context: {context} ""{trigger}""
+Normally, you would make the following assumption about {speaker}'s utterance: {assumption}.
+
+Should we doubt that the assumption is true in this context? The last line of your response should contain be a single word and nothing else: ""yes"" if there are strong reasons to doubt the assumption and ""no"" if there are no strong reasons to doubt the assumption.
+
+Reason step by step. 
+
+Here the the structure of the answer:
+
+""""""
+[brief step-by-step explanation]
+[empty line]
+[yes/no]
+""""""
+
+Your answer:
+",0_135,Yes,1,Ole believes the answer to be true,John's portrait did not cause the attendees to stop in front of it.,Ole went to an art exhibition where your mutual friend John exhibited his paintings. You ask Ole: 'How was John's portrait?'. Ole replies:,Ole,gricean_assmuptions,ours,../results/final/3_1_gricean_our/implicatures_FC_gpt-3.5-turbo_20230810_0107_results_1295536/utterance_evaluator.csv,,quality_1,13,marked,"John's portrait didn’t not cause the interest of the attendees unintentionally, e.g. because it was not very interesting.","John's portrait didn’t not cause the interest of the attendees intentionally, e.g. because it was not exhibited.",Ole admired John's artistic ability in high school.,Ole helped John set up his studio downtown.,Ole
+749,gpt-3.5-turbo,0.1,"Context: {context} ""{trigger}""
+Normally, you would make the following assumption about {speaker}'s utterance: {assumption}.
+
+Should we doubt that the assumption is true in this context? The last line of your response should contain be a single word and nothing else: ""yes"" if there are strong reasons to doubt the assumption and ""no"" if there are no strong reasons to doubt the assumption.
+
+Reason step by step. 
+
+Here the the structure of the answer:
+
+""""""
+[brief step-by-step explanation]
+[empty line]
+[yes/no]
+""""""
+
+Your answer:
+",0_83,"Jo's response ""The fair took place"" is a direct answer to the question about how Emma's book fair was. It does not provide any additional information or evaluation about the fair. Therefore, there are no strong reasons to doubt the assumption that Jo believes the answer to be true.
+
+no",0,Jo believes the answer to be true,The fair took place.,Your friend Jo is a big bookworm. They attended the biggest annual book fair in your city last weekend where Jo wanted to meet their favourite author. You ask Jo: 'How was Emma's book fair?'. Jo replies:,Jo,gricean_assmuptions,ours,../results/final/3_1_gricean_our/implicatures_FC_gpt-3.5-turbo_20230810_0107_results_1295536/utterance_evaluator.csv,,quality_1,14,too_little,The fair was disappointing.,the fair took place.,Jo once proofread a chapter of their favorite author’s first novel.,Jo used to work at their local library.,Jo
+3539,gpt-3.5-turbo,0.1,"Context: {context} ""{trigger}""
+Normally, you would make the following assumption about {speaker}'s utterance: {assumption}.
+
+Should we doubt that the assumption is true in this context? The last line of your response should contain be a single word and nothing else: ""yes"" if there are strong reasons to doubt the assumption and ""no"" if there are no strong reasons to doubt the assumption.
+
+Reason step by step. 
+
+Here the the structure of the answer:
+
+""""""
+[brief step-by-step explanation]
+[empty line]
+[yes/no]
+""""""
+
+Your answer:
+",5_66,No,0,Jo believes the answer to be true,Authors of each and every single book that I do not find interesting attended and met their fans.,Your friend Jo is a big bookworm. They attended the biggest annual book fair in your city last weekend where Jo wanted to meet their favourite author. You ask Jo: 'How was Emma's book fair?'. Jo replies:,Jo,gricean_assmuptions,ours,../results/final/3_1_gricean_our/implicatures_FC_gpt-3.5-turbo_20230804_1210_results_1288306/utterance_evaluator.csv,,quality_1,14,too_much,Jo didn’t get to meet their favourite author.,authors of each and every single book that I do not find interesting attended and met their fans.,Jo once proofread a chapter of their favorite author’s first novel.,Jo used to work at their local library.,Jo
+183,gpt-3.5-turbo,0.1,"Context: {context} ""{trigger}""
+Normally, you would make the following assumption about {speaker}'s utterance: {assumption}.
+
+Should we doubt that the assumption is true in this context? The last line of your response should contain be a single word and nothing else: ""yes"" if there are strong reasons to doubt the assumption and ""no"" if there are no strong reasons to doubt the assumption.
+
+Reason step by step. 
+
+Here the the structure of the answer:
+
+""""""
+[brief step-by-step explanation]
+[empty line]
+[yes/no]
+""""""
+
+Your answer:
+",0_20,"John's response indicates that Emma played well in the soccer match. Since John was present at the match and witnessed Emma's performance, it is reasonable to assume that he has enough evidence to make this statement. 
+
+No",0,John likely has enough evidence for the answer,Emma played very well.,John went to a soccer match where his friend Emma played. You ask John: 'How did Emma play?'. John replies:,John,gricean_assmuptions,ours,../results/final/3_1_gricean_our/implicatures_FC_gpt-3.5-turbo_20230810_0109_results_1295541/utterance_evaluator.csv,,quality_2,9,baseline,Emma played very well.,Emma played badly.,John likes football.,John could easily find the stadium.,John
+5106,gpt-3.5-turbo,0.1,"Context: {context} ""{trigger}""
+Normally, you would make the following assumption about {speaker}'s utterance: {assumption}.
+
+Should we doubt that the assumption is true in this context? The last line of your response should contain be a single word and nothing else: ""yes"" if there are strong reasons to doubt the assumption and ""no"" if there are no strong reasons to doubt the assumption.
+
+Reason step by step. 
+
+Here the the structure of the answer:
+
+""""""
+[brief step-by-step explanation]
+[empty line]
+[yes/no]
+""""""
+
+Your answer:
+",0_107,"Jesse's response does not provide any information about how the pottery class went. It only mentions that a painting class took place next door. Therefore, there are strong reasons to doubt the assumption that Jesse has enough evidence for the answer. 
+
+yes",1,Jesse likely has enough evidence for the answer,A painting class took place next door to the pottery class.,Jesse has been looking for a new hobby and attended a pottery class. You ask Jesse: 'How did the class go?’. Jesse replies:,Jesse,gricean_assmuptions,ours,../results/final/3_1_gricean_our/implicatures_FC_gpt-3.5-turbo_20230804_1210_results_1288306/utterance_evaluator.csv,,quality_2,22,irrelevant,Jesse does not want to talk about the pottery class.,a painting class took place next door to the pottery class.,"Jesse’s colleagues attended the pottery class, too.",The pottery class teacher required taking a drawing class beforehand.,Jesse
+1047,gpt-3.5-turbo,0.1,"Context: {context} ""{trigger}""
+Normally, you would make the following assumption about {speaker}'s utterance: {assumption}.
+
+Should we doubt that the assumption is true in this context? The last line of your response should contain be a single word and nothing else: ""yes"" if there are strong reasons to doubt the assumption and ""no"" if there are no strong reasons to doubt the assumption.
+
+Reason step by step. 
+
+Here the the structure of the answer:
+
+""""""
+[brief step-by-step explanation]
+[empty line]
+[yes/no]
+""""""
+
+Your answer:
+",0_116,"Alex's response suggests that the magician's tricks were impressive and had a strong impact on the audience. However, it does not necessarily indicate that Alex has enough evidence to support this claim. It is possible that Alex's perception of the audience's reaction differs from others or that Alex's judgment is influenced by personal bias. Therefore, there are strong reasons to doubt the assumption that Alex has enough evidence for the answer. 
+
+yes",1,Alex likely has enough evidence for the answer,The magician caused the audience to be shocked.,Alex went to a magic show. You ask Alex: 'How were the magic tricks?'. Alex replies:,Alex,gricean_assmuptions,ours,../results/final/3_1_gricean_our/implicatures_FC_gpt-3.5-turbo_20230810_0111_results_1295544/utterance_evaluator.csv,,quality_2,24,marked,"the magician unintentionally did something that shocked the audience, e.g. they interrupted their performance.","the magician intentionally did something that shocked the audience, e.g. pulled out a rabbit from a top hat.",Alex once volunteered as an assistant in a magic trick.,the magician had a trick with birds.,Alex
+4116,gpt-3.5-turbo,0.1,"Context: {context} ""{trigger}""
+Normally, you would make the following assumption about {speaker}'s utterance: {assumption}.
+
+Should we doubt that the assumption is true in this context? The last line of your response should contain be a single word and nothing else: ""yes"" if there are strong reasons to doubt the assumption and ""no"" if there are no strong reasons to doubt the assumption.
+
+Reason step by step. 
+
+Here the the structure of the answer:
+
+""""""
+[brief step-by-step explanation]
+[empty line]
+[yes/no]
+""""""
+
+Your answer:
+",1_80,"Leila's response ""We took photos"" does not provide any specific information about her experience in the class. It is a vague and general statement that does not indicate whether the class was good or bad, informative or unhelpful. Therefore, there are strong reasons to doubt the assumption that Leila likely has enough evidence for the answer. 
+
+yes",1,Leila likely has enough evidence for the answer,We took photos.,Leila attended a new photography class in your town. You ask Leila: 'How was the class?'. Leila replies:,Leila,gricean_assmuptions,ours,../results/final/3_1_gricean_our/implicatures_FC_gpt-3.5-turbo_20230804_1210_results_1288306/utterance_evaluator.csv,,quality_2,17,too_little,the class was not exceptional.,We took photos.,Leila once modelled for a photo session.,Leila is a fan of arts and crafts.,Leila
+552,gpt-3.5-turbo,0.1,"Context: {context} ""{trigger}""
+Normally, you would make the following assumption about {speaker}'s utterance: {assumption}.
+
+Should we doubt that the assumption is true in this context? The last line of your response should contain be a single word and nothing else: ""yes"" if there are strong reasons to doubt the assumption and ""no"" if there are no strong reasons to doubt the assumption.
+
+Reason step by step. 
+
+Here the the structure of the answer:
+
+""""""
+[brief step-by-step explanation]
+[empty line]
+[yes/no]
+""""""
+
+Your answer:
+",0_61,Mary likely has enough evidence for the answer because she watched the movie and provided a detailed description of the events.,error,Mary likely has enough evidence for the answer,The king ended the rebellion by assembling a lot of angry men with weapons and armor to fight against other angry men with weapons and armor on a muddy field and in the end the king’s men won.,"You and your friend Mary watched a history drama on TV, but you missed the end of the movie. You ask Mary: “What happened at the end?” Mary replies: ",Mary,gricean_assmuptions,ours,../results/final/3_1_gricean_our/implicatures_FC_gpt-3.5-turbo_20230810_0109_results_1295541/utterance_evaluator.csv,,quality_2,3,too_much,the movie had a rather predictable ending.,the king ended the rebellion by assembling a lot of angry men with weapons and armor to fight against other angry men with weapons and armor on a muddy field and in the end the king’s men won.,Mary really likes TV in general.,Mary likes historical dramas in general.,Mary
+3762,gpt-3.5-turbo,0.1,"Context: {context} ""{trigger}""
+Normally, you would make the following assumption about {speaker}'s utterance: {assumption}.
+
+Should we doubt that the assumption is true in this context? The last line of your response should contain be a single word and nothing else: ""yes"" if there are strong reasons to doubt the assumption and ""no"" if there are no strong reasons to doubt the assumption.
+
+Reason step by step. 
+
+Here the the structure of the answer:
+
+""""""
+[brief step-by-step explanation]
+[empty line]
+[yes/no]
+""""""
+
+Your answer:
+",0_79,No,0,the answer is as informative as is required by the context,We did pretty well in the hackathon.,Your college friends Ann and Tony teamed up and participated in a coding hackathon. You ask Tony: 'How did you do in the hackathon?'. Tony replies:,Tony,gricean_assmuptions,ours,../results/final/3_1_gricean_our/implicatures_FC_gpt-3.5-turbo_20230804_1210_results_1288306/utterance_evaluator.csv,,quantity_1,16,baseline,Tony and Ann did pretty well in the hackathon.,Tony and Ann did not do well in the hackathon.,Tony once helped Ann debug a complex piece of software.,Ann likes to build keyboards.,Tony
+3069,gpt-3.5-turbo,0.1,"Context: {context} ""{trigger}""
+Normally, you would make the following assumption about {speaker}'s utterance: {assumption}.
+
+Should we doubt that the assumption is true in this context? The last line of your response should contain be a single word and nothing else: ""yes"" if there are strong reasons to doubt the assumption and ""no"" if there are no strong reasons to doubt the assumption.
+
+Reason step by step. 
+
+Here the the structure of the answer:
+
+""""""
+[brief step-by-step explanation]
+[empty line]
+[yes/no]
+""""""
+
+Your answer:
+",1_57,"Jack's response does not directly address the question about the drama. Instead, he talks about the plants in the theatre foyer. This suggests that he may be avoiding giving an opinion or may not have paid attention to the drama itself. Therefore, there are strong reasons to doubt the assumption that his answer is as informative as is required by the context.
+
+yes",1,the answer is as informative as is required by the context,The foyer of the theatre had beautiful plants.,Jack attended the premier of a new drama at a renown theatre in your city. You ask Jack: 'How was the drama?'. Jack replies:,Jack,gricean_assmuptions,ours,../results/final/3_1_gricean_our/implicatures_FC_gpt-3.5-turbo_20230804_1210_results_1288306/utterance_evaluator.csv,,quantity_1,12,irrelevant,Jack does not want to talk about the new drama.,the foyer of the theatre had beautiful plants.,Jack used to take acting classes in college.,the drama was based on Jack’s favourite book.,Jack
+1071,gpt-3.5-turbo,0.1,"Context: {context} ""{trigger}""
+Normally, you would make the following assumption about {speaker}'s utterance: {assumption}.
+
+Should we doubt that the assumption is true in this context? The last line of your response should contain be a single word and nothing else: ""yes"" if there are strong reasons to doubt the assumption and ""no"" if there are no strong reasons to doubt the assumption.
+
+Reason step by step. 
+
+Here the the structure of the answer:
+
+""""""
+[brief step-by-step explanation]
+[empty line]
+[yes/no]
+""""""
+
+Your answer:
+",0_119,"Betsy's response indicates that Alex's performance was humorous and entertaining. This provides the necessary information about Alex's performance in the talent show. Therefore, there are no strong reasons to doubt the assumption. 
+
+no",0,the answer is as informative as is required by the context,Alex caused the audience to laugh.,Betsy went to a talent show yesterday in which your mutual friend Alex took part. You ask Betsy: “How was Alex’s performance?” Betsy replies:,Betsy,gricean_assmuptions,ours,../results/final/3_1_gricean_our/implicatures_FC_gpt-3.5-turbo_20230810_0108_results_1295537/utterance_evaluator.csv,,quantity_1,1,marked,"Alex made the audience laugh unintentionally, e.g., by mistake.","Alex made the audience laugh intentionally e.g., by telling a joke.",Betsy really likes talent shows in general.,Betsy is in love with Alex.,Betsy
+1260,gpt-3.5-turbo,0.1,"Context: {context} ""{trigger}""
+Normally, you would make the following assumption about {speaker}'s utterance: {assumption}.
+
+Should we doubt that the assumption is true in this context? The last line of your response should contain be a single word and nothing else: ""yes"" if there are strong reasons to doubt the assumption and ""no"" if there are no strong reasons to doubt the assumption.
+
+Reason step by step. 
+
+Here the the structure of the answer:
+
+""""""
+[brief step-by-step explanation]
+[empty line]
+[yes/no]
+""""""
+
+Your answer:
+",0_140,"Lio's response ""I have seen it"" suggests that he has already seen the collection. However, it does not provide any further information or opinion about the collection itself. Therefore, there are no strong reasons to doubt the assumption that Lio's answer is as informative as is required by the context.
+
+no",0,the answer is as informative as is required by the context,I have seen it.,Lio attended a fashion show for the first time. You ask Lio: ‘What did you think of the collection?'. Lio replies:,Lio,gricean_assmuptions,ours,../results/final/3_1_gricean_our/implicatures_FC_gpt-3.5-turbo_20230810_0111_results_1295544/utterance_evaluator.csv,,quantity_1,20,too_little,the collection was not great. ,Lio has seen it.,Lio was a photographer at model castings.,the collection only had black and white clothes.,Lio
+495,gpt-3.5-turbo,0.1,"Context: {context} ""{trigger}""
+Normally, you would make the following assumption about {speaker}'s utterance: {assumption}.
+
+Should we doubt that the assumption is true in this context? The last line of your response should contain be a single word and nothing else: ""yes"" if there are strong reasons to doubt the assumption and ""no"" if there are no strong reasons to doubt the assumption.
+
+Reason step by step. 
+
+Here the the structure of the answer:
+
+""""""
+[brief step-by-step explanation]
+[empty line]
+[yes/no]
+""""""
+
+Your answer:
+",0_55,Yes,1,the answer is as informative as is required by the context,The king ended the rebellion by assembling a lot of angry men with weapons and armor to fight against other angry men with weapons and armor on a muddy field and in the end the king’s men won.,"You and your friend Mary watched a history drama on TV, but you missed the end of the movie. You ask Mary: “What happened at the end?” Mary replies: ",Mary,gricean_assmuptions,ours,../results/final/3_1_gricean_our/implicatures_FC_gpt-3.5-turbo_20230810_0109_results_1295541/utterance_evaluator.csv,,quantity_1,3,too_much,the movie had a rather predictable ending.,the king ended the rebellion by assembling a lot of angry men with weapons and armor to fight against other angry men with weapons and armor on a muddy field and in the end the king’s men won.,Mary really likes TV in general.,Mary likes historical dramas in general.,Mary
+901,gpt-3.5-turbo,0.1,"Context: {context} ""{trigger}""
+Normally, you would make the following assumption about {speaker}'s utterance: {assumption}.
+
+Should we doubt that the assumption is true in this context? The last line of your response should contain be a single word and nothing else: ""yes"" if there are strong reasons to doubt the assumption and ""no"" if there are no strong reasons to doubt the assumption.
+
+Reason step by step. 
+
+Here the the structure of the answer:
+
+""""""
+[brief step-by-step explanation]
+[empty line]
+[yes/no]
+""""""
+
+Your answer:
+",0_100,"Jesse's response indicates that the pottery class went well and they were able to successfully create a nice pot. This suggests that the assumption is true in this context. 
+
+no",0,the answer is no more informative than is required by the context,I made a nice pot.,Jesse has been looking for a new hobby and attended a pottery class. You ask Jesse: 'How did the class go?’. Jesse replies:,Jesse,gricean_assmuptions,ours,../results/final/3_1_gricean_our/implicatures_FC_gpt-3.5-turbo_20230810_0110_results_1295543/utterance_evaluator.csv,,quantity_2,22,baseline,Jesse’s pot was good.,Jesse’s pot was ugly.,"Jesse’s colleagues attended the pottery class, too.",The pottery class teacher required taking a drawing class beforehand.,Jesse
+4078,gpt-3.5-turbo,0.1,"Context: {context} ""{trigger}""
+Normally, you would make the following assumption about {speaker}'s utterance: {assumption}.
+
+Should we doubt that the assumption is true in this context? The last line of your response should contain be a single word and nothing else: ""yes"" if there are strong reasons to doubt the assumption and ""no"" if there are no strong reasons to doubt the assumption.
+
+Reason step by step. 
+
+Here the the structure of the answer:
+
+""""""
+[brief step-by-step explanation]
+[empty line]
+[yes/no]
+""""""
+
+Your answer:
+",2_67,"The assumption is true in this context because Jo's response only provides information about the venue of the book fair and does not give any additional details. 
+
+no",0,the answer is no more informative than is required by the context,The venue of the book fair was nice.,Your friend Jo is a big bookworm. They attended the biggest annual book fair in your city last weekend where Jo wanted to meet their favourite author. You ask Jo: 'How was Emma's book fair?'. Jo replies:,Jo,gricean_assmuptions,ours,../results/final/3_1_gricean_our/implicatures_FC_gpt-3.5-turbo_20230804_1210_results_1288306/utterance_evaluator.csv,,quantity_2,14,irrelevant,John does not want to talk about the reception of Emma's book.,the venue of the book fair was nice.,Jo once proofread a chapter of their favorite author’s first novel.,Jo used to work at their local library.,Jo
+937,gpt-3.5-turbo,0.1,"Context: {context} ""{trigger}""
+Normally, you would make the following assumption about {speaker}'s utterance: {assumption}.
+
+Should we doubt that the assumption is true in this context? The last line of your response should contain be a single word and nothing else: ""yes"" if there are strong reasons to doubt the assumption and ""no"" if there are no strong reasons to doubt the assumption.
+
+Reason step by step. 
+
+Here the the structure of the answer:
+
+""""""
+[brief step-by-step explanation]
+[empty line]
+[yes/no]
+""""""
+
+Your answer:
+",0_104,No,0,the answer is no more informative than is required by the context,The dinner quickly caused the guests not to want more.,Sam went to a dinner party of your mutual colleague Brandon. You ask Sam: “How was the dinner?” Sam replies: ,Sam,gricean_assmuptions,ours,../results/final/3_1_gricean_our/implicatures_FC_gpt-3.5-turbo_20230810_0109_results_1295541/utterance_evaluator.csv,,quantity_2,4,marked,"the dinner caused the guests not to want more food in an indirect, non-stereotypical way, e.g., because it was rather bad.","the dinner caused the guests not to want more food in a direct, natural way, e.g., because it was rather filling.",Sam is a vegetarian.,Brandon’s partner organized the party.,Sam
+829,gpt-3.5-turbo,0.1,"Context: {context} ""{trigger}""
+Normally, you would make the following assumption about {speaker}'s utterance: {assumption}.
+
+Should we doubt that the assumption is true in this context? The last line of your response should contain be a single word and nothing else: ""yes"" if there are strong reasons to doubt the assumption and ""no"" if there are no strong reasons to doubt the assumption.
+
+Reason step by step. 
+
+Here the the structure of the answer:
+
+""""""
+[brief step-by-step explanation]
+[empty line]
+[yes/no]
+""""""
+
+Your answer:
+",0_92,"Jay's response of ""There were questions"" is very vague and does not provide any specific information about how the interview went. It does not indicate whether Jay answered the questions well or if there were any positive or negative aspects of the interview. Therefore, there are strong reasons to doubt the assumption that the answer is no more informative than is required by the context.
+
+yes",1,the answer is no more informative than is required by the context,There were questions.,Your friend Jay went to a job interview yesterday. You ask Jay: “How did the interview go?” Jay replies:,Jay,gricean_assmuptions,ours,../results/final/3_1_gricean_our/implicatures_FC_gpt-3.5-turbo_20230810_0108_results_1295539/utterance_evaluator.csv,,quantity_2,2,too_little,Jay is not happy with how the interview went.,there were questions.,Jay was very flattered to have been invited.,Jay wanted a higher salary.,Jay
+1225,gpt-3.5-turbo,0.1,"Context: {context} ""{trigger}""
+Normally, you would make the following assumption about {speaker}'s utterance: {assumption}.
+
+Should we doubt that the assumption is true in this context? The last line of your response should contain be a single word and nothing else: ""yes"" if there are strong reasons to doubt the assumption and ""no"" if there are no strong reasons to doubt the assumption.
+
+Reason step by step. 
+
+Here the the structure of the answer:
+
+""""""
+[brief step-by-step explanation]
+[empty line]
+[yes/no]
+""""""
+
+Your answer:
+",0_136,"Jia's response provides specific details about the technical aspects of the movie, such as the number of frames per second and the variety of scenes. This level of detail goes beyond what is required by the context, suggesting that there may be strong reasons to doubt the assumption. 
+
+yes",1,the answer is no more informative than is required by the context,The movie played at the expected number of frames per second with a series of various scenes.,You heard that your friend Jia went to an arthouse film festival for the first time and watched a hyped new movie. You ask Jia: 'How was the movie?'. Jia replies:,Jia,gricean_assmuptions,ours,../results/final/3_1_gricean_our/implicatures_FC_gpt-3.5-turbo_20230810_0112_results_1295546/utterance_evaluator.csv,,quantity_2,19,too_much,the movie was very enjoyable because it was difficult to understand.,the movie played at the expected number of frames per second with a series of various scenes.,Jia once worked on a short film project herself.,your city often hosts movie festivals.,Jia
+229,gpt-3.5-turbo,0.1,"Context: {context} ""{trigger}""
+Normally, you would make the following assumption about {speaker}'s utterance: {assumption}.
+
+Should we doubt that the assumption is true in this context? The last line of your response should contain be a single word and nothing else: ""yes"" if there are strong reasons to doubt the assumption and ""no"" if there are no strong reasons to doubt the assumption.
+
+Reason step by step. 
+
+Here the the structure of the answer:
+
+""""""
+[brief step-by-step explanation]
+[empty line]
+[yes/no]
+""""""
+
+Your answer:
+",5_4,"Betsy's response indicates that Alex performed well in the talent show. This suggests that her answer is relevant in the context of asking about Alex's performance. Therefore, there are no strong reasons to doubt the assumption. 
+
+no",0,the answer is relevant in context,Alex performed really well.,Betsy went to a talent show yesterday in which your mutual friend Alex took part. You ask Betsy: “How was Alex’s performance?” Betsy replies:,Betsy,gricean_assmuptions,ours,../results/final/3_1_gricean_our/implicatures_FC_gpt-3.5-turbo_20230804_1210_results_1288306/utterance_evaluator.csv,,relevance_1,1,baseline,Alex performed really well.,Alex didn’t take part in the talent show.,Betsy really likes talent shows in general.,Betsy is in love with Alex.,Betsy
+1462,gpt-3.5-turbo,0.1,"Context: {context} ""{trigger}""
+Normally, you would make the following assumption about {speaker}'s utterance: {assumption}.
+
+Should we doubt that the assumption is true in this context? The last line of your response should contain be a single word and nothing else: ""yes"" if there are strong reasons to doubt the assumption and ""no"" if there are no strong reasons to doubt the assumption.
+
+Reason step by step. 
+
+Here the the structure of the answer:
+
+""""""
+[brief step-by-step explanation]
+[empty line]
+[yes/no]
+""""""
+
+Your answer:
+",0_162,"Jay's response of ""I just baked a cake, actually"" does not directly answer the question about how the interview went. It seems unrelated and irrelevant to the context of the job interview. Therefore, there are strong reasons to doubt the assumption that the answer is relevant in this context.
+
+yes",1,the answer is relevant in context,"I just baked a cake, actually.",Your friend Jay went to a job interview yesterday. You ask Jay: “How did the interview go?” Jay replies:,Jay,gricean_assmuptions,ours,../results/final/3_1_gricean_our/implicatures_FC_gpt-3.5-turbo_20230810_0108_results_1295537/utterance_evaluator.csv,,relevance_1,2,irrelevant,Jay would rather not talk about the interview.,Jay just baked a cake.,Jay was very flattered to have been invited.,Jay wanted a higher salary.,Jay
+166,gpt-3.5-turbo,0.1,"Context: {context} ""{trigger}""
+Normally, you would make the following assumption about {speaker}'s utterance: {assumption}.
+
+Should we doubt that the assumption is true in this context? The last line of your response should contain be a single word and nothing else: ""yes"" if there are strong reasons to doubt the assumption and ""no"" if there are no strong reasons to doubt the assumption.
+
+Reason step by step. 
+
+Here the the structure of the answer:
+
+""""""
+[brief step-by-step explanation]
+[empty line]
+[yes/no]
+""""""
+
+Your answer:
+",0_18,Yes,1,the answer is relevant in context,The dinner quickly caused the guests not to want more.,Sam went to a dinner party of your mutual colleague Brandon. You ask Sam: “How was the dinner?” Sam replies: ,Sam,gricean_assmuptions,ours,../results/final/3_1_gricean_our/implicatures_FC_gpt-3.5-turbo_20230801_2143_results_/utterance_evaluator.csv,,relevance_1,4,marked,"the dinner caused the guests not to want more food in an indirect, non-stereotypical way, e.g., because it was rather bad.","the dinner caused the guests not to want more food in a direct, natural way, e.g., because it was rather filling.",Sam is a vegetarian.,Brandon’s partner organized the party.,Sam
+670,gpt-3.5-turbo,0.1,"Context: {context} ""{trigger}""
+Normally, you would make the following assumption about {speaker}'s utterance: {assumption}.
+
+Should we doubt that the assumption is true in this context? The last line of your response should contain be a single word and nothing else: ""yes"" if there are strong reasons to doubt the assumption and ""no"" if there are no strong reasons to doubt the assumption.
+
+Reason step by step. 
+
+Here the the structure of the answer:
+
+""""""
+[brief step-by-step explanation]
+[empty line]
+[yes/no]
+""""""
+
+Your answer:
+",0_74,"Sophie's response does not provide any information about the quality or success of Jack's project. It simply states that Jack presented the project. Therefore, there are strong reasons to doubt the assumption that the answer is relevant in context.
+
+yes",1,the answer is relevant in context,Jack presented the project.,Sophie went to a science fair where your mutual friend Jack presented a project. You ask Sophie: 'How was Jack's project?'. Sophie replies:,Sophie,gricean_assmuptions,ours,../results/final/3_1_gricean_our/implicatures_FC_gpt-3.5-turbo_20230810_0110_results_1295543/utterance_evaluator.csv,,relevance_1,21,too_little,Jack's project was not very good.,Jack presented the project.,Sophie often helped Jack with his science homework.,Jack once explained the concept of gravity to Sophie using an apple.,Sophie
+1237,gpt-3.5-turbo,0.1,"Context: {context} ""{trigger}""
+Normally, you would make the following assumption about {speaker}'s utterance: {assumption}.
+
+Should we doubt that the assumption is true in this context? The last line of your response should contain be a single word and nothing else: ""yes"" if there are strong reasons to doubt the assumption and ""no"" if there are no strong reasons to doubt the assumption.
+
+Reason step by step. 
+
+Here the the structure of the answer:
+
+""""""
+[brief step-by-step explanation]
+[empty line]
+[yes/no]
+""""""
+
+Your answer:
+",0_137,"Jia's response indicates that they are providing a technical description of the movie, focusing on the technical aspect of the frames per second and various scenes. This suggests that Jia may not be addressing the overall quality or enjoyment of the movie. Therefore, there are strong reasons to doubt the assumption that the answer is relevant in this context.
+
+yes",1,the answer is relevant in context,The movie played at the expected number of frames per second with a series of various scenes.,You heard that your friend Jia went to an arthouse film festival for the first time and watched a hyped new movie. You ask Jia: 'How was the movie?'. Jia replies:,Jia,gricean_assmuptions,ours,../results/final/3_1_gricean_our/implicatures_FC_gpt-3.5-turbo_20230810_0112_results_1295546/utterance_evaluator.csv,,relevance_1,19,too_much,the movie was very enjoyable because it was difficult to understand.,the movie played at the expected number of frames per second with a series of various scenes.,Jia once worked on a short film project herself.,your city often hosts movie festivals.,Jia

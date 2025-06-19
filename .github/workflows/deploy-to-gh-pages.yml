@@ -14,6 +14,7 @@ jobs:
         folder:
           - ./proposer_evals/cs2_utterances/
           - ./proposer_evals/cs3_interpretations/
+          - ./evaluator_evals/cs3_maxim_violation/
 
     runs-on: ubuntu-latest
     steps:

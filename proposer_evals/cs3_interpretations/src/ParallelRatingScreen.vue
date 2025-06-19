@@ -71,13 +71,13 @@
 
 function createContext(trial) {
     var explanation_question = trial['explanation'] === "" ? "How natural does each of the following sentences express what the speaker could plausibly want to convey?" : ["Assuming that ", trial['explanation'], ", how natural does each of the following sentences express what the speaker could plausibly want to convey?"].join("") ;
-    var slide_text = ["Imagine the following situation: ", " <br/>", trial['context'], "<br/><b> ", trial['utterance'], "</b><br/><br/>", explanation_question].join("");
+    var slide_text = ["Imagine the following situation: ", " <br/>", trial['context'], "<br/><b> '", trial['utterance'], "'</b><br/><br/>", explanation_question].join("");
     return slide_text
 }
 
 function createAnswerOption(trial, option) {  
       
-      var slide_text = ["<b>",trial[option], "</b>"].join("");
+      var slide_text = ["<b>", trial[option], "</b>"].join("");
       
       
       //if (option != "itemQuestion") {

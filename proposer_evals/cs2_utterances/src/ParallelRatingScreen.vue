@@ -84,7 +84,7 @@ function createContext(trial) {
 
 function createAnswerOption(trial, option) {  
       
-      var slide_text = ["<b>", trial[option], "</b>"].join("");
+      var slide_text = ['<b>"', trial[option], '"</b>'].join("");
       
       
       //if (option != "itemQuestion") {

@@ -50,7 +50,7 @@
         />      
     </template>
 
-    <PostTestScreen />
+    <CustomPostTestScreen />
 
     <SubmitResultsScreen />
 
@@ -63,11 +63,12 @@ import trialsAll from '../trials/cs2_expressions_processed.csv';
 import fillersAll from '../trials/cs2_expressions_processed.csv';
 import ParallelRatingScreen from './ParallelRatingScreen';
 import ParallelRatingScreenExample from './ParallelRatingScreenExample';
+import CustomPostTestScreen from './CustomPostTestScreen';
 
 var group = _.sample(['odd', 'even']);
 var conditions = _.shuffle(['s_typical', 's_typical', 's_typical', 's_typical', 's_typical', 's_atypical', 's_atypical', 's_atypical', 's_atypical', 's_atypical']);
 var items = _.shuffle(['1', '4', '6', '8', '10', '13', '14', '16', '19', '20']);
-const n_vignettes = 10;
+const n_vignettes = 6;
 const n_fillers = 1;
 
 function filterByCondition(data) {
@@ -117,7 +118,8 @@ export default {
   name: 'App',
   components: { 
     ParallelRatingScreen,
-    ParallelRatingScreenExample
+    ParallelRatingScreenExample,
+    CustomPostTestScreen
    },
   data() {
     return {

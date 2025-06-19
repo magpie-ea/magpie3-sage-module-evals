@@ -20,7 +20,7 @@
         <br />
       </span>
 
-      <span><b>John killed the sherrif.</b></span>
+      <span><b>"John killed the sherrif."</b></span>
       <SliderInput
         left="terrible"
         right="natural"
@@ -29,7 +29,7 @@
       />
       
 
-      <span><b>John accidentally poisoned the sheriff's coffee and killed him — it was a bizarre accident.</b></span>
+      <span><b>"John accidentally poisoned the sheriff's coffee and killed him — it was a bizarre accident."</b></span>
       <SliderInput
         left="terrible"
         right="natural"
@@ -38,7 +38,7 @@
       />
      
 
-      <span><b>John ended up killing the sheriff in a really odd way.</b></span>
+      <span><b>"John ended up killing the sheriff in a really odd way."</b></span>
       <SliderInput
         left="terrible"
         right="natural"
@@ -47,18 +47,18 @@
       />
       
 
-      <span><b>John caused the sherrif to die.</b></span>
+      <span><b>"John caused the sherrif to die."</b></span>
       <SliderInput
         left="terrible"
         right="natural"
         initial="78"
         :response.sync=$magpie.measurements[itemOrder[3]]
       />
-      <span><b>The sheriff died because John unknowingly spilled poison in his coffee — a strange and tragic mistake.</b></span>
+      <span><b>"John shot the sheriff."</b></span>
       <SliderInput
         left="terrible"
         right="natural"
-        initial="58"
+        initial="1"
         :response.sync=$magpie.measurements[itemOrder[4]]
       />
       
