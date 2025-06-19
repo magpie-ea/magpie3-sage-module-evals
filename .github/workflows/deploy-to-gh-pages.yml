@@ -13,6 +13,7 @@ jobs:
       matrix:
         folder:
           - ./proposer_evals/cs2_utterances/
+          - ./proposer_evals/cs3_interpretations/
 
     runs-on: ubuntu-latest
     steps:
