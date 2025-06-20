@@ -22,13 +22,25 @@
       By pressing the button 'Next' you confirm that you are at least 18 years old and agree to participate in this study. 
     </InstructionScreen>
 
-    <template v-for="(trial, i) in trials">       
-        <ParallelRatingScreen 
+    <template v-for="(trial, i) in trials"> 
+      <template v-if="Object.keys(trial).includes('correct_answer')">      
+        <ForcedChoiceScreen 
+            :trial=trial
+            :index=i 
+            :trial_type="'filler'" 
+            :progress="i / trials.length" 
+            :correct_answer="trial.correct_answer"
+        />   
+      </template>
+      <template v-else>
+        <ForcedChoiceScreen 
             :trial=trial
             :index=i 
             :trial_type="'main'" 
             :progress="i / trials.length" 
-        />      
+            :correct_answer="'main'"
+        />   
+      </template>   
     </template>
 
     <PostTestScreen />
@@ -39,10 +51,13 @@
 <script>
 import _ from 'lodash';
 import trialsAll from '../trials/trials.csv';
-import ParallelRatingScreen from './ParallelRatingScreen';
+import ForcedChoiceScreen from './ForcedChoiceScreen';
+import fillers from '../trials/fillers.csv';
 
 var condition = ['too_much', 'too_little', 'marked', 'irrelevant', 'baseline'];
-var maxims = _.sampleSize(['quantity_1', 'quantity_2', 'quality_1', 'quality_2', 'relevance_1', 'manner_1', 'manner_2', 'manner_3', 'manner_4', 'no_violation'], 5);
+var maxims = _.sampleSize(['quantity_1', 'quantity_2', 'quality_1', 'quality_2', 'relevance_1', 'manner_1', 'manner_2', 'manner_3', 'manner_4'], 5);
+
+var n_fillers = 1;
 
 function filterByCondition(data) {
   const conditionMap = {}
@@ -69,11 +84,11 @@ document.oncontextmenu = () => false;
 export default {
   name: 'App',
   components: { 
-    ParallelRatingScreen
+    ForcedChoiceScreen
   },
   data() {
     return {
-      trials: _.shuffle(sampled_trials) //_.concat( sampled_trials, _.sampleSize(fillersAll, n_fillers))
+      trials: _.shuffle(_.concat( sampled_trials, _.sampleSize(fillers, n_fillers))) //
     };
   },
   computed: {

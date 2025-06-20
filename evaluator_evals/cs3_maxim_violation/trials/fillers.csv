@@ -1,0 +1,5 @@
+assumption,trigger,context,speaker_x,item_id,inference_type,trial_type,correct_answer
+Please answer ‘Yes’.,Jane performed.,Bo went to a music concert where their friend Jane played the guitar. You ask Bo: 'How was Jane’s performance?'. Bo replies:,Bo,11,too_little,filler,Yes
+Please answer ‘No’.,Jane performed.,Bo went to a music concert where their friend Jane played the guitar. You ask Bo: 'How was Jane’s performance?'. Bo replies:,Bo,11,too_little,filler,No
+Please answer ‘Yes’.,Sophie's dancing made the audience laugh.,Emma went to a dance competition where your mutual colleague Sophie was a participant. You ask Emma: 'How did Sophie perform in the competition?'. Emma replies:,Emma,15,marked,filler,Yes
+Please answer ‘No’.,Sophie's dancing made the audience laugh.,Emma went to a dance competition where your mutual colleague Sophie was a participant. You ask Emma: 'How did Sophie perform in the competition?'. Emma replies:,Emma,15,marked,filler,No

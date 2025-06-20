@@ -9,11 +9,12 @@
           trial_type: trial_type,
           inference_type: trial.inference_type,
           assumption: trial.assumption_name,
+          correct_answer: correct_answer
         }"
       />
 
       
-      <span v-html="createContext(trial)">
+      <span v-html="createContext(trial, trial_type)">
       </span>
       <br />
       <br />
@@ -29,8 +30,12 @@
 
 <script>
 
-function createContext(trial) {
+function createContext(trial, trial_type) {
+  if (trial_type == "main") {
     var context = ["In a normal conversation, you would make the following assumption about the speaker's utterance: ", trial["assumption"], ".<br/>"].join("");
+  } else {
+    var context = [trial["assumption"], "<br />"].join("");
+  }
     var question = "Do you think that the assumption is violated in this context? <br/ >" 
     var slide_text = [context, "Now imagine the following situation: ", " <br/> <br/>", trial['context'], "<br/><b> '", trial['trigger'], "'</b><br/><br/>", question].join("");
     return slide_text
@@ -50,7 +55,7 @@ function createAnswerOption(trial, option) {
       return slide_text
 }
 export default {
-  name: 'ParallelRatingScreen',
+  name: 'ForcedChoiceScreen',
   data(){
     return {response: 0}
   },
@@ -71,11 +76,12 @@ export default {
           type: Number,
           default: undefined
         },
+        correct_answer: {
+          type: String,
+          required: true
+        },
   },
   methods: {
-    checkResponses: function (a, b, c, d) {
-      return !(isNaN(a) | isNaN(b) | isNaN(c) | isNaN(d) );
-    },
     createAnswerOption,
     createContext
   }
