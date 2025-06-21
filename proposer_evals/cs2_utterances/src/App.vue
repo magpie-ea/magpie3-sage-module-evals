@@ -25,7 +25,7 @@
     <InstructionScreen :title="'Instructions'">
       On each trial, you will be given a short description of a situation.
       Then, you will read five sentences.
-      We will ask you to rate how good you think each sentence is for describing the given situation.
+      We will ask you to rate how natural you think each sentence is for talking about the given situation.
       You'll use sliders to answer the question. 
       <br />
       <br />
@@ -40,14 +40,27 @@
 
     <ParallelRatingScreenExample :itemOrder="['lower_bound', 'p1', 'p2', 'upper_bound', 'p3']" :trial_type="'example'"  />
 
-    <template v-for="(trial, i) in trials">       
+    <template v-for="(trial, i) in trials">   
+      <template v-if="Object.keys(trial).includes('correct_answer')"> 
+        <ParallelRatingScreen 
+            :trial=trial
+            :index=i 
+            :trial_type="'filler'" 
+            :progress="i / trials.length" 
+            :itemOrder="_.shuffle(['upper_bound', 'p1', 'p2', 'p3', 'lower_bound'])" 
+            :correct_answer="trial.correct_answer"
+        />   
+      </template>
+      <template v-else>
         <ParallelRatingScreen 
             :trial=trial
             :index=i 
             :trial_type="'main'" 
             :progress="i / trials.length" 
             :itemOrder="_.shuffle(['upper_bound', 'p1', 'p2', 'p3', 'lower_bound'])" 
-        />      
+            :correct_answer="'main'"
+        />     
+      </template> 
     </template>
 
     <CustomPostTestScreen />
@@ -60,7 +73,7 @@
 <script>
 import _ from 'lodash';
 import trialsAll from '../trials/cs2_expressions_processed.csv';
-import fillersAll from '../trials/cs2_expressions_processed.csv';
+import fillersAll from '../trials/fillers.csv';
 import ParallelRatingScreen from './ParallelRatingScreen';
 import ParallelRatingScreenExample from './ParallelRatingScreenExample';
 import CustomPostTestScreen from './CustomPostTestScreen';
@@ -95,15 +108,6 @@ const trials = filterByCondition(trialsAll);
 
 const sampled_trials = _.sampleSize(trials, n_vignettes); //_.sampleSize(trials, n_vignettes).map(x => _.fill(Array(6), x)).flat()
 
-const fillers =
-  group == 'odd'
-    ? fillersAll.filter((element, index) => {
-        return index % 2 === 0;
-      })
-    : fillersAll.filter((element, index) => {
-        return index % 2 != 0;
-      });
-
 // Disable selecting text
 // Supported by the following browsers:
 // https://caniuse.com/mdn-api_document_selectstart_event
@@ -123,7 +127,7 @@ export default {
    },
   data() {
     return {
-      trials: _.shuffle(sampled_trials) // _.concat( sampled_trials, _.sampleSize(fillers, n_fillers))
+      trials: _.shuffle(_.concat( sampled_trials, _.sampleSize(fillersAll, n_fillers))) 
     };
   },
   computed: {

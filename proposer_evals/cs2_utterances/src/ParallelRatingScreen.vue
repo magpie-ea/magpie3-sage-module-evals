@@ -9,6 +9,7 @@
           trial_type: trial_type,
           state_type: trial.state_type,
           itemOrder: itemOrder.join(','),
+          correct_answer: correct_answer
         }"
       />
 
@@ -121,6 +122,10 @@ export default {
             type: Array,
             required: true
         },
+        correct_answer: {
+          type: String,
+          required: true
+        }
   },
   methods: {
     checkResponses: function (a, b, c, d, e) {

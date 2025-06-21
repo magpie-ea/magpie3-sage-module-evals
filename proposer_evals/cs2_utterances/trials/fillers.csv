@@ -1,6 +1,5 @@
-vignette,u_unmarked,u_marked,context,speaker,state_type,state,p1,p2,p3,upper_bound,lower_bound
-7,,,What happened at the end of the movie?,,,The hero captured the villain.,,,,,
-5,,,,,,The hero appeared in the villain’s dream and persuaded him to go to prison for his crimes.,,,,,
-9,,,,,,,,,,,
-12,,,,,,,,,,,
-18,,,,,,,,,,,
+vignette,speaker,state_type,correct_answer,state,p1,p2,p3,upper_bound,lower_bound
+9,,s_typical,100,Please move all the sliders all the way to the right. An intern wrote a satisfactory report of the meeting.,The intern put together a decent summary of the meeting.,The meeting report from the intern was acceptable.,An intern did an okay job reporting on the meeting.,He wrote a report of the meeting.,He typed up a string of words describing the meeting.
+12,,s_atypical,0,Please move all the sliders all the way to the left. An intern wrote a rather bad report of the meeting.,The intern's report on the meeting wasn’t great.,An intern put together a pretty poor summary of the meeting.,,He typed up a string of words describing the meeting.,He wrote a report of the meeting.
+18,,s_typical,0,Katie dusted the bookshelves (effectively). Please move all the sliders all the way to the left. ,Katie gave the bookshelves a good dusting.,Katie cleaned off the bookshelves pretty thoroughly.,The bookshelves are spotless—Katie dusted them well.,She dusted the bookshelves.,She wiped a dusting cloth around the bookshelves.
+,,s_atypical,100,"Katie attempted to dust the bookshelves, but they don't seem any cleaner. Please move all the sliders all the way to the right.","Katie tried to dust the shelves, but they still look the same.",Doesn't look like Katie's dusting did much to the bookshelves.,"She gave the shelves a go, but they're not really any cleaner.",She wiped a dusting cloth around the bookshelves.,She dusted the bookshelves.
