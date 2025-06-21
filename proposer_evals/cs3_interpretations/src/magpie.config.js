@@ -1,11 +1,11 @@
 export default {
-  experimentId: '9',
-  serverUrl: 'https://magpie-demo.herokuapp.com/',
-  socketUrl: 'wss://magpie-demo.herokuapp.com/socket',
+  experimentId: '19',
+  serverUrl: 'https://magpie-cogsciprag.fly.dev',
+  socketUrl: 'wss://magpie-cogsciprag.fly.dev/socket',
   // this will be used in prolific mode
-  completionUrl: 'https://...',
-  contactEmail: 'test@random.com',
+  completionUrl: 'https://app.prolific.com/submissions/complete?cc=C1CGI2FC',
+  contactEmail: 'polina.tsvilodub@uni-tuebingen.de',
   // Either 'debug', 'directLink' or 'prolific'
-  mode: 'debug',
+  mode: 'prolific',
   language: 'en'
 };

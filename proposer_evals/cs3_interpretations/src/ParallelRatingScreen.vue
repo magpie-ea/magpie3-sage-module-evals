@@ -10,11 +10,12 @@
           inference_type: trial.inference_type,
           assumption: trial.assumption,
           itemOrder: itemOrder.join(','),
+          correct_answer: correct_answer
         }"
       />
 
       
-      <span v-html="createContext(trial)">
+      <span v-html="createContext(trial, trial_type)">
       </span>
       <br />
       <br />
@@ -69,8 +70,17 @@
 
 <script>
 
-function createContext(trial) {
-    var explanation_question = trial['explanation'] === "" ? "How natural does each of the following sentences express what the speaker could plausibly want to convey?" : ["Assuming that ", trial['explanation'], ", how natural does each of the following sentences express what the speaker could plausibly want to convey?"].join("") ;
+function createContext(trial, trial_type) {
+  if (trial_type == "main") {
+    if (trial.assumption == "no_violation") {
+      var explanation_question = "How natural does each of the following sentences express what the speaker could plausibly want to convey?";
+    } else {
+      var explanation_question = ["Assuming that ", trial['explanation'], ", how natural does each of the following sentences express what the speaker could plausibly want to convey?"].join("") ;
+    }
+    
+  } else {
+    var explanation_question = [trial['explanation'], " How natural does each of the following sentences express what the speaker could plausibly want to convey?"].join("");
+  }
     var slide_text = ["Imagine the following situation: ", " <br/>", trial['context'], "<br/><b> '", trial['utterance'], "'</b><br/><br/>", explanation_question].join("");
     return slide_text
 }
@@ -118,6 +128,10 @@ export default {
           type: String,
           required: true
         },
+        correct_answer: {
+          type: String,
+          required: true
+        }
   },
   methods: {
     checkResponses: function (a, b, c, d) {

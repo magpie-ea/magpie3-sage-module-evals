@@ -27,7 +27,7 @@
       In this study we are interested in how you would rate interpretations of what someone says in an everyday situation.
       <br />
       On each trial, you will be given a short description of a situation where someone utters a sentence.
-      Then, you will read five interpretations of that sentence.
+      Then, you will read four interpretations of that sentence.
       We will ask you to rate how natural you think each interpretation is for what the speaker could plausibly want to convey.
       You'll use sliders to answer the question. 
       <br />
@@ -43,14 +43,27 @@
 
     <ParallelRatingScreenExample :itemOrder="['lower_bound', 'p1', 'upper_bound', 'p2']" :trial_type="'example'"  />
 
-    <template v-for="(trial, i) in trials">       
+    <template v-for="(trial, i) in trials">    
+      <template v-if="Object.keys(trial).includes('correct_answer')"> 
+        <ParallelRatingScreen 
+            :trial=trial
+            :index=i 
+            :trial_type="'filler'" 
+            :progress="i / trials.length" 
+            :itemOrder="_.shuffle(['lower_bound', 'p1', 'p2', 'upper_bound'])" 
+            :correct_answer="trial.correct_answer"
+        />    
+      </template>  
+      <template v-else>
         <ParallelRatingScreen 
             :trial=trial
             :index=i 
             :trial_type="'main'" 
             :progress="i / trials.length" 
             :itemOrder="_.shuffle(['lower_bound', 'p1', 'p2', 'upper_bound'])" 
-        />      
+            :correct_answer="'main'"
+        />  
+      </template>
     </template>
 
     <CustomPostTestScreen />
@@ -62,8 +75,8 @@
 
 <script>
 import _ from 'lodash';
-import trialsAll from '../trials/updated_trials_randomItems_processed.csv';
-import fillersAll from '../trials/cs3_interpretations_processed.csv';
+import trialsAll from '../trials/updated_trials_randomItems_allVio_processed.csv';
+import fillersAll from '../trials/fillers.csv';
 import ParallelRatingScreen from './ParallelRatingScreen';
 import ParallelRatingScreenExample from './ParallelRatingScreenExample';
 import CustomPostTestScreen from './CustomPostTestScreen';
@@ -82,10 +95,14 @@ function filterByCondition(data) {
   })
 }
 
-const n_vignettes = 6;
+const n_vignettes = 5;
 const n_fillers = 1;
 
-const sampled_trials = filterByCondition(trialsAll);
+let sampled_trials = [];
+do {
+  sampled_trials = filterByCondition(trialsAll);
+} 
+while (sampled_trials.length < n_vignettes);
 console.log(sampled_trials);
 // const sampled_trials = trialsAll.filter((element, index) => {
 //        return _.includes(condition, element['inference_type']);
@@ -121,7 +138,7 @@ export default {
   },
   data() {
     return {
-      trials: _.shuffle(sampled_trials) //_.concat( sampled_trials, _.sampleSize(fillersAll, n_fillers))
+      trials: _.shuffle(_.concat( sampled_trials, _.sampleSize(fillersAll, n_fillers))) 
     };
   },
   computed: {
