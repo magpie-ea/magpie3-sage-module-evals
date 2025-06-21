@@ -32,12 +32,18 @@
 
 function createContext(trial, trial_type) {
   if (trial_type == "main") {
-    var context = ["In a normal conversation, you would make the following assumption about the speaker's utterance: ", trial["assumption"], ".<br/>"].join("");
+    // if the assumption is capitalized, replace the first word with 'the speaker'
+    if (trial["assumption"].charAt(0) === trial["assumption"].charAt(0).toUpperCase()) {
+      var assumption = "the speaker " + _.slice(trial["assumption"].split(" "), 1).join(" ");
+    } else {
+      var assumption = trial["assumption"];
+    }
+    var context = ["In a normal conversation, you would make the following assumption about the speaker's utterance: <br /><b>", assumption, "</b>.<br/><br/>"].join("");
   } else {
     var context = [trial["assumption"], "<br />"].join("");
   }
     var question = "Do you think that the assumption is violated in this context? <br/ >" 
-    var slide_text = [context, "Now imagine the following situation: ", " <br/> <br/>", trial['context'], "<br/><b> '", trial['trigger'], "'</b><br/><br/>", question].join("");
+    var slide_text = [context, "Now imagine the following situation: ", " <br/>", trial['context'], "<br/><b> '", trial['trigger'], "'</b><br/><br/>", question].join("");
     return slide_text
 }
 

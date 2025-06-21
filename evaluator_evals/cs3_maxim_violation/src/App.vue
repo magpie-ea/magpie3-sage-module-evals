@@ -6,7 +6,12 @@
       <br />
       In this experiment, we will ask you what you think about other people's intentions in everyday contexts.
       On each trial, you will read a short description of a situation wherein a person utters a sentence. 
-      <b>We will ask you if you think a statement about that person's uttance is true or false.</b>
+      <b>We will ask you if you think a statement about that person's uttance is true or false.</b> Please try to respond naturally and reasonably.
+      <br />
+      <br />
+      Notice that there will also be a simple <b>attention checking trial</b>. 
+      You will recognize it immediately when you read the important text on each trial carefully -- this trial contains instructions for you to answer in a certain way.
+      Please follow these instructions on the respective trial. 
       <br />
       <br />
       You are participating in a study conducted by cognitive scientists at the University of Tübingen. 
@@ -19,7 +24,7 @@
       participation will not receive any personal information about you.
       <br />
       <br />
-      By pressing the button 'Next' you confirm that you are at least 18 years old and agree to participate in this study. 
+      By pressing the button 'Next' you confirm that you are at least 18 years old and agree to participate in this study. You will then start the main experiment. 
     </InstructionScreen>
 
     <template v-for="(trial, i) in trials"> 
