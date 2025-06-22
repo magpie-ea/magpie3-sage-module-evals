@@ -1,0 +1,111 @@
+CS3: interpretation proposer evals
+================
+
+``` r
+library(tidyverse)
+library(brms)
+library(tidyboot)
+```
+
+Read data:
+
+``` r
+path = "../data/cs3-interpretation-proposer/results_19_SAGE_cs3-interpretation-proposer-evals_pilot-1_10.csv"
+d <- read_csv(path)
+```
+
+    ## Rows: 80 Columns: 22
+    ## ── Column specification ────────────────────────────────────────────────────────
+    ## Delimiter: ","
+    ## chr (10): assumption, comments, correct_answer, education, gender, inference...
+    ## dbl (12): submission_id, age, experiment_duration, experiment_end_time, expe...
+    ## 
+    ## ℹ Use `spec()` to retrieve the full column specification for this data.
+    ## ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+
+``` r
+# exclude prolific info
+#d %>% select(-prolific_pid, -prolific_study_id, -prolific_session_id) %>% write_csv(path)
+```
+
+Check attention check performance:
+
+``` r
+d_preprocessed <- d %>%
+  mutate(
+    correct_answer = as.numeric(correct_answer),
+    lower_bound = as.numeric(lower_bound),
+    upper_bound = as.numeric(upper_bound),
+    p1 = as.numeric(p1),
+    p2 = as.numeric(p2)
+  )
+```
+
+    ## Warning: There was 1 warning in `mutate()`.
+    ## ℹ In argument: `correct_answer = as.numeric(correct_answer)`.
+    ## Caused by warning:
+    ## ! NAs introduced by coercion
+
+``` r
+fillers <- d_preprocessed %>% filter(trial_type == "filler") %>%
+  rowwise() %>%
+  mutate(
+    is_correct = as.numeric(abs(correct_answer - lower_bound) < 6 &
+                          abs(correct_answer - upper_bound) < 6 &
+                          abs(correct_answer - p1) < 6 &
+                          abs(correct_answer - p2) < 6
+                          )
+         )
+# attention check passing rate
+sum(fillers$is_correct) / nrow(fillers)
+```
+
+    ## [1] 0.5
+
+Analyse main trials:
+
+``` r
+main_trials <- d_preprocessed %>%
+  filter(trial_type == "main")
+
+main_trials_summary <- main_trials %>%
+  summarize(
+    lower_bound = mean(lower_bound),
+    upper_bound = mean(upper_bound),
+    p1 = mean(p1),
+    p2 = mean(p2)
+  ) %>%
+  pivot_longer(cols = c(lower_bound, upper_bound, p1, p2), names_to = "condition", values_to = "rating")
+
+main_trials_long <- main_trials %>%
+  pivot_longer(cols = c(upper_bound, lower_bound, p1, p2), names_to = "condition", values_to = "rating")
+
+main_trials_long %>%
+  ggplot(., aes(x = condition, y = rating, color = condition)) +
+  geom_point(alpha=0.5, position=position_jitter(0.2)) +
+  geom_point(data = main_trials_summary, aes(x = condition, y = rating, color = condition), size=5)
+```
+
+![](cs3-interpretation-proposer-pilot1_files/figure-gfm/unnamed-chunk-4-1.png)<!-- -->
+
+Now group these by condition (type of trigger):
+
+``` r
+main_trials_summary_byCondition <- main_trials %>%
+  group_by(inference_type) %>%
+  summarize(
+    lower_bound = mean(lower_bound),
+    upper_bound = mean(upper_bound),
+    p1 = mean(p1),
+    p2 = mean(p2)
+  ) %>%
+  pivot_longer(cols = c(lower_bound, upper_bound, p1, p2), names_to = "condition", values_to = "rating")
+
+main_trials_long %>%
+  ggplot(., aes(x = condition, y = rating, color = condition)) +
+  geom_point(alpha=0.5, position=position_jitter(0.2)) +
+  geom_point(data = main_trials_summary_byCondition, aes(x = condition, y = rating, color = condition), size=5) +
+  facet_grid(.~inference_type)
+```
+
+![](cs3-interpretation-proposer-pilot1_files/figure-gfm/unnamed-chunk-5-1.png)<!-- -->

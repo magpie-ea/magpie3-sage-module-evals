@@ -31,7 +31,7 @@ sum(fillers$is_correct) / nrow(fillers)
 Analyse main trials. Plot the proportion of times where participants said a particular assumption was violated. The void parts of the bars are the cases where participants indicated that the assumption was not violated. 
 ```{r}
 # TODO add the actual violation texts
-labels <- read_csv()
+#labels <- read_csv()
 
 main_trials <- d %>%
   filter(trial_type == "main") %>%
