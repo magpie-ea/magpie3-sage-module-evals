@@ -1,0 +1,91 @@
+---
+title: "CS2: utterance proposer evals"
+output: github_document
+---
+
+```{r, warning=FALSE, message=FALSE}
+library(tidyverse)
+library(brms)
+library(tidyboot)
+```
+
+Read data:
+```{r}
+path = "../data/cs2-utterance-proposer/results_20_SAGE_cs2-utterance-proposer-evals_pilot-1_10.csv"
+d <- read_csv(path)
+# exclude prolific info
+#d %>% select(-prolific_pid, -prolific_study_id, -prolific_session_id) %>% write_csv(path)
+```
+
+Check attention check performance:
+```{r}
+d_preprocessed <- d %>%
+  mutate(
+    correct_answer = as.numeric(correct_answer),
+    lower_bound = as.numeric(lower_bound),
+    upper_bound = as.numeric(upper_bound),
+    p1 = as.numeric(p1),
+    p2 = as.numeric(p2),
+    p3 = as.numeric(p3)
+  )
+
+fillers <- d_preprocessed %>% filter(trial_type == "filler") %>%
+  rowwise() %>%
+  mutate(
+    is_correct = as.numeric(abs(correct_answer - lower_bound) < 6 &
+                          abs(correct_answer - upper_bound) < 6 &
+                          abs(correct_answer - p1) < 6 &
+                          abs(correct_answer - p2) < 6 &
+                          abs(correct_answer - p3) < 6
+                          )
+         )
+# attention check passing rate
+sum(fillers$is_correct) / nrow(fillers)
+```
+
+Analyse main trials:
+```{r}
+main_trials <- d_preprocessed %>%
+  filter(trial_type == "main")
+
+main_trials_summary <- main_trials %>%
+  summarize(
+    lower_bound = mean(lower_bound),
+    upper_bound = mean(upper_bound),
+    p1 = mean(p1),
+    p2 = mean(p2),
+    p3 = mean(p3)
+  ) %>%
+  pivot_longer(cols = c(lower_bound, upper_bound, p1, p2, p3), names_to = "condition", values_to = "rating")
+
+main_trials_long <- main_trials %>%
+  pivot_longer(cols = c(upper_bound, lower_bound, p1, p2, p3), names_to = "condition", values_to = "rating")
+
+main_trials_long %>%
+  ggplot(., aes(x = condition, y = rating, color = condition)) +
+  geom_point(alpha=0.5, position=position_jitter(0.2)) +
+  geom_point(data = main_trials_summary, aes(x = condition, y = rating, color = condition), size=5)
+```
+
+Now group these by state type (typical vs atypical):
+```{r}
+main_trials <- d_preprocessed %>%
+  filter(trial_type == "main")
+
+main_trials_summary_byState <- main_trials %>%
+  group_by(state_type) %>%
+  summarize(
+    lower_bound = mean(lower_bound),
+    upper_bound = mean(upper_bound),
+    p1 = mean(p1),
+    p2 = mean(p2),
+    p3 = mean(p3)
+  ) %>%
+  pivot_longer(cols = c(lower_bound, upper_bound, p1, p2, p3), names_to = "condition", values_to = "rating")
+
+main_trials_long %>%
+  ggplot(., aes(x = condition, y = rating, color = condition)) +
+  geom_point(alpha=0.5, position=position_jitter(0.2)) +
+  geom_point(data = main_trials_summary_byState, aes(x = condition, y = rating, color = condition), size=5) +
+  facet_grid(.~state_type)
+```

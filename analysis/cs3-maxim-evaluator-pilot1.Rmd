@@ -1,0 +1,51 @@
+---
+title: "CS3: interpretation proposer evals"
+output: github_document
+---
+
+```{r, warning=FALSE, message=FALSE}
+library(tidyverse)
+library(brms)
+library(tidyboot)
+```
+
+Read data:
+```{r}
+path = "../data/cs3-maxim-evaluator/results_18_SAGE_cs3-maxim-evaluator-evals_pilot-1_10.csv"
+d <- read_csv(path)
+# exclude prolific info
+#d %>% select(-prolific_pid, -prolific_study_id, -prolific_session_id) %>% write_csv(path)
+```
+
+Check attention check performance:
+```{r}
+fillers <- d %>% filter(trial_type == "filler") %>%
+  rowwise() %>%
+  mutate(
+    is_correct = correct_answer == violation
+         )
+# attention check passing rate
+sum(fillers$is_correct) / nrow(fillers)
+```
+
+Analyse main trials. Plot the proportion of times where participants said a particular assumption was violated. The void parts of the bars are the cases where participants indicated that the assumption was not violated. 
+```{r}
+# TODO add the actual violation texts
+labels <- read_csv()
+
+main_trials <- d %>%
+  filter(trial_type == "main") %>%
+  mutate(violation = ifelse(violation == 'Yes', 1, 0))
+
+main_trials_summary <- main_trials %>%
+  group_by(inference_type) %>%
+  mutate(num_conditions = n()) %>%
+  group_by(inference_type, assumption) %>%
+  summarize(
+    violation_prop = sum(violation) / num_conditions
+  ) 
+
+main_trials_summary %>%
+  ggplot(., aes(x = inference_type, y = violation_prop, fill = assumption)) +
+  geom_col(alpha=0.7) 
+```

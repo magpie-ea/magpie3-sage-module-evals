@@ -1,0 +1,61 @@
+submission_id,age,assumption,comments,correct_answer,education,experiment_duration,experiment_end_time,experiment_start_time,gender,inference_type,item_id,languages,responseTime,trialNr,trial_type,violation
+1262,49,manner_1,NA,main,Graduated College,109383,1750503844111,1750503734728,female,irrelevant,17,English,54493,1,main,No
+1262,49,quantity_2,NA,main,Graduated College,109383,1750503844111,1750503734728,female,marked,4,English,21597,2,main,No
+1262,49,quality_2,NA,main,Graduated College,109383,1750503844111,1750503734728,female,too_little,17,English,6064,3,main,No
+1262,49,quality_1,NA,main,Graduated College,109383,1750503844111,1750503734728,female,baseline,10,English,3011,4,main,Yes
+1262,49,relevance_1,NA,main,Graduated College,109383,1750503844111,1750503734728,female,too_much,19,English,5943,5,main,No
+1262,49,NA,NA,Yes,Graduated College,109383,1750503844111,1750503734728,female,marked,15,English,2857,6,filler,Yes
+1263,30,relevance_1,none,main,Graduated College,136248,1750503875124,1750503738876,other,irrelevant,2,English,30387,1,main,No
+1263,30,quantity_2,none,main,Graduated College,136248,1750503875124,1750503738876,other,marked,4,English,17601,2,main,Yes
+1263,30,manner_2,none,main,Graduated College,136248,1750503875124,1750503738876,other,baseline,22,English,17321,3,main,No
+1263,30,NA,none,No,Graduated College,136248,1750503875124,1750503738876,other,marked,15,English,3470,4,filler,No
+1263,30,manner_4,none,main,Graduated College,136248,1750503875124,1750503738876,other,too_little,21,English,14569,5,main,Yes
+1263,30,quantity_1,none,main,Graduated College,136248,1750503875124,1750503738876,other,too_much,3,English,20144,6,main,No
+1264,45,manner_2,NIL,main,Graduated College,139048,1750503933062,1750503794014,male,baseline,22,English,39983,1,main,No
+1264,45,NA,NIL,No,Graduated College,139048,1750503933062,1750503794014,male,marked,15,English,8559,2,filler,No
+1264,45,manner_4,NIL,main,Graduated College,139048,1750503933062,1750503794014,male,marked,3,English,24108,3,main,Yes
+1264,45,quality_1,NIL,main,Graduated College,139048,1750503933062,1750503794014,male,too_much,14,English,15449,4,main,Yes
+1264,45,quantity_1,NIL,main,Graduated College,139048,1750503933062,1750503794014,male,too_little,20,English,13400,5,main,Yes
+1264,45,manner_1,NIL,main,Graduated College,139048,1750503933062,1750503794014,male,irrelevant,17,English,7660,6,main,Yes
+1265,27,manner_3,NA,main,Graduated College,182750,1750503977656,1750503794906,male,marked,13,English,64643,1,main,No
+1265,27,manner_4,NA,main,Graduated College,182750,1750503977656,1750503794906,male,too_little,21,English,22728,2,main,Yes
+1265,27,NA,NA,Yes,Graduated College,182750,1750503977656,1750503794906,male,too_little,11,English,8338,3,filler,Yes
+1265,27,quality_2,NA,main,Graduated College,182750,1750503977656,1750503794906,male,baseline,9,English,32427,4,main,No
+1265,27,quantity_2,NA,main,Graduated College,182750,1750503977656,1750503794906,male,too_much,19,English,21426,5,main,No
+1265,27,quality_1,NA,main,Graduated College,182750,1750503977656,1750503794906,male,irrelevant,18,English,9191,6,main,No
+1266,67,manner_2,it was a good survey.,main,Higher degree,199762,1750503984062,1750503784300,female,baseline,22,English,11042,1,main,Yes
+1266,67,quality_2,it was a good survey.,main,Higher degree,199762,1750503984062,1750503784300,female,irrelevant,22,English,14889,2,main,No
+1266,67,NA,it was a good survey.,Yes,Higher degree,199762,1750503984062,1750503784300,female,too_little,11,English,8366,3,filler,Yes
+1266,67,quantity_2,it was a good survey.,main,Higher degree,199762,1750503984062,1750503784300,female,marked,4,English,12297,4,main,Yes
+1266,67,manner_1,it was a good survey.,main,Higher degree,199762,1750503984062,1750503784300,female,too_much,6,English,7897,5,main,No
+1266,67,quantity_1,it was a good survey.,main,Higher degree,199762,1750503984062,1750503784300,female,too_little,20,English,8738,6,main,No
+1267,33,quality_1,"I don't ""prolix"" is a very niche word",main,Higher degree,119795,1750504010169,1750503890374,male,marked,13,English,16392,1,main,No
+1267,33,NA,"I don't ""prolix"" is a very niche word",No,Higher degree,119795,1750504010169,1750503890374,male,marked,15,English,5159,2,filler,No
+1267,33,relevance_1,"I don't ""prolix"" is a very niche word",main,Higher degree,119795,1750504010169,1750503890374,male,baseline,1,English,12234,3,main,No
+1267,33,quantity_2,"I don't ""prolix"" is a very niche word",main,Higher degree,119795,1750504010169,1750503890374,male,too_little,2,English,14149,4,main,Yes
+1267,33,quantity_1,"I don't ""prolix"" is a very niche word",main,Higher degree,119795,1750504010169,1750503890374,male,irrelevant,12,English,11148,5,main,Yes
+1267,33,manner_3,"I don't ""prolix"" is a very niche word",main,Higher degree,119795,1750504010169,1750503890374,male,too_much,5,English,19438,6,main,No
+1268,21,quantity_1,NA,main,Graduated College,159650,1750504059323,1750503899673,male,marked,1,English,41198,1,main,Yes
+1268,21,quality_1,NA,main,Graduated College,159650,1750504059323,1750503899673,male,irrelevant,18,English,13320,2,main,No
+1268,21,NA,NA,Yes,Graduated College,159650,1750504059323,1750503899673,male,marked,15,English,7238,3,filler,Yes
+1268,21,manner_4,NA,main,Graduated College,159650,1750504059323,1750503899673,male,too_much,23,English,16033,4,main,Yes
+1268,21,manner_2,NA,main,Graduated College,159650,1750504059323,1750503899673,male,too_little,22,English,32347,5,main,Yes
+1268,21,relevance_1,NA,main,Graduated College,159650,1750504059323,1750503899673,male,baseline,1,English,19611,6,main,No
+1269,32,relevance_1,NA,main,Graduated College,237953,1750504126971,1750503889018,female,marked,4,English,74898,1,main,No
+1269,32,manner_4,NA,main,Graduated College,237953,1750504126971,1750503889018,female,irrelevant,17,English,21881,2,main,Yes
+1269,32,manner_3,NA,main,Graduated College,237953,1750504126971,1750503889018,female,too_much,5,English,27015,3,main,Yes
+1269,32,quality_2,NA,main,Graduated College,237953,1750504126971,1750503889018,female,baseline,9,English,23541,4,main,No
+1269,32,quality_1,NA,main,Graduated College,237953,1750504126971,1750503889018,female,too_little,14,English,23204,5,main,No
+1269,32,NA,NA,No,Graduated College,237953,1750504126971,1750503889018,female,too_little,11,English,22304,6,filler,No
+1271,34,manner_1,NA,main,Higher degree,785676,1750504523404,1750503737728,male,marked,12,English,155660,1,main,No
+1271,34,manner_3,NA,main,Higher degree,785676,1750504523404,1750503737728,male,irrelevant,7,English,31882,2,main,Yes
+1271,34,NA,NA,Yes,Higher degree,785676,1750504523404,1750503737728,male,marked,15,English,86129,3,filler,Yes
+1271,34,quantity_2,NA,main,Higher degree,785676,1750504523404,1750503737728,male,too_little,2,English,40778,4,main,No
+1271,34,quantity_1,NA,main,Higher degree,785676,1750504523404,1750503737728,male,too_much,3,English,35597,5,main,Yes
+1271,34,quality_2,NA,main,Higher degree,785676,1750504523404,1750503737728,male,baseline,9,English,26224,6,main,No
+1273,25,manner_4,NA,main,Graduated College,687728,1750504947314,1750504259586,male,irrelevant,17,English,129242,1,main,Yes
+1273,25,relevance_1,NA,main,Graduated College,687728,1750504947314,1750504259586,male,baseline,1,English,18345,2,main,No
+1273,25,manner_1,NA,main,Graduated College,687728,1750504947314,1750504259586,male,too_little,21,English,27685,3,main,Yes
+1273,25,manner_2,NA,main,Graduated College,687728,1750504947314,1750504259586,male,too_much,2,English,29970,4,main,Yes
+1273,25,quality_2,NA,main,Graduated College,687728,1750504947314,1750504259586,male,marked,24,English,16984,5,main,No
+1273,25,NA,NA,Yes,Graduated College,687728,1750504947314,1750504259586,male,marked,15,English,5189,6,filler,Yes

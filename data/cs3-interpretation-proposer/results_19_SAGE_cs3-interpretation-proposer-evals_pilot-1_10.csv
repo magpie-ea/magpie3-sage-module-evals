@@ -1,0 +1,81 @@
+submission_id,age,assumption,comments,correct_answer,education,experiment_duration,experiment_end_time,experiment_start_time,gender,inference_type,itemOrder,item_id,languages,llm_id,lower_bound,p1,p2,responseTime,trialNr,trial_type,upper_bound
+1289,NA,NA,NA,NA,NA,572236,1750507286077,1750506713841,NA,NA,"lower_bound,p1,upper_bound,p2",NA,NA,NA,87,93,98,59484,NA,NA,91
+1289,NA,quality_2,NA,main,NA,572236,1750507286077,1750506713841,NA,too_much,"p2,p1,upper_bound,lower_bound",3,NA,NA,100,21,94,56497,1,main,30
+1289,NA,relevance_1,NA,main,NA,572236,1750507286077,1750506713841,NA,baseline,"p1,p2,upper_bound,lower_bound",24,NA,NA,7,11,6,57185,2,main,97
+1289,NA,manner_1,NA,main,NA,572236,1750507286077,1750506713841,NA,too_little,"lower_bound,upper_bound,p2,p1",12,NA,NA,84,80,70,40272,3,main,88
+1289,NA,manner_2,NA,0,NA,572236,1750507286077,1750506713841,NA,baseline,"p1,upper_bound,lower_bound,p2",22,NA,NA,1,0,0,43486,4,filler,0
+1289,NA,no_violation,NA,main,NA,572236,1750507286077,1750506713841,NA,marked,"p1,upper_bound,p2,lower_bound",5,NA,NA,12,35,25,48869,5,main,67
+1289,NA,quality_1,NA,main,NA,572236,1750507286077,1750506713841,NA,irrelevant,"p1,upper_bound,lower_bound,p2",23,NA,NA,2,46,100,79633,6,main,3
+1289,30,NA,NA,NA,Higher degree,572236,1750507286077,1750506713841,female,NA,NA,NA,English,yes because the writing style might feel unnatural,NA,NA,NA,177360,NA,NA,NA
+1290,NA,NA,NA,NA,NA,717145,1750507355934,1750506638789,NA,NA,"lower_bound,p1,upper_bound,p2",NA,NA,NA,NA,NA,73,82518,NA,NA,NA
+1290,NA,manner_3,NA,main,NA,717145,1750507355934,1750506638789,NA,baseline,"lower_bound,p2,p1,upper_bound",11,NA,NA,20,83,92,77925,1,main,87
+1290,NA,manner_2,NA,main,NA,717145,1750507355934,1750506638789,NA,irrelevant,"p2,upper_bound,p1,lower_bound",7,NA,NA,73,84,92,81910,2,main,95
+1290,NA,manner_1,NA,main,NA,717145,1750507355934,1750506638789,NA,too_little,"lower_bound,p1,p2,upper_bound",12,NA,NA,59,70,88,88021,3,main,94
+1290,NA,manner_2,NA,100,NA,717145,1750507355934,1750506638789,NA,baseline,"p2,p1,upper_bound,lower_bound",22,NA,NA,100,99,100,66851,4,filler,100
+1290,NA,quantity_1,NA,main,NA,717145,1750507355934,1750506638789,NA,too_much,"upper_bound,lower_bound,p1,p2",12,NA,NA,83,79,86,97716,5,main,67
+1290,NA,quality_2,NA,main,NA,717145,1750507355934,1750506638789,NA,marked,"p1,p2,lower_bound,upper_bound",17,NA,NA,32,97,98,76837,6,main,84
+1290,34,NA,NA,NA,Graduated College,717145,1750507355934,1750506638789,female,NA,NA,NA,English,NA,NA,NA,NA,54540,NA,NA,NA
+1291,NA,NA,NA,NA,NA,401801,1750507385697,1750506983896,NA,NA,"lower_bound,p1,upper_bound,p2",NA,NA,NA,93,90,85,124198,NA,NA,40
+1291,NA,quantity_1,NA,main,NA,401801,1750507385697,1750506983896,NA,too_little,"p2,p1,upper_bound,lower_bound",19,NA,NA,88,87,81,44239,1,main,89
+1291,NA,manner_1,NA,main,NA,401801,1750507385697,1750506983896,NA,irrelevant,"lower_bound,p1,p2,upper_bound",9,NA,NA,35,85,84,77161,2,main,81
+1291,NA,quality_1,NA,main,NA,401801,1750507385697,1750506983896,NA,marked,"upper_bound,lower_bound,p1,p2",15,NA,NA,88,85,86,23600,3,main,90
+1291,NA,manner_1,NA,100,NA,401801,1750507385697,1750506983896,NA,too_little,"lower_bound,p2,p1,upper_bound",13,NA,NA,87,86,87,21508,4,filler,82
+1291,NA,quantity_2,NA,main,NA,401801,1750507385697,1750506983896,NA,baseline,"p1,lower_bound,p2,upper_bound",23,NA,NA,85,83,82,20760,5,main,76
+1291,NA,relevance_1,NA,main,NA,401801,1750507385697,1750506983896,NA,too_much,"lower_bound,p2,upper_bound,p1",18,NA,NA,80,80,80,24248,6,main,37
+1291,52,NA,NA,NA,Higher degree,401801,1750507385697,1750506983896,female,NA,NA,NA,NA,by carefully paying attention to the words,NA,NA,NA,55814,NA,NA,NA
+1287,NA,NA,NA,NA,NA,310472,1750507025530,1750506715058,NA,NA,"lower_bound,p1,upper_bound,p2",NA,NA,NA,36,85,73,87672,NA,NA,30
+1287,NA,manner_3,NA,main,NA,310472,1750507025530,1750506715058,NA,baseline,"upper_bound,p1,lower_bound,p2",11,NA,NA,35,44,41,35728,1,main,36
+1287,NA,manner_1,NA,main,NA,310472,1750507025530,1750506715058,NA,too_much,"p2,p1,lower_bound,upper_bound",1,NA,NA,46,52,57,16969,2,main,55
+1287,NA,manner_2,NA,100,NA,310472,1750507025530,1750506715058,NA,baseline,"p2,p1,lower_bound,upper_bound",22,NA,NA,43,56,63,15167,3,filler,59
+1287,NA,manner_4,NA,main,NA,310472,1750507025530,1750506715058,NA,irrelevant,"upper_bound,p1,lower_bound,p2",1,NA,NA,57,64,54,34703,4,main,64
+1287,NA,quality_2,NA,main,NA,310472,1750507025530,1750506715058,NA,marked,"lower_bound,upper_bound,p1,p2",17,NA,NA,56,52,52,21401,5,main,54
+1287,NA,quantity_2,NA,main,NA,310472,1750507025530,1750506715058,NA,too_little,"lower_bound,p2,p1,upper_bound",23,NA,NA,54,58,58,16343,6,main,52
+1287,40,NA,no comment,NA,Higher degree,310472,1750507025530,1750506715058,male,NA,NA,NA,English,No,NA,NA,NA,74882,NA,NA,NA
+1288,NA,NA,NA,NA,NA,591298,1750491925345,1750491334047,NA,NA,"lower_bound,p1,upper_bound,p2",NA,NA,NA,4,7,9,98215,NA,NA,3
+1288,NA,manner_2,NA,0,NA,591298,1750491925345,1750491334047,NA,baseline,"p1,upper_bound,lower_bound,p2",22,NA,NA,0,0,0,81680,1,filler,0
+1288,NA,quantity_2,NA,main,NA,591298,1750491925345,1750491334047,NA,baseline,"lower_bound,upper_bound,p2,p1",23,NA,NA,100,100,100,61295,2,main,100
+1288,NA,manner_4,NA,main,NA,591298,1750491925345,1750491334047,NA,too_little,"p1,upper_bound,lower_bound,p2",11,NA,NA,100,100,3,92135,3,main,6
+1288,NA,manner_1,NA,main,NA,591298,1750491925345,1750491334047,NA,marked,"p2,upper_bound,p1,lower_bound",10,NA,NA,1,0,0,54960,4,main,0
+1288,NA,manner_2,NA,main,NA,591298,1750491925345,1750491334047,NA,too_much,"p1,p2,lower_bound,upper_bound",12,NA,NA,100,99,100,72175,5,main,0
+1288,NA,quantity_1,NA,main,NA,591298,1750491925345,1750491334047,NA,irrelevant,"upper_bound,p1,lower_bound,p2",12,NA,NA,1,100,100,62296,6,main,100
+1288,48,NA,NA,NA,Higher degree,591298,1750491925345,1750491334047,female,NA,NA,NA,english,no,NA,NA,NA,59720,NA,NA,NA
+1292,NA,NA,NA,NA,NA,890990,1750507418903,1750506527913,NA,NA,"lower_bound,p1,upper_bound,p2",NA,NA,NA,NA,NA,NA,63480,NA,NA,NA
+1292,NA,manner_4,NA,main,NA,890990,1750507418903,1750506527913,NA,too_much,"lower_bound,upper_bound,p2,p1",19,NA,NA,36,13,72,99632,1,main,32
+1292,NA,manner_1,NA,0,NA,890990,1750507418903,1750506527913,NA,too_little,"p1,upper_bound,lower_bound,p2",13,NA,NA,0,0,0,74016,2,filler,0
+1292,NA,manner_2,NA,main,NA,890990,1750507418903,1750506527913,NA,irrelevant,"upper_bound,lower_bound,p1,p2",7,NA,NA,64,95,91,91231,3,main,84
+1292,NA,quantity_2,NA,main,NA,890990,1750507418903,1750506527913,NA,too_little,"lower_bound,upper_bound,p2,p1",23,NA,NA,43,92,91,150473,4,main,81
+1292,NA,relevance_1,NA,main,NA,890990,1750507418903,1750506527913,NA,marked,"p1,upper_bound,lower_bound,p2",15,NA,NA,92,88,71,110696,5,main,90
+1292,NA,quantity_1,NA,main,NA,890990,1750507418903,1750506527913,NA,baseline,"upper_bound,p1,lower_bound,p2",2,NA,NA,23,89,86,68367,6,main,79
+1292,28,NA,The study was easy to understand,NA,Higher degree,890990,1750507418903,1750506527913,female,NA,NA,NA,English,Yes...advanced and almost accurate English was used,NA,NA,NA,149496,NA,NA,NA
+1293,NA,NA,NA,NA,NA,865730,1750507544984,1750506679254,NA,NA,"lower_bound,p1,upper_bound,p2",NA,NA,NA,NA,NA,NA,64075,NA,NA,NA
+1293,NA,manner_1,NA,main,NA,865730,1750507544984,1750506679254,NA,too_much,"p1,upper_bound,p2,lower_bound",1,NA,NA,54,56,53,359321,1,main,53
+1293,NA,quantity_2,NA,main,NA,865730,1750507544984,1750506679254,NA,marked,"lower_bound,upper_bound,p1,p2",16,NA,NA,39,69,69,58469,2,main,69
+1293,NA,manner_4,NA,main,NA,865730,1750507544984,1750506679254,NA,too_little,"lower_bound,p2,upper_bound,p1",11,NA,NA,91,52,53,47722,3,main,51
+1293,NA,manner_2,NA,main,NA,865730,1750507544984,1750506679254,NA,baseline,"lower_bound,upper_bound,p2,p1",2,NA,NA,51,98,98,51736,4,main,98
+1293,NA,quality_2,NA,main,NA,865730,1750507544984,1750506679254,NA,irrelevant,"p1,p2,lower_bound,upper_bound",6,NA,NA,4,3,97,67221,5,main,97
+1293,NA,manner_2,NA,100,NA,865730,1750507544984,1750506679254,NA,baseline,"upper_bound,p2,p1,lower_bound",22,NA,NA,6,92,93,49103,6,filler,91
+1293,28,NA,No comment.,NA,Graduated High-school,865730,1750507544984,1750506679254,female,NA,NA,NA,English,No,NA,NA,NA,55789,NA,NA,NA
+1294,NA,NA,NA,NA,NA,787593,1750507524449,1750506736856,NA,NA,"lower_bound,p1,upper_bound,p2",NA,NA,NA,NA,NA,NA,51862,NA,NA,NA
+1294,NA,quality_1,NA,main,NA,787593,1750507524449,1750506736856,NA,marked,"lower_bound,upper_bound,p1,p2",15,NA,NA,39,18,62,123921,1,main,86
+1294,NA,relevance_1,NA,main,NA,787593,1750507524449,1750506736856,NA,too_little,"p2,lower_bound,p1,upper_bound",18,NA,NA,10,11,37,100075,2,main,0
+1294,NA,no_violation,NA,main,NA,787593,1750507524449,1750506736856,NA,baseline,"p2,p1,lower_bound,upper_bound",1,NA,NA,2,90,94,68485,3,main,94
+1294,NA,manner_1,NA,100,NA,787593,1750507524449,1750506736856,NA,too_little,"p2,p1,lower_bound,upper_bound",13,NA,NA,82,83,86,104274,4,filler,78
+1294,NA,manner_4,NA,main,NA,787593,1750507524449,1750506736856,NA,irrelevant,"p1,p2,upper_bound,lower_bound",1,NA,NA,58,43,67,73517,5,main,45
+1294,NA,manner_3,NA,main,NA,787593,1750507524449,1750506736856,NA,too_much,"lower_bound,p2,upper_bound,p1",11,NA,NA,47,53,45,150928,6,main,46
+1294,64,NA,It was nice,NA,NA,787593,1750507524449,1750506736856,female,NA,NA,NA,English,NO,NA,NA,NA,55957,NA,NA,NA
+1295,NA,NA,NA,NA,NA,727615,1750508166032,1750507438417,NA,NA,"lower_bound,p1,upper_bound,p2",NA,NA,NA,56,83,NA,62433,NA,NA,NA
+1295,NA,manner_1,NA,100,NA,727615,1750508166032,1750507438417,NA,too_little,"upper_bound,p2,lower_bound,p1",13,NA,NA,99,99,100,39872,1,filler,99
+1295,NA,manner_2,NA,main,NA,727615,1750508166032,1750507438417,NA,baseline,"lower_bound,p1,p2,upper_bound",2,NA,NA,9,67,76,81678,2,main,52
+1295,NA,manner_3,NA,main,NA,727615,1750508166032,1750507438417,NA,marked,"upper_bound,lower_bound,p1,p2",6,NA,NA,81,69,61,98214,3,main,65
+1295,NA,quality_2,NA,main,NA,727615,1750508166032,1750507438417,NA,too_much,"p2,upper_bound,lower_bound,p1",3,NA,NA,55,14,38,56844,4,main,88
+1295,NA,quantity_1,NA,main,NA,727615,1750508166032,1750507438417,NA,irrelevant,"upper_bound,lower_bound,p2,p1",12,NA,NA,34,82,65,60247,5,main,46
+1295,NA,no_violation,NA,main,NA,727615,1750508166032,1750507438417,NA,too_little,"p2,p1,lower_bound,upper_bound",6,NA,NA,36,36,41,38562,6,main,82
+1295,29,NA,That was quite a confusing task - I think I only really understood what was being asked of me a couple of questions in. I think I’ve had understood it more if the slider said something like “machine interpretation” - “human interpretation”,NA,Higher degree,727615,1750508166032,1750507438417,female,NA,NA,NA,English,"Yes, I think the machine interpretations would be more literal, whereas the human ones would imagine tone or extra context.",NA,NA,NA,186594,NA,NA,NA
+1296,NA,NA,NA,NA,NA,553656,1750508986759,1750508433103,NA,NA,"lower_bound,p1,upper_bound,p2",NA,NA,NA,11,88,80,66132,NA,NA,86
+1296,NA,manner_1,NA,main,NA,553656,1750508986759,1750508433103,NA,too_little,"upper_bound,p1,lower_bound,p2",12,NA,NA,19,83,18,88836,1,main,87
+1296,NA,manner_2,NA,0,NA,553656,1750508986759,1750508433103,NA,baseline,"p1,lower_bound,upper_bound,p2",22,NA,NA,13,100,100,45154,2,filler,100
+1296,NA,quantity_1,NA,main,NA,553656,1750508986759,1750508433103,NA,baseline,"upper_bound,p2,lower_bound,p1",2,NA,NA,93,94,91,41759,3,main,92
+1296,NA,manner_3,NA,main,NA,553656,1750508986759,1750508433103,NA,irrelevant,"upper_bound,p2,p1,lower_bound",14,NA,NA,16,11,91,45705,4,main,95
+1296,NA,quantity_2,NA,main,NA,553656,1750508986759,1750508433103,NA,too_much,"p2,upper_bound,p1,lower_bound",7,NA,NA,94,93,91,86447,5,main,86
+1296,NA,manner_4,NA,main,NA,553656,1750508986759,1750508433103,NA,marked,"lower_bound,p1,p2,upper_bound",8,NA,NA,7,8,12,57280,6,main,96
+1296,25,NA,It's a nice study,NA,Graduated College,553656,1750508986759,1750508433103,female,NA,NA,NA,English,Absolutely I could identify the machine interpretation. The machine lacks the ability to recognize sarcasm,NA,NA,NA,70729,NA,NA,NA
