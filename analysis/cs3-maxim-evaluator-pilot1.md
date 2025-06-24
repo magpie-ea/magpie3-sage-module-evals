@@ -5,6 +5,7 @@ CS3: interpretation proposer evals
 library(tidyverse)
 library(brms)
 library(tidyboot)
+library(cspplot)
 ```
 
 Read data:
@@ -78,7 +79,22 @@ main_trials_summary <- main_trials %>%
 ``` r
 main_trials_summary %>%
   ggplot(., aes(x = inference_type, y = violation_prop, fill = assumption)) +
-  geom_col(alpha=0.7) 
+  geom_col(alpha=0.7) +
+  theme_csp()
 ```
 
+    ## Warning: The `scale_name` argument of `discrete_scale()` is deprecated as of ggplot2
+    ## 3.5.0.
+    ## This warning is displayed once every 8 hours.
+    ## Call `lifecycle::last_lifecycle_warnings()` to see where this warning was
+    ## generated.
+
 ![](cs3-maxim-evaluator-pilot1_files/figure-gfm/unnamed-chunk-4-1.png)<!-- -->
+
+For reference, the LLM evaluator judgements are shown here:
+
+<figure>
+<img src="cs3-maxim-evaluator-pilot1_files/ours_violation_trigger.png"
+alt="LLM-maxim-evaluator-results" />
+<figcaption aria-hidden="true">LLM-maxim-evaluator-results</figcaption>
+</figure>

@@ -5,6 +5,7 @@ CS2: utterance proposer evals
 library(tidyverse)
 library(brms)
 library(tidyboot)
+library(cspplot)
 ```
 
 Read data:
@@ -86,8 +87,15 @@ main_trials_long <- main_trials %>%
 main_trials_long %>%
   ggplot(., aes(x = condition, y = rating, color = condition)) +
   geom_point(alpha=0.5, position=position_jitter(0.2)) +
-  geom_point(data = main_trials_summary, aes(x = condition, y = rating, color = condition), size=5)
+  geom_point(data = main_trials_summary, aes(x = condition, y = rating, color = condition), size=5) +
+  theme_csp()
 ```
+
+    ## Warning: The `scale_name` argument of `discrete_scale()` is deprecated as of ggplot2
+    ## 3.5.0.
+    ## This warning is displayed once every 8 hours.
+    ## Call `lifecycle::last_lifecycle_warnings()` to see where this warning was
+    ## generated.
 
 ![](cs2-utterance-proposer-pilot1_files/figure-gfm/unnamed-chunk-4-1.png)<!-- -->
 
@@ -112,7 +120,8 @@ main_trials_long %>%
   ggplot(., aes(x = condition, y = rating, color = condition)) +
   geom_point(alpha=0.5, position=position_jitter(0.2)) +
   geom_point(data = main_trials_summary_byState, aes(x = condition, y = rating, color = condition), size=5) +
-  facet_grid(.~state_type)
+  facet_grid(.~state_type) +
+  theme_csp()
 ```
 
 ![](cs2-utterance-proposer-pilot1_files/figure-gfm/unnamed-chunk-5-1.png)<!-- -->

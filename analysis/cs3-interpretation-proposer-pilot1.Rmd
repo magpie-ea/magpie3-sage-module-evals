@@ -7,6 +7,7 @@ output: github_document
 library(tidyverse)
 library(brms)
 library(tidyboot)
+library(cspplot)
 ```
 
 Read data:
@@ -61,7 +62,8 @@ main_trials_long <- main_trials %>%
 main_trials_long %>%
   ggplot(., aes(x = condition, y = rating, color = condition)) +
   geom_point(alpha=0.5, position=position_jitter(0.2)) +
-  geom_point(data = main_trials_summary, aes(x = condition, y = rating, color = condition), size=5)
+  geom_point(data = main_trials_summary, aes(x = condition, y = rating, color = condition), size=5) +
+  theme_csp()
 ```
 
 Now group these by condition (type of trigger):
@@ -80,5 +82,7 @@ main_trials_long %>%
   ggplot(., aes(x = condition, y = rating, color = condition)) +
   geom_point(alpha=0.5, position=position_jitter(0.2)) +
   geom_point(data = main_trials_summary_byCondition, aes(x = condition, y = rating, color = condition), size=5) +
-  facet_grid(.~inference_type)
+  facet_grid(.~inference_type) +
+  theme_csp() +
+  theme(axis.text.x = element_text(size = 13, angle = 45, hjust=1))
 ```

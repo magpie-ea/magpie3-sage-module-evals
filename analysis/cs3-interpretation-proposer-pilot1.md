@@ -5,6 +5,7 @@ CS3: interpretation proposer evals
 library(tidyverse)
 library(brms)
 library(tidyboot)
+library(cspplot)
 ```
 
 Read data:
@@ -83,8 +84,15 @@ main_trials_long <- main_trials %>%
 main_trials_long %>%
   ggplot(., aes(x = condition, y = rating, color = condition)) +
   geom_point(alpha=0.5, position=position_jitter(0.2)) +
-  geom_point(data = main_trials_summary, aes(x = condition, y = rating, color = condition), size=5)
+  geom_point(data = main_trials_summary, aes(x = condition, y = rating, color = condition), size=5) +
+  theme_csp()
 ```
+
+    ## Warning: The `scale_name` argument of `discrete_scale()` is deprecated as of ggplot2
+    ## 3.5.0.
+    ## This warning is displayed once every 8 hours.
+    ## Call `lifecycle::last_lifecycle_warnings()` to see where this warning was
+    ## generated.
 
 ![](cs3-interpretation-proposer-pilot1_files/figure-gfm/unnamed-chunk-4-1.png)<!-- -->
 
@@ -105,7 +113,9 @@ main_trials_long %>%
   ggplot(., aes(x = condition, y = rating, color = condition)) +
   geom_point(alpha=0.5, position=position_jitter(0.2)) +
   geom_point(data = main_trials_summary_byCondition, aes(x = condition, y = rating, color = condition), size=5) +
-  facet_grid(.~inference_type)
+  facet_grid(.~inference_type) +
+  theme_csp() +
+  theme(axis.text.x = element_text(size = 13, angle = 45, hjust=1))
 ```
 
 ![](cs3-interpretation-proposer-pilot1_files/figure-gfm/unnamed-chunk-5-1.png)<!-- -->
