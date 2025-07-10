@@ -12,7 +12,7 @@ library(cspplot)
 
 Read data:
 ```{r}
-path = "../data/cs2-utterance-proposer/results_20_SAGE_cs2-utterance-proposer-evals_pilot-1_10.csv"
+path = "../data/cs2-utterance-proposer/results_20_SAGE_cs2-utterance-proposer-evals_full.csv"
 d <- read_csv(path)
 # exclude prolific info
 #d %>% select(-prolific_pid, -prolific_study_id, -prolific_session_id) %>% write_csv(path)
@@ -91,4 +91,17 @@ main_trials_long %>%
   geom_point(data = main_trials_summary_byState, aes(x = condition, y = rating, color = condition), size=5) +
   facet_grid(.~state_type) +
   theme_csp()
+```
+
+```{r}
+main_trials_long_rm <- main_trials_long %>%
+  mutate(condition = factor(condition))
+contrasts(main_trials_long_rm$condition)
+
+rm_cs2_utt <- brm(
+  rating ~ condition + (1 + condition | vignette) + (1 + condition | submission_id),
+  data = main_trials_long_rm,
+  iter = 4000
+)
+summary(rm_cs2_utt)
 ```

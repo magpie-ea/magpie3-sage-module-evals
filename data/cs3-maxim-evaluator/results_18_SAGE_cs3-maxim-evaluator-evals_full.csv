@@ -1,0 +1,547 @@
+submission_id,age,assumption,comments,correct_answer,education,experiment_duration,experiment_end_time,experiment_start_time,gender,inference_type,item_id,languages,responseTime,trialNr,trial_type,violation
+1484,66,manner_3,NA,main,NA,184971,1751368648334,1751368463363,male,baseline,8,English,55328,1,main,No
+1484,66,quantity_2,NA,main,NA,184971,1751368648334,1751368463363,male,too_little,2,English,33160,2,main,No
+1484,66,quantity_1,NA,main,NA,184971,1751368648334,1751368463363,male,marked,1,English,21265,3,main,Yes
+1484,66,manner_2,NA,main,NA,184971,1751368648334,1751368463363,male,too_much,2,English,3158,4,main,Yes
+1484,66,quality_1,NA,main,NA,184971,1751368648334,1751368463363,male,irrelevant,18,English,24247,5,main,Yes
+1484,66,NA,NA,Yes,NA,184971,1751368648334,1751368463363,male,too_little,11,English,7846,6,filler,Yes
+1262,49,manner_1,NA,main,Graduated College,109383,1750503844111,1750503734728,female,irrelevant,17,English,54493,1,main,No
+1262,49,quantity_2,NA,main,Graduated College,109383,1750503844111,1750503734728,female,marked,4,English,21597,2,main,No
+1262,49,quality_2,NA,main,Graduated College,109383,1750503844111,1750503734728,female,too_little,17,English,6064,3,main,No
+1262,49,quality_1,NA,main,Graduated College,109383,1750503844111,1750503734728,female,baseline,10,English,3011,4,main,Yes
+1262,49,relevance_1,NA,main,Graduated College,109383,1750503844111,1750503734728,female,too_much,19,English,5943,5,main,No
+1262,49,NA,NA,Yes,Graduated College,109383,1750503844111,1750503734728,female,marked,15,English,2857,6,filler,Yes
+1263,30,relevance_1,none,main,Graduated College,136248,1750503875124,1750503738876,other,irrelevant,2,English,30387,1,main,No
+1263,30,quantity_2,none,main,Graduated College,136248,1750503875124,1750503738876,other,marked,4,English,17601,2,main,Yes
+1263,30,manner_2,none,main,Graduated College,136248,1750503875124,1750503738876,other,baseline,22,English,17321,3,main,No
+1263,30,NA,none,No,Graduated College,136248,1750503875124,1750503738876,other,marked,15,English,3470,4,filler,No
+1263,30,manner_4,none,main,Graduated College,136248,1750503875124,1750503738876,other,too_little,21,English,14569,5,main,Yes
+1263,30,quantity_1,none,main,Graduated College,136248,1750503875124,1750503738876,other,too_much,3,English,20144,6,main,No
+1264,45,manner_2,NIL,main,Graduated College,139048,1750503933062,1750503794014,male,baseline,22,English,39983,1,main,No
+1264,45,NA,NIL,No,Graduated College,139048,1750503933062,1750503794014,male,marked,15,English,8559,2,filler,No
+1264,45,manner_4,NIL,main,Graduated College,139048,1750503933062,1750503794014,male,marked,3,English,24108,3,main,Yes
+1264,45,quality_1,NIL,main,Graduated College,139048,1750503933062,1750503794014,male,too_much,14,English,15449,4,main,Yes
+1264,45,quantity_1,NIL,main,Graduated College,139048,1750503933062,1750503794014,male,too_little,20,English,13400,5,main,Yes
+1264,45,manner_1,NIL,main,Graduated College,139048,1750503933062,1750503794014,male,irrelevant,17,English,7660,6,main,Yes
+1265,27,manner_3,NA,main,Graduated College,182750,1750503977656,1750503794906,male,marked,13,English,64643,1,main,No
+1265,27,manner_4,NA,main,Graduated College,182750,1750503977656,1750503794906,male,too_little,21,English,22728,2,main,Yes
+1265,27,NA,NA,Yes,Graduated College,182750,1750503977656,1750503794906,male,too_little,11,English,8338,3,filler,Yes
+1265,27,quality_2,NA,main,Graduated College,182750,1750503977656,1750503794906,male,baseline,9,English,32427,4,main,No
+1265,27,quantity_2,NA,main,Graduated College,182750,1750503977656,1750503794906,male,too_much,19,English,21426,5,main,No
+1265,27,quality_1,NA,main,Graduated College,182750,1750503977656,1750503794906,male,irrelevant,18,English,9191,6,main,No
+1266,67,manner_2,it was a good survey.,main,Higher degree,199762,1750503984062,1750503784300,female,baseline,22,English,11042,1,main,Yes
+1266,67,quality_2,it was a good survey.,main,Higher degree,199762,1750503984062,1750503784300,female,irrelevant,22,English,14889,2,main,No
+1266,67,NA,it was a good survey.,Yes,Higher degree,199762,1750503984062,1750503784300,female,too_little,11,English,8366,3,filler,Yes
+1266,67,quantity_2,it was a good survey.,main,Higher degree,199762,1750503984062,1750503784300,female,marked,4,English,12297,4,main,Yes
+1266,67,manner_1,it was a good survey.,main,Higher degree,199762,1750503984062,1750503784300,female,too_much,6,English,7897,5,main,No
+1266,67,quantity_1,it was a good survey.,main,Higher degree,199762,1750503984062,1750503784300,female,too_little,20,English,8738,6,main,No
+1267,33,quality_1,"I don't ""prolix"" is a very niche word",main,Higher degree,119795,1750504010169,1750503890374,male,marked,13,English,16392,1,main,No
+1267,33,NA,"I don't ""prolix"" is a very niche word",No,Higher degree,119795,1750504010169,1750503890374,male,marked,15,English,5159,2,filler,No
+1267,33,relevance_1,"I don't ""prolix"" is a very niche word",main,Higher degree,119795,1750504010169,1750503890374,male,baseline,1,English,12234,3,main,No
+1267,33,quantity_2,"I don't ""prolix"" is a very niche word",main,Higher degree,119795,1750504010169,1750503890374,male,too_little,2,English,14149,4,main,Yes
+1267,33,quantity_1,"I don't ""prolix"" is a very niche word",main,Higher degree,119795,1750504010169,1750503890374,male,irrelevant,12,English,11148,5,main,Yes
+1267,33,manner_3,"I don't ""prolix"" is a very niche word",main,Higher degree,119795,1750504010169,1750503890374,male,too_much,5,English,19438,6,main,No
+1268,21,quantity_1,NA,main,Graduated College,159650,1750504059323,1750503899673,male,marked,1,English,41198,1,main,Yes
+1268,21,quality_1,NA,main,Graduated College,159650,1750504059323,1750503899673,male,irrelevant,18,English,13320,2,main,No
+1268,21,NA,NA,Yes,Graduated College,159650,1750504059323,1750503899673,male,marked,15,English,7238,3,filler,Yes
+1268,21,manner_4,NA,main,Graduated College,159650,1750504059323,1750503899673,male,too_much,23,English,16033,4,main,Yes
+1268,21,manner_2,NA,main,Graduated College,159650,1750504059323,1750503899673,male,too_little,22,English,32347,5,main,Yes
+1268,21,relevance_1,NA,main,Graduated College,159650,1750504059323,1750503899673,male,baseline,1,English,19611,6,main,No
+1269,32,relevance_1,NA,main,Graduated College,237953,1750504126971,1750503889018,female,marked,4,English,74898,1,main,No
+1269,32,manner_4,NA,main,Graduated College,237953,1750504126971,1750503889018,female,irrelevant,17,English,21881,2,main,Yes
+1269,32,manner_3,NA,main,Graduated College,237953,1750504126971,1750503889018,female,too_much,5,English,27015,3,main,Yes
+1269,32,quality_2,NA,main,Graduated College,237953,1750504126971,1750503889018,female,baseline,9,English,23541,4,main,No
+1269,32,quality_1,NA,main,Graduated College,237953,1750504126971,1750503889018,female,too_little,14,English,23204,5,main,No
+1269,32,NA,NA,No,Graduated College,237953,1750504126971,1750503889018,female,too_little,11,English,22304,6,filler,No
+1271,34,manner_1,NA,main,Higher degree,785676,1750504523404,1750503737728,male,marked,12,English,155660,1,main,No
+1271,34,manner_3,NA,main,Higher degree,785676,1750504523404,1750503737728,male,irrelevant,7,English,31882,2,main,Yes
+1271,34,NA,NA,Yes,Higher degree,785676,1750504523404,1750503737728,male,marked,15,English,86129,3,filler,Yes
+1271,34,quantity_2,NA,main,Higher degree,785676,1750504523404,1750503737728,male,too_little,2,English,40778,4,main,No
+1271,34,quantity_1,NA,main,Higher degree,785676,1750504523404,1750503737728,male,too_much,3,English,35597,5,main,Yes
+1271,34,quality_2,NA,main,Higher degree,785676,1750504523404,1750503737728,male,baseline,9,English,26224,6,main,No
+1273,25,manner_4,NA,main,Graduated College,687728,1750504947314,1750504259586,male,irrelevant,17,English,129242,1,main,Yes
+1273,25,relevance_1,NA,main,Graduated College,687728,1750504947314,1750504259586,male,baseline,1,English,18345,2,main,No
+1273,25,manner_1,NA,main,Graduated College,687728,1750504947314,1750504259586,male,too_little,21,English,27685,3,main,Yes
+1273,25,manner_2,NA,main,Graduated College,687728,1750504947314,1750504259586,male,too_much,2,English,29970,4,main,Yes
+1273,25,quality_2,NA,main,Graduated College,687728,1750504947314,1750504259586,male,marked,24,English,16984,5,main,No
+1273,25,NA,NA,Yes,Graduated College,687728,1750504947314,1750504259586,male,marked,15,English,5189,6,filler,Yes
+1379,57,quality_2,NA,main,Graduated College,84686,1751300991384,1751300906698,female,too_much,3,NA,32906,1,main,No
+1379,57,manner_3,NA,main,Graduated College,84686,1751300991384,1751300906698,female,marked,13,NA,1263,2,main,No
+1379,57,manner_1,NA,main,Graduated College,84686,1751300991384,1751300906698,female,irrelevant,17,NA,3304,3,main,No
+1379,57,NA,NA,No,Graduated College,84686,1751300991384,1751300906698,female,marked,15,NA,11469,4,filler,No
+1379,57,quantity_2,NA,main,Graduated College,84686,1751300991384,1751300906698,female,baseline,22,NA,10587,5,main,Yes
+1379,57,relevance_1,NA,main,Graduated College,84686,1751300991384,1751300906698,female,too_little,21,NA,10412,6,main,Yes
+1380,52,NA,NA,Yes,Graduated High-school,148781,1751301010385,1751300861604,male,marked,15,english,36825,1,filler,Yes
+1380,52,quantity_2,NA,main,Graduated High-school,148781,1751301010385,1751300861604,male,too_much,19,english,26700,2,main,Yes
+1380,52,manner_4,NA,main,Graduated High-school,148781,1751301010385,1751300861604,male,baseline,8,english,20707,3,main,No
+1380,52,manner_2,NA,main,Graduated High-school,148781,1751301010385,1751300861604,male,too_little,22,english,11004,4,main,Yes
+1380,52,quality_1,NA,main,Graduated High-school,148781,1751301010385,1751300861604,male,marked,13,english,13597,5,main,Yes
+1380,52,manner_3,NA,main,Graduated High-school,148781,1751301010385,1751300861604,male,irrelevant,7,english,2505,6,main,No
+1381,52,relevance_1,NA,main,Graduated High-school,95041,1751301010366,1751300915325,male,too_little,21,English,26059,1,main,Yes
+1381,52,NA,NA,Yes,Graduated High-school,95041,1751301010366,1751300915325,male,marked,15,English,11749,2,filler,Yes
+1381,52,manner_1,NA,main,Graduated High-school,95041,1751301010366,1751300915325,male,marked,12,English,12592,3,main,No
+1381,52,manner_4,NA,main,Graduated High-school,95041,1751301010366,1751300915325,male,too_much,23,English,12083,4,main,No
+1381,52,quality_1,NA,main,Graduated High-school,95041,1751301010366,1751300915325,male,baseline,10,English,5631,5,main,Yes
+1381,52,manner_2,NA,main,Graduated High-school,95041,1751301010366,1751300915325,male,irrelevant,21,English,9887,6,main,Yes
+1382,66,manner_3,NA,main,Graduated College,117368,1751301021161,1751300903793,male,too_much,5,English,29942,1,main,Yes
+1382,66,quantity_2,NA,main,Graduated College,117368,1751301021161,1751300903793,male,baseline,22,English,13910,2,main,No
+1382,66,manner_2,NA,main,Graduated College,117368,1751301021161,1751300903793,male,too_little,22,English,13005,3,main,Yes
+1382,66,quantity_1,NA,main,Graduated College,117368,1751301021161,1751300903793,male,irrelevant,12,English,11214,4,main,Yes
+1382,66,quality_1,NA,main,Graduated College,117368,1751301021161,1751300903793,male,marked,13,English,15650,5,main,No
+1382,66,NA,NA,Yes,Graduated College,117368,1751301021161,1751300903793,male,marked,15,English,2442,6,filler,Yes
+1383,43,quality_1,NA,main,Graduated College,100587,1751301043307,1751300942720,male,marked,13,English,24856,1,main,Yes
+1383,43,quality_2,NA,main,Graduated College,100587,1751301043307,1751300942720,male,too_much,3,English,26015,2,main,Yes
+1383,43,quantity_1,NA,main,Graduated College,100587,1751301043307,1751300942720,male,baseline,16,English,6256,3,main,No
+1383,43,NA,NA,No,Graduated College,100587,1751301043307,1751300942720,male,too_little,11,English,4839,4,filler,No
+1383,43,relevance_1,NA,main,Graduated College,100587,1751301043307,1751300942720,male,irrelevant,2,English,5431,5,main,No
+1383,43,manner_4,NA,main,Graduated College,100587,1751301043307,1751300942720,male,too_little,21,English,6056,6,main,No
+1384,35,NA,NA,Yes,Graduated High-school,128514,1751301064323,1751300935809,female,too_little,11,English,17782,1,filler,Yes
+1384,35,quality_2,NA,main,Graduated High-school,128514,1751301064323,1751300935809,female,too_much,3,English,20928,2,main,Yes
+1384,35,quality_1,NA,main,Graduated High-school,128514,1751301064323,1751300935809,female,baseline,10,English,10357,3,main,Yes
+1384,35,manner_3,NA,main,Graduated High-school,128514,1751301064323,1751300935809,female,marked,13,English,12377,4,main,No
+1384,35,manner_4,NA,main,Graduated High-school,128514,1751301064323,1751300935809,female,too_little,21,English,13544,5,main,Yes
+1384,35,relevance_1,NA,main,Graduated High-school,128514,1751301064323,1751300935809,female,irrelevant,2,English,6791,6,main,No
+1385,48,NA,NA,Yes,Higher degree,117078,1751301090442,1751300973364,male,marked,15,English,16545,1,filler,Yes
+1385,48,manner_3,NA,main,Higher degree,117078,1751301090442,1751300973364,male,too_much,5,English,19674,2,main,Yes
+1385,48,relevance_1,NA,main,Higher degree,117078,1751301090442,1751300973364,male,irrelevant,2,English,15192,3,main,Yes
+1385,48,quality_1,NA,main,Higher degree,117078,1751301090442,1751300973364,male,marked,13,English,14973,4,main,No
+1385,48,manner_4,NA,main,Higher degree,117078,1751301090442,1751300973364,male,too_little,21,English,21632,5,main,Yes
+1385,48,quantity_1,NA,main,Higher degree,117078,1751301090442,1751300973364,male,baseline,16,English,7960,6,main,Yes
+1386,50,manner_2,NA,main,Graduated High-school,233540,1751301097454,1751300863914,male,marked,3,English,44383,1,main,No
+1386,50,NA,NA,Yes,Graduated High-school,233540,1751301097454,1751300863914,male,too_little,11,English,14456,2,filler,Yes
+1386,50,manner_1,NA,main,Graduated High-school,233540,1751301097454,1751300863914,male,baseline,24,English,10992,3,main,No
+1386,50,relevance_1,NA,main,Graduated High-school,233540,1751301097454,1751300863914,male,too_much,19,English,18318,4,main,Yes
+1386,50,quantity_1,NA,main,Graduated High-school,233540,1751301097454,1751300863914,male,irrelevant,12,English,16618,5,main,Yes
+1386,50,quantity_2,NA,main,Graduated High-school,233540,1751301097454,1751300863914,male,too_little,2,English,16666,6,main,No
+1387,64,quantity_1,NA,main,Graduated High-school,187394,1751301096450,1751300909056,male,too_little,20,English,33131,1,main,Yes
+1387,64,NA,NA,Yes,Graduated High-school,187394,1751301096450,1751300909056,male,marked,15,English,14868,2,filler,Yes
+1387,64,manner_3,NA,main,Graduated High-school,187394,1751301096450,1751300909056,male,baseline,8,English,12888,3,main,No
+1387,64,quality_2,NA,main,Graduated High-school,187394,1751301096450,1751300909056,male,too_much,3,English,19705,4,main,No
+1387,64,quality_1,NA,main,Graduated High-school,187394,1751301096450,1751300909056,male,irrelevant,18,English,15044,5,main,Yes
+1387,64,relevance_1,NA,main,Graduated High-school,187394,1751301096450,1751300909056,male,marked,4,English,29303,6,main,No
+1388,66,NA,Interesting study!,No,Higher degree,151182,1751301098863,1751300947681,male,marked,15,NA,13519,1,filler,No
+1388,66,manner_2,Interesting study!,main,Higher degree,151182,1751301098863,1751300947681,male,too_little,22,NA,21880,2,main,Yes
+1388,66,relevance_1,Interesting study!,main,Higher degree,151182,1751301098863,1751300947681,male,irrelevant,2,NA,15287,3,main,Yes
+1388,66,quantity_1,Interesting study!,main,Higher degree,151182,1751301098863,1751300947681,male,too_much,3,NA,19759,4,main,No
+1388,66,manner_1,Interesting study!,main,Higher degree,151182,1751301098863,1751300947681,male,marked,12,NA,15472,5,main,No
+1388,66,quality_2,Interesting study!,main,Higher degree,151182,1751301098863,1751300947681,male,baseline,9,NA,23183,6,main,No
+1395,51,NA,NA,Yes,Higher degree,135194,1751301175419,1751301040225,male,marked,15,englsih,5840,1,filler,Yes
+1395,51,manner_4,NA,main,Higher degree,135194,1751301175419,1751301040225,male,baseline,8,englsih,6702,2,main,Yes
+1395,51,relevance_1,NA,main,Higher degree,135194,1751301175419,1751301040225,male,too_much,19,englsih,3377,3,main,Yes
+1395,51,manner_1,NA,main,Higher degree,135194,1751301175419,1751301040225,male,irrelevant,17,englsih,4471,4,main,No
+1395,51,manner_2,NA,main,Higher degree,135194,1751301175419,1751301040225,male,too_little,22,englsih,4144,5,main,No
+1395,51,quantity_2,NA,main,Higher degree,135194,1751301175419,1751301040225,male,marked,4,englsih,95452,6,main,No
+1403,52,manner_3,NA,main,Graduated High-school,130765,1751301305192,1751301174427,male,too_little,1,English,25115,1,main,No
+1403,52,manner_2,NA,main,Graduated High-school,130765,1751301305192,1751301174427,male,baseline,22,English,21785,2,main,No
+1403,52,manner_4,NA,main,Graduated High-school,130765,1751301305192,1751301174427,male,too_much,23,English,24225,3,main,Yes
+1403,52,relevance_1,NA,main,Graduated High-school,130765,1751301305192,1751301174427,male,marked,4,English,17885,4,main,No
+1403,52,NA,NA,No,Graduated High-school,130765,1751301305192,1751301174427,male,marked,15,English,4778,5,filler,No
+1403,52,manner_1,NA,main,Graduated High-school,130765,1751301305192,1751301174427,male,irrelevant,17,English,16675,6,main,No
+1389,56,NA,NA,Yes,Graduated High-school,160893,1751301118553,1751300957660,male,marked,15,English,15786,1,filler,Yes
+1389,56,manner_2,NA,main,Graduated High-school,160893,1751301118553,1751300957660,male,irrelevant,21,English,39595,2,main,Yes
+1389,56,quality_2,NA,main,Graduated High-school,160893,1751301118553,1751300957660,male,too_little,17,English,12019,3,main,Yes
+1389,56,relevance_1,NA,main,Graduated High-school,160893,1751301118553,1751300957660,male,marked,4,English,14754,4,main,No
+1389,56,quantity_1,NA,main,Graduated High-school,160893,1751301118553,1751300957660,male,baseline,16,English,11038,5,main,No
+1389,56,quality_1,NA,main,Graduated High-school,160893,1751301118553,1751300957660,male,too_much,14,English,32594,6,main,Yes
+1392,62,manner_3,NA,main,Graduated College,197070,1751301139972,1751300942902,male,baseline,8,english,27511,1,main,No
+1392,62,manner_4,NA,main,Graduated College,197070,1751301139972,1751300942902,male,too_much,23,english,35823,2,main,No
+1392,62,relevance_1,NA,main,Graduated College,197070,1751301139972,1751300942902,male,too_little,21,english,33264,3,main,Yes
+1392,62,NA,NA,Yes,Graduated College,197070,1751301139972,1751300942902,male,too_little,11,english,8112,4,filler,Yes
+1392,62,quality_2,NA,main,Graduated College,197070,1751301139972,1751300942902,male,irrelevant,22,english,26504,5,main,Yes
+1392,62,manner_2,NA,main,Graduated College,197070,1751301139972,1751300942902,male,marked,3,english,16808,6,main,Yes
+1404,50,NA,None,Yes,Graduated High-school,248051,1751301358776,1751301110725,male,too_little,11,English,14517,1,filler,Yes
+1404,50,relevance_1,None,main,Graduated High-school,248051,1751301358776,1751301110725,male,baseline,1,English,40258,2,main,No
+1404,50,manner_2,None,main,Graduated High-school,248051,1751301358776,1751301110725,male,too_much,2,English,29408,3,main,Yes
+1404,50,manner_4,None,main,Graduated High-school,248051,1751301358776,1751301110725,male,marked,3,English,24322,4,main,No
+1404,50,quantity_1,None,main,Graduated High-school,248051,1751301358776,1751301110725,male,too_little,20,English,24908,5,main,Yes
+1404,50,quality_2,None,main,Graduated High-school,248051,1751301358776,1751301110725,male,irrelevant,22,English,21247,6,main,Yes
+1390,56,manner_1,NA,main,Graduated High-school,165751,1751301121977,1751300956226,male,marked,12,English,32808,1,main,No
+1390,56,relevance_1,NA,main,Graduated High-school,165751,1751301121977,1751300956226,male,too_little,21,English,21032,2,main,Yes
+1390,56,quantity_2,NA,main,Graduated High-school,165751,1751301121977,1751300956226,male,too_much,19,English,20751,3,main,Yes
+1390,56,quantity_1,NA,main,Graduated High-school,165751,1751301121977,1751300956226,male,baseline,16,English,17752,4,main,No
+1390,56,NA,NA,No,Graduated High-school,165751,1751301121977,1751300956226,male,too_little,11,English,7400,5,filler,No
+1390,56,quality_1,NA,main,Graduated High-school,165751,1751301121977,1751300956226,male,irrelevant,18,English,21088,6,main,No
+1391,48,NA,NA,Yes,Graduated High-school,150692,1751301126634,1751300975942,female,too_little,11,English,16087,1,filler,Yes
+1391,48,manner_3,NA,main,Graduated High-school,150692,1751301126634,1751300975942,female,too_much,5,English,39754,2,main,Yes
+1391,48,quality_2,NA,main,Graduated High-school,150692,1751301126634,1751300975942,female,baseline,9,English,20818,3,main,No
+1391,48,manner_1,NA,main,Graduated High-school,150692,1751301126634,1751300975942,female,too_little,21,English,10770,4,main,No
+1391,48,manner_2,NA,main,Graduated High-school,150692,1751301126634,1751300975942,female,marked,3,English,21046,5,main,No
+1391,48,quantity_1,NA,main,Graduated High-school,150692,1751301126634,1751300975942,female,irrelevant,12,English,9943,6,main,Yes
+1393,60,manner_2,NA,main,Higher degree,239196,1751301148265,1751300909069,female,baseline,22,English,76471,1,main,Yes
+1393,60,manner_4,NA,main,Higher degree,239196,1751301148265,1751300909069,female,too_little,21,English,24820,2,main,No
+1393,60,quantity_2,NA,main,Higher degree,239196,1751301148265,1751300909069,female,too_much,19,English,31280,3,main,No
+1393,60,quality_1,NA,main,Higher degree,239196,1751301148265,1751300909069,female,marked,13,English,23976,4,main,No
+1393,60,relevance_1,NA,main,Higher degree,239196,1751301148265,1751300909069,female,irrelevant,2,English,22674,5,main,Yes
+1393,60,NA,NA,No,Higher degree,239196,1751301148265,1751300909069,female,marked,15,English,10153,6,filler,No
+1394,45,relevance_1,NA,main,Graduated College,126233,1751301160523,1751301034290,female,baseline,1,English,17446,1,main,Yes
+1394,45,manner_4,NA,main,Graduated College,126233,1751301160523,1751301034290,female,too_much,23,English,13497,2,main,No
+1394,45,quantity_1,NA,main,Graduated College,126233,1751301160523,1751301034290,female,marked,1,English,11538,3,main,No
+1394,45,NA,NA,Yes,Graduated College,126233,1751301160523,1751301034290,female,marked,15,English,8828,4,filler,No
+1394,45,quality_2,NA,main,Graduated College,126233,1751301160523,1751301034290,female,irrelevant,22,English,26557,5,main,Yes
+1394,45,manner_1,NA,main,Graduated College,126233,1751301160523,1751301034290,female,too_little,21,English,25585,6,main,Yes
+1396,60,quality_1,NA,main,Graduated High-school,172694,1751301202524,1751301029830,female,too_much,14,English,35418,1,main,Yes
+1396,60,quantity_2,NA,main,Graduated High-school,172694,1751301202524,1751301029830,female,marked,4,English,39427,2,main,No
+1396,60,manner_2,NA,main,Graduated High-school,172694,1751301202524,1751301029830,female,too_little,22,English,10409,3,main,Yes
+1396,60,NA,NA,Yes,Graduated High-school,172694,1751301202524,1751301029830,female,marked,15,English,6309,4,filler,Yes
+1396,60,quantity_1,NA,main,Graduated High-school,172694,1751301202524,1751301029830,female,baseline,16,English,16933,5,main,Yes
+1396,60,manner_3,NA,main,Graduated High-school,172694,1751301202524,1751301029830,female,irrelevant,7,English,201,6,main,Yes
+1398,69,manner_4,NA,main,Higher degree,221629,1751301208916,1751300987287,male,baseline,8,English,32889,1,main,No
+1398,69,quantity_2,NA,main,Higher degree,221629,1751301208916,1751300987287,male,marked,4,English,29478,2,main,Yes
+1398,69,manner_3,NA,main,Higher degree,221629,1751301208916,1751300987287,male,too_little,1,English,18452,3,main,No
+1398,69,NA,NA,Yes,Higher degree,221629,1751301208916,1751300987287,male,marked,15,English,6971,4,filler,Yes
+1398,69,manner_1,NA,main,Higher degree,221629,1751301208916,1751300987287,male,too_much,6,English,29992,5,main,No
+1398,69,quality_1,NA,main,Higher degree,221629,1751301208916,1751300987287,male,irrelevant,18,English,37877,6,main,No
+1399,51,quantity_2,I wasn’t quite sure about the answers. I read each question several times and gave my best answer. I took “wasn’t violated” to mean the assumption was “true”,main,Graduated College,285635,1751301239991,1751300954356,female,too_little,2,English,79194,1,main,Yes
+1399,51,quality_2,I wasn’t quite sure about the answers. I read each question several times and gave my best answer. I took “wasn’t violated” to mean the assumption was “true”,main,Graduated College,285635,1751301239991,1751300954356,female,irrelevant,22,English,23436,2,main,Yes
+1399,51,manner_2,I wasn’t quite sure about the answers. I read each question several times and gave my best answer. I took “wasn’t violated” to mean the assumption was “true”,main,Graduated College,285635,1751301239991,1751300954356,female,too_much,2,English,25088,3,main,Yes
+1399,51,quality_1,I wasn’t quite sure about the answers. I read each question several times and gave my best answer. I took “wasn’t violated” to mean the assumption was “true”,main,Graduated College,285635,1751301239991,1751300954356,female,baseline,10,English,12618,4,main,No
+1399,51,quantity_1,I wasn’t quite sure about the answers. I read each question several times and gave my best answer. I took “wasn’t violated” to mean the assumption was “true”,main,Graduated College,285635,1751301239991,1751300954356,female,marked,1,English,24669,5,main,No
+1399,51,NA,I wasn’t quite sure about the answers. I read each question several times and gave my best answer. I took “wasn’t violated” to mean the assumption was “true”,No,Graduated College,285635,1751301239991,1751300954356,female,marked,15,English,13934,6,filler,No
+1401,32,manner_1,None,main,Higher degree,166981,1751301252452,1751301085471,male,marked,12,English,32627,1,main,No
+1401,32,NA,None,Yes,Higher degree,166981,1751301252452,1751301085471,male,marked,15,English,4210,2,filler,Yes
+1401,32,relevance_1,None,main,Higher degree,166981,1751301252452,1751301085471,male,irrelevant,2,English,21718,3,main,Yes
+1401,32,manner_3,None,main,Higher degree,166981,1751301252452,1751301085471,male,too_much,5,English,19572,4,main,Yes
+1401,32,quality_1,None,main,Higher degree,166981,1751301252452,1751301085471,male,too_little,14,English,17967,5,main,Yes
+1401,32,quantity_1,None,main,Higher degree,166981,1751301252452,1751301085471,male,baseline,16,English,24668,6,main,No
+1402,61,quality_1,NA,main,Graduated High-school,420116,1751301295294,1751300875178,male,irrelevant,18,english,110792,1,main,No
+1402,61,NA,NA,No,Graduated High-school,420116,1751301295294,1751300875178,male,marked,15,english,7155,2,filler,No
+1402,61,quantity_2,NA,main,Graduated High-school,420116,1751301295294,1751300875178,male,marked,4,english,38368,3,main,Yes
+1402,61,quantity_1,NA,main,Graduated High-school,420116,1751301295294,1751300875178,male,too_much,3,english,36476,4,main,No
+1402,61,relevance_1,NA,main,Graduated High-school,420116,1751301295294,1751300875178,male,baseline,1,english,32125,5,main,No
+1402,61,manner_4,NA,main,Graduated High-school,420116,1751301295294,1751300875178,male,too_little,21,english,42110,6,main,No
+1397,28,manner_3,NA,main,Graduated College,208738,1751301206572,1751300997834,male,too_little,1,English,71156,1,main,No
+1397,28,NA,NA,No,Graduated College,208738,1751301206572,1751300997834,male,marked,15,English,5327,2,filler,No
+1397,28,manner_4,NA,main,Graduated College,208738,1751301206572,1751300997834,male,irrelevant,17,English,26778,3,main,No
+1397,28,quantity_2,NA,main,Graduated College,208738,1751301206572,1751300997834,male,too_much,19,English,30356,4,main,Yes
+1397,28,manner_1,NA,main,Graduated College,208738,1751301206572,1751300997834,male,marked,12,English,23386,5,main,No
+1397,28,quality_1,NA,main,Graduated College,208738,1751301206572,1751300997834,male,baseline,10,English,17510,6,main,No
+1400,38,quantity_1,NA,main,Graduated College,109504,1751301244227,1751301134723,female,irrelevant,12,English,20795,1,main,Yes
+1400,38,NA,NA,Yes,Graduated College,109504,1751301244227,1751301134723,female,marked,15,English,6752,2,filler,Yes
+1400,38,manner_1,NA,main,Graduated College,109504,1751301244227,1751301134723,female,marked,12,English,18858,3,main,No
+1400,38,quality_2,NA,main,Graduated College,109504,1751301244227,1751301134723,female,too_much,3,English,18468,4,main,No
+1400,38,quality_1,NA,main,Graduated College,109504,1751301244227,1751301134723,female,baseline,10,English,10798,5,main,No
+1400,38,manner_4,NA,main,Graduated College,109504,1751301244227,1751301134723,female,too_little,21,English,12230,6,main,Yes
+1435,57,quantity_2,NA,main,Graduated College,114043,1751301824086,1751301710043,female,too_much,19,English,30079,1,main,Yes
+1435,57,relevance_1,NA,main,Graduated College,114043,1751301824086,1751301710043,female,marked,4,English,13391,2,main,Yes
+1435,57,manner_1,NA,main,Graduated College,114043,1751301824086,1751301710043,female,too_little,21,English,14824,3,main,Yes
+1435,57,quality_1,NA,main,Graduated College,114043,1751301824086,1751301710043,female,baseline,10,English,4848,4,main,Yes
+1435,57,NA,NA,No,Graduated College,114043,1751301824086,1751301710043,female,marked,15,English,4376,5,filler,No
+1435,57,manner_4,NA,main,Graduated College,114043,1751301824086,1751301710043,female,irrelevant,17,English,3968,6,main,Yes
+1411,54,quantity_2,Thank you,main,Graduated High-school,172543,1751301462777,1751301290234,male,irrelevant,14,English,65708,1,main,No
+1411,54,quality_2,Thank you,main,Graduated High-school,172543,1751301462777,1751301290234,male,marked,24,English,27208,2,main,No
+1411,54,manner_2,Thank you,main,Graduated High-school,172543,1751301462777,1751301290234,male,too_little,22,English,19524,3,main,Yes
+1411,54,manner_4,Thank you,main,Graduated High-school,172543,1751301462777,1751301290234,male,too_much,23,English,19029,4,main,Yes
+1411,54,quality_1,Thank you,main,Graduated High-school,172543,1751301462777,1751301290234,male,baseline,10,English,7449,5,main,No
+1411,54,NA,Thank you,Yes,Graduated High-school,172543,1751301462777,1751301290234,male,too_little,11,English,3442,6,filler,Yes
+1419,51,quantity_2,NA,main,Higher degree,64851,1751301587409,1751301522558,male,too_little,2,English,13881,1,main,Yes
+1419,51,quality_2,NA,main,Higher degree,64851,1751301587409,1751301522558,male,marked,24,English,12930,2,main,No
+1419,51,manner_2,NA,main,Higher degree,64851,1751301587409,1751301522558,male,baseline,22,English,5321,3,main,Yes
+1419,51,quality_1,NA,main,Higher degree,64851,1751301587409,1751301522558,male,too_much,14,English,9167,4,main,No
+1419,51,manner_4,NA,main,Higher degree,64851,1751301587409,1751301522558,male,irrelevant,17,English,4254,5,main,Yes
+1419,51,NA,NA,Yes,Higher degree,64851,1751301587409,1751301522558,male,marked,15,English,4499,6,filler,No
+1421,48,NA,NA,Yes,Higher degree,96598,1751301600125,1751301503527,male,too_little,11,English,13605,1,filler,Yes
+1421,48,relevance_1,NA,main,Higher degree,96598,1751301600125,1751301503527,male,too_little,21,English,18655,2,main,Yes
+1421,48,quantity_1,NA,main,Higher degree,96598,1751301600125,1751301503527,male,irrelevant,12,English,11900,3,main,Yes
+1421,48,quantity_2,NA,main,Higher degree,96598,1751301600125,1751301503527,male,marked,4,English,12137,4,main,No
+1421,48,quality_2,NA,main,Higher degree,96598,1751301600125,1751301503527,male,baseline,9,English,11111,5,main,No
+1421,48,manner_1,NA,main,Higher degree,96598,1751301600125,1751301503527,male,too_much,6,English,8260,6,main,Yes
+1426,25,manner_2,NA,main,Higher degree,297103,1751301671097,1751301373994,female,baseline,22,English,56255,1,main,No
+1426,25,manner_3,NA,main,Higher degree,297103,1751301671097,1751301373994,female,too_little,1,English,17971,2,main,Yes
+1426,25,quality_1,NA,main,Higher degree,297103,1751301671097,1751301373994,female,too_much,14,English,78976,3,main,No
+1426,25,NA,NA,Yes,Higher degree,297103,1751301671097,1751301373994,female,marked,15,English,11166,4,filler,Yes
+1426,25,quality_2,NA,main,Higher degree,297103,1751301671097,1751301373994,female,marked,24,English,34160,5,main,Yes
+1426,25,quantity_1,NA,main,Higher degree,297103,1751301671097,1751301373994,female,irrelevant,12,English,37796,6,main,Yes
+1408,69,relevance_1,"interesting survey, wish you great success",main,Graduated College,253094,1751301387781,1751301134687,female,marked,4,English,43219,1,main,No
+1408,69,manner_3,"interesting survey, wish you great success",main,Graduated College,253094,1751301387781,1751301134687,female,too_little,1,English,34953,2,main,Yes
+1408,69,manner_4,"interesting survey, wish you great success",main,Graduated College,253094,1751301387781,1751301134687,female,too_much,23,English,40201,3,main,No
+1408,69,quantity_1,"interesting survey, wish you great success",main,Graduated College,253094,1751301387781,1751301134687,female,baseline,16,English,32894,4,main,No
+1408,69,NA,"interesting survey, wish you great success",Yes,Graduated College,253094,1751301387781,1751301134687,female,marked,15,English,4414,5,filler,Yes
+1408,69,quantity_2,"interesting survey, wish you great success",main,Graduated College,253094,1751301387781,1751301134687,female,irrelevant,14,English,44672,6,main,No
+1415,60,NA,Nothing else to say thanks,Yes,Graduated College,275897,1751301510663,1751301234766,female,too_little,11,English,14365,1,filler,Yes
+1415,60,quality_1,Nothing else to say thanks,main,Graduated College,275897,1751301510663,1751301234766,female,too_little,14,English,53566,2,main,Yes
+1415,60,manner_4,Nothing else to say thanks,main,Graduated College,275897,1751301510663,1751301234766,female,marked,3,English,34977,3,main,No
+1415,60,manner_1,Nothing else to say thanks,main,Graduated College,275897,1751301510663,1751301234766,female,baseline,24,English,31267,4,main,No
+1415,60,quantity_1,Nothing else to say thanks,main,Graduated College,275897,1751301510663,1751301234766,female,irrelevant,12,English,29610,5,main,Yes
+1415,60,relevance_1,Nothing else to say thanks,main,Graduated College,275897,1751301510663,1751301234766,female,too_much,19,English,37272,6,main,Yes
+1416,55,quality_2,NA,main,Graduated High-school,101375,1751301550063,1751301448688,female,baseline,9,English,50267,1,main,Yes
+1416,55,quality_1,NA,main,Graduated High-school,101375,1751301550063,1751301448688,female,too_much,14,English,16386,2,main,Yes
+1416,55,NA,NA,Yes,Graduated High-school,101375,1751301550063,1751301448688,female,marked,15,English,3445,3,filler,Yes
+1416,55,manner_3,NA,main,Graduated High-school,101375,1751301550063,1751301448688,female,too_little,1,English,2369,4,main,Yes
+1416,55,relevance_1,NA,main,Graduated High-school,101375,1751301550063,1751301448688,female,marked,4,English,1686,5,main,Yes
+1416,55,quantity_2,NA,main,Graduated High-school,101375,1751301550063,1751301448688,female,irrelevant,14,English,1684,6,main,Yes
+1424,31,quantity_2,NA,main,Higher degree,162241,1751301648739,1751301486498,male,baseline,22,english,44032,1,main,No
+1424,31,quality_1,NA,main,Higher degree,162241,1751301648739,1751301486498,male,too_little,14,english,16808,2,main,Yes
+1424,31,manner_1,NA,main,Higher degree,162241,1751301648739,1751301486498,male,irrelevant,17,english,13192,3,main,Yes
+1424,31,relevance_1,NA,main,Higher degree,162241,1751301648739,1751301486498,male,too_much,19,english,32616,4,main,Yes
+1424,31,manner_2,NA,main,Higher degree,162241,1751301648739,1751301486498,male,marked,3,english,13792,5,main,No
+1424,31,NA,NA,Yes,Higher degree,162241,1751301648739,1751301486498,male,too_little,11,english,10992,6,filler,Yes
+1438,38,manner_3,NA,main,Higher degree,35786,1751301865685,1751301829899,male,baseline,8,NA,6223,1,main,No
+1438,38,quantity_1,NA,main,Higher degree,35786,1751301865685,1751301829899,male,too_much,3,NA,3087,2,main,Yes
+1438,38,manner_1,NA,main,Higher degree,35786,1751301865685,1751301829899,male,too_little,21,NA,3351,3,main,No
+1438,38,quality_1,NA,main,Higher degree,35786,1751301865685,1751301829899,male,marked,13,NA,2694,4,main,Yes
+1438,38,manner_2,NA,main,Higher degree,35786,1751301865685,1751301829899,male,irrelevant,21,NA,2043,5,main,Yes
+1438,38,NA,NA,No,Higher degree,35786,1751301865685,1751301829899,male,marked,15,NA,3084,6,filler,No
+1429,36,quantity_2,NA,main,Higher degree,99038,1751301821248,1751301722210,female,marked,4,English,23123,1,main,Yes
+1429,36,NA,NA,No,Higher degree,99038,1751301821248,1751301722210,female,marked,15,English,3393,2,filler,No
+1429,36,quality_2,NA,main,Higher degree,99038,1751301821248,1751301722210,female,too_much,3,English,27881,3,main,No
+1429,36,relevance_1,NA,main,Higher degree,99038,1751301821248,1751301722210,female,irrelevant,2,English,9403,4,main,Yes
+1429,36,manner_3,NA,main,Higher degree,99038,1751301821248,1751301722210,female,too_little,1,English,6086,5,main,Yes
+1429,36,manner_4,NA,main,Higher degree,99038,1751301821248,1751301722210,female,baseline,8,English,5714,6,main,No
+1437,42,manner_3,NA,main,Graduated College,808224,1751301843302,1751301035078,female,too_much,5,English,167011,1,main,Yes
+1437,42,manner_4,NA,main,Graduated College,808224,1751301843302,1751301035078,female,baseline,8,English,576552,2,main,No
+1437,42,relevance_1,NA,main,Graduated College,808224,1751301843302,1751301035078,female,marked,4,English,17390,3,main,No
+1437,42,quantity_2,NA,main,Graduated College,808224,1751301843302,1751301035078,female,too_little,2,English,11766,4,main,No
+1437,42,quality_1,NA,main,Graduated College,808224,1751301843302,1751301035078,female,irrelevant,18,English,8888,5,main,Yes
+1437,42,NA,NA,No,Graduated College,808224,1751301843302,1751301035078,female,marked,15,English,2221,6,filler,No
+1433,19,quantity_1,Didn't really understand what was being asked from me.,main,Graduated High-school,422590,1751301805582,1751301382992,male,irrelevant,12,English,24962,1,main,No
+1433,19,manner_3,Didn't really understand what was being asked from me.,main,Graduated High-school,422590,1751301805582,1751301382992,male,marked,13,English,21995,2,main,No
+1433,19,quantity_2,Didn't really understand what was being asked from me.,main,Graduated High-school,422590,1751301805582,1751301382992,male,too_much,19,English,47994,3,main,No
+1433,19,relevance_1,Didn't really understand what was being asked from me.,main,Graduated High-school,422590,1751301805582,1751301382992,male,too_little,21,English,14377,4,main,Yes
+1433,19,manner_4,Didn't really understand what was being asked from me.,main,Graduated High-school,422590,1751301805582,1751301382992,male,baseline,8,English,180651,5,main,Yes
+1433,19,NA,Didn't really understand what was being asked from me.,No,Graduated High-school,422590,1751301805582,1751301382992,male,too_little,11,English,1928,6,filler,No
+1454,59,manner_1,NA,main,Graduated College,248139,1751302430103,1751302181964,male,irrelevant,17,ENGLISH,55559,1,main,No
+1454,59,manner_2,NA,main,Graduated College,248139,1751302430103,1751302181964,male,baseline,22,ENGLISH,24775,2,main,No
+1454,59,quantity_2,NA,main,Graduated College,248139,1751302430103,1751302181964,male,too_much,19,ENGLISH,35488,3,main,No
+1454,59,NA,NA,No,Graduated College,248139,1751302430103,1751302181964,male,too_little,11,ENGLISH,7792,4,filler,No
+1454,59,manner_4,NA,main,Graduated College,248139,1751302430103,1751302181964,male,marked,3,ENGLISH,22416,5,main,No
+1454,59,relevance_1,NA,main,Graduated College,248139,1751302430103,1751302181964,male,too_little,21,ENGLISH,19504,6,main,No
+1461,36,quantity_2,NA,main,Graduated College,78993,1751303834074,1751303755081,female,too_much,19,English,26235,1,main,Yes
+1461,36,quality_1,NA,main,Graduated College,78993,1751303834074,1751303755081,female,irrelevant,18,English,8164,2,main,Yes
+1461,36,quality_2,NA,main,Graduated College,78993,1751303834074,1751303755081,female,marked,24,English,6368,3,main,No
+1461,36,NA,NA,No,Graduated College,78993,1751303834074,1751303755081,female,marked,15,English,2710,4,filler,No
+1461,36,manner_1,NA,main,Graduated College,78993,1751303834074,1751303755081,female,too_little,21,English,7483,5,main,Yes
+1461,36,relevance_1,NA,main,Graduated College,78993,1751303834074,1751303755081,female,baseline,1,English,5993,6,main,No
+1462,30,quantity_2,NA,main,Higher degree,1657077,1751303962259,1751302305182,female,baseline,22,English,1531829,1,main,No
+1462,30,manner_3,NA,main,Higher degree,1657077,1751303962259,1751302305182,female,irrelevant,7,English,11439,2,main,Yes
+1462,30,manner_1,NA,main,Higher degree,1657077,1751303962259,1751302305182,female,too_little,21,English,19539,3,main,No
+1462,30,manner_2,NA,main,Higher degree,1657077,1751303962259,1751302305182,female,marked,3,English,12080,4,main,No
+1462,30,NA,NA,Yes,Higher degree,1657077,1751303962259,1751302305182,female,too_little,11,English,6638,5,filler,Yes
+1462,30,quantity_1,NA,main,Higher degree,1657077,1751303962259,1751302305182,female,too_much,3,English,14181,6,main,No
+1472,62,quality_2,none,main,Higher degree,136713,1751368590445,1751368453732,male,too_much,3,English,24703,1,main,No
+1472,62,quantity_2,none,main,Higher degree,136713,1751368590445,1751368453732,male,irrelevant,14,English,20872,2,main,No
+1472,62,NA,none,No,Higher degree,136713,1751368590445,1751368453732,male,marked,15,English,7640,3,filler,No
+1472,62,quantity_1,none,main,Higher degree,136713,1751368590445,1751368453732,male,marked,1,English,17970,4,main,No
+1472,62,manner_3,none,main,Higher degree,136713,1751368590445,1751368453732,male,baseline,8,English,34024,5,main,No
+1472,62,manner_2,none,main,Higher degree,136713,1751368590445,1751368453732,male,too_little,22,English,13120,6,main,Yes
+1464,30,quality_1,NA,main,Higher degree,1546896,1751306077607,1751304530711,female,marked,13,English,10151,1,main,No
+1464,30,relevance_1,NA,main,Higher degree,1546896,1751306077607,1751304530711,female,too_little,21,English,3635,2,main,Yes
+1464,30,quality_2,NA,main,Higher degree,1546896,1751306077607,1751304530711,female,baseline,9,English,5798,3,main,Yes
+1464,30,manner_3,NA,main,Higher degree,1546896,1751306077607,1751304530711,female,too_much,5,English,4839,4,main,No
+1464,30,manner_1,NA,main,Higher degree,1546896,1751306077607,1751304530711,female,irrelevant,17,English,10219,5,main,No
+1464,30,NA,NA,No,Higher degree,1546896,1751306077607,1751304530711,female,too_little,11,English,3280,6,filler,No
+1465,38,relevance_1,NA,main,Higher degree,86124,1751368520419,1751368434295,male,irrelevant,2,English,19312,1,main,No
+1465,38,quality_1,NA,main,Higher degree,86124,1751368520419,1751368434295,male,too_little,14,English,24744,2,main,No
+1465,38,NA,NA,Yes,Higher degree,86124,1751368520419,1751368434295,male,marked,15,English,5616,3,filler,Yes
+1465,38,quality_2,NA,main,Higher degree,86124,1751368520419,1751368434295,male,too_much,3,English,10791,4,main,No
+1465,38,manner_2,NA,main,Higher degree,86124,1751368520419,1751368434295,male,baseline,22,English,7110,5,main,No
+1465,38,manner_3,NA,main,Higher degree,86124,1751368520419,1751368434295,male,marked,13,English,8314,6,main,No
+1466,35,quality_1,NA,main,Higher degree,73496,1751368527734,1751368454238,male,irrelevant,18,ENGLISH,14240,1,main,Yes
+1466,35,manner_3,NA,main,Higher degree,73496,1751368527734,1751368454238,male,too_little,1,ENGLISH,11303,2,main,No
+1466,35,NA,NA,No,Higher degree,73496,1751368527734,1751368454238,male,too_little,11,ENGLISH,3506,3,filler,No
+1466,35,manner_4,NA,main,Higher degree,73496,1751368527734,1751368454238,male,baseline,8,ENGLISH,6791,4,main,Yes
+1466,35,quantity_1,NA,main,Higher degree,73496,1751368527734,1751368454238,male,marked,1,ENGLISH,2704,5,main,Yes
+1466,35,manner_1,NA,main,Higher degree,73496,1751368527734,1751368454238,male,too_much,6,ENGLISH,10864,6,main,No
+1467,25,quantity_2,NA,main,Graduated College,93707,1751368529537,1751368435830,male,too_much,19,English,24319,1,main,No
+1467,25,manner_1,NA,main,Graduated College,93707,1751368529537,1751368435830,male,irrelevant,17,English,16565,2,main,No
+1467,25,NA,NA,Yes,Graduated College,93707,1751368529537,1751368435830,male,too_little,11,English,10444,3,filler,Yes
+1467,25,quantity_1,NA,main,Graduated College,93707,1751368529537,1751368435830,male,marked,1,English,13314,4,main,Yes
+1467,25,quality_2,NA,main,Graduated College,93707,1751368529537,1751368435830,male,too_little,17,English,12520,5,main,No
+1467,25,manner_3,NA,main,Graduated College,93707,1751368529537,1751368435830,male,baseline,8,English,6146,6,main,No
+1468,30,quality_1,NA,main,Higher degree,88975,1751368551734,1751368462759,male,marked,13,english,38133,1,main,Yes
+1468,30,relevance_1,NA,main,Higher degree,88975,1751368551734,1751368462759,male,too_little,21,english,9316,2,main,No
+1468,30,quality_2,NA,main,Higher degree,88975,1751368551734,1751368462759,male,irrelevant,22,english,7350,3,main,No
+1468,30,manner_3,NA,main,Higher degree,88975,1751368551734,1751368462759,male,too_much,5,english,7350,4,main,No
+1468,30,NA,NA,No,Higher degree,88975,1751368551734,1751368462759,male,marked,15,english,3134,5,filler,Yes
+1468,30,quantity_1,NA,main,Higher degree,88975,1751368551734,1751368462759,male,baseline,16,english,3717,6,main,No
+1469,30,NA,n/a,No,Graduated College,115486,1751368558473,1751368442987,male,too_little,11,"english, mandarin",5896,1,filler,No
+1469,30,quality_2,n/a,main,Graduated College,115486,1751368558473,1751368442987,male,too_little,17,"english, mandarin",33284,2,main,Yes
+1469,30,manner_3,n/a,main,Graduated College,115486,1751368558473,1751368442987,male,too_much,5,"english, mandarin",17924,3,main,Yes
+1469,30,manner_1,n/a,main,Graduated College,115486,1751368558473,1751368442987,male,baseline,24,"english, mandarin",7286,4,main,No
+1469,30,manner_2,n/a,main,Graduated College,115486,1751368558473,1751368442987,male,irrelevant,21,"english, mandarin",11636,5,main,Yes
+1469,30,quality_1,n/a,main,Graduated College,115486,1751368558473,1751368442987,male,marked,13,"english, mandarin",15586,6,main,No
+1470,54,manner_1,NA,main,Graduated College,129356,1751368560649,1751368431293,female,too_little,21,English,20341,1,main,Yes
+1470,54,manner_2,NA,main,Graduated College,129356,1751368560649,1751368431293,female,irrelevant,21,English,7512,2,main,No
+1470,54,relevance_1,NA,main,Graduated College,129356,1751368560649,1751368431293,female,too_much,19,English,22574,3,main,No
+1470,54,NA,NA,No,Graduated College,129356,1751368560649,1751368431293,female,marked,15,English,7434,4,filler,No
+1470,54,quantity_2,NA,main,Graduated College,129356,1751368560649,1751368431293,female,marked,4,English,20293,5,main,Yes
+1470,54,quality_2,NA,main,Graduated College,129356,1751368560649,1751368431293,female,baseline,9,English,5756,6,main,No
+1471,28,manner_2,NA,main,Graduated College,135742,1751368578398,1751368442656,female,baseline,22,English,28171,1,main,Yes
+1471,28,quality_1,NA,main,Graduated College,135742,1751368578398,1751368442656,female,irrelevant,18,English,22013,2,main,No
+1471,28,relevance_1,NA,main,Graduated College,135742,1751368578398,1751368442656,female,marked,4,English,6600,3,main,No
+1471,28,NA,NA,No,Graduated College,135742,1751368578398,1751368442656,female,too_little,11,English,12401,4,filler,No
+1471,28,manner_4,NA,main,Graduated College,135742,1751368578398,1751368442656,female,too_little,21,English,30451,5,main,Yes
+1471,28,manner_1,NA,main,Graduated College,135742,1751368578398,1751368442656,female,too_much,6,English,5338,6,main,No
+1473,19,NA,NA,Yes,Graduated High-school,153176,1751368590858,1751368437682,male,marked,15,English,4842,1,filler,Yes
+1473,19,manner_1,NA,main,Graduated High-school,153176,1751368590858,1751368437682,male,marked,12,English,29426,2,main,No
+1473,19,quality_2,NA,main,Graduated High-school,153176,1751368590858,1751368437682,male,too_much,3,English,22365,3,main,Yes
+1473,19,quantity_1,NA,main,Graduated High-school,153176,1751368590858,1751368437682,male,irrelevant,12,English,24750,4,main,Yes
+1473,19,manner_2,NA,main,Graduated High-school,153176,1751368590858,1751368437682,male,baseline,22,English,29234,5,main,No
+1473,19,manner_3,NA,main,Graduated High-school,153176,1751368590858,1751368437682,male,too_little,1,English,19095,6,main,No
+1474,54,quality_2,NA,main,Graduated College,148094,1751368601461,1751368453367,female,too_much,3,English,42216,1,main,Yes
+1474,54,manner_2,NA,main,Graduated College,148094,1751368601461,1751368453367,female,marked,3,English,20943,2,main,Yes
+1474,54,NA,NA,Yes,Graduated College,148094,1751368601461,1751368453367,female,too_little,11,English,6891,3,filler,Yes
+1474,54,manner_3,NA,main,Graduated College,148094,1751368601461,1751368453367,female,baseline,8,English,31444,4,main,No
+1474,54,manner_4,NA,main,Graduated College,148094,1751368601461,1751368453367,female,too_little,21,English,8151,5,main,Yes
+1474,54,quantity_2,NA,main,Graduated College,148094,1751368601461,1751368453367,female,irrelevant,14,English,10174,6,main,Yes
+1475,23,NA,NA,No,Higher degree,142701,1751368604080,1751368461379,female,marked,15,english,11339,1,filler,No
+1475,23,quality_1,NA,main,Higher degree,142701,1751368604080,1751368461379,female,baseline,10,english,21166,2,main,No
+1475,23,manner_4,NA,main,Higher degree,142701,1751368604080,1751368461379,female,irrelevant,17,english,34262,3,main,Yes
+1475,23,manner_3,NA,main,Higher degree,142701,1751368604080,1751368461379,female,marked,13,english,14426,4,main,Yes
+1475,23,relevance_1,NA,main,Higher degree,142701,1751368604080,1751368461379,female,too_little,21,english,11435,5,main,No
+1475,23,manner_1,NA,main,Higher degree,142701,1751368604080,1751368461379,female,too_much,6,english,18078,6,main,Yes
+1479,28,manner_4,NA,main,Higher degree,132081,1751368628798,1751368496717,male,irrelevant,17,English,31044,1,main,Yes
+1479,28,manner_1,NA,main,Higher degree,132081,1751368628798,1751368496717,male,too_much,6,English,19994,2,main,Yes
+1479,28,manner_3,NA,main,Higher degree,132081,1751368628798,1751368496717,male,too_little,1,English,23781,3,main,No
+1479,28,quantity_2,NA,main,Higher degree,132081,1751368628798,1751368496717,male,marked,4,English,14409,4,main,Yes
+1479,28,NA,NA,Yes,Higher degree,132081,1751368628798,1751368496717,male,too_little,11,English,5726,5,filler,Yes
+1479,28,quantity_1,NA,main,Higher degree,132081,1751368628798,1751368496717,male,baseline,16,English,17658,6,main,No
+1485,29,manner_3,NA,main,Graduated High-school,89320,1751368651496,1751368562176,male,too_little,1,english,15263,1,main,Yes
+1485,29,relevance_1,NA,main,Graduated High-school,89320,1751368651496,1751368562176,male,irrelevant,2,english,6938,2,main,No
+1485,29,NA,NA,No,Graduated High-school,89320,1751368651496,1751368562176,male,marked,15,english,12887,3,filler,No
+1485,29,quality_1,NA,main,Graduated High-school,89320,1751368651496,1751368562176,male,too_much,14,english,24699,4,main,Yes
+1485,29,manner_1,NA,main,Graduated High-school,89320,1751368651496,1751368562176,male,baseline,24,english,10448,5,main,No
+1485,29,manner_4,NA,main,Graduated High-school,89320,1751368651496,1751368562176,male,marked,3,english,3536,6,main,Yes
+1496,26,manner_3,NA,main,Graduated College,296593,1751368729422,1751368432829,male,too_much,5,english,37407,1,main,Yes
+1496,26,manner_4,NA,main,Graduated College,296593,1751368729422,1751368432829,male,irrelevant,17,english,16363,2,main,No
+1496,26,NA,NA,No,Graduated College,296593,1751368729422,1751368432829,male,marked,15,english,3190,3,filler,No
+1496,26,quality_1,NA,main,Graduated College,296593,1751368729422,1751368432829,male,too_little,14,english,15012,4,main,No
+1496,26,relevance_1,NA,main,Graduated College,296593,1751368729422,1751368432829,male,marked,4,english,13769,5,main,No
+1496,26,manner_1,NA,main,Graduated College,296593,1751368729422,1751368432829,male,baseline,24,english,7476,6,main,No
+1494,31,NA,NA,No,Graduated College,121529,1751368710886,1751368589357,female,too_little,11,English,8379,1,filler,No
+1494,31,manner_1,NA,main,Graduated College,121529,1751368710886,1751368589357,female,marked,12,English,18514,2,main,No
+1494,31,quantity_2,NA,main,Graduated College,121529,1751368710886,1751368589357,female,too_much,19,English,34937,3,main,Yes
+1494,31,manner_3,NA,main,Graduated College,121529,1751368710886,1751368589357,female,too_little,1,English,16748,4,main,No
+1494,31,relevance_1,NA,main,Graduated College,121529,1751368710886,1751368589357,female,irrelevant,2,English,6319,5,main,No
+1494,31,quantity_1,NA,main,Graduated College,121529,1751368710886,1751368589357,female,baseline,16,English,9723,6,main,No
+1508,28,manner_4,Confusing,main,Higher degree,45694,1751368821168,1751368775474,female,baseline,8,English,1937,1,main,Yes
+1508,28,relevance_1,Confusing,main,Higher degree,45694,1751368821168,1751368775474,female,irrelevant,2,English,3595,2,main,No
+1508,28,NA,Confusing,No,Higher degree,45694,1751368821168,1751368775474,female,marked,15,English,6515,3,filler,No
+1508,28,manner_1,Confusing,main,Higher degree,45694,1751368821168,1751368775474,female,too_little,21,English,4081,4,main,Yes
+1508,28,quantity_1,Confusing,main,Higher degree,45694,1751368821168,1751368775474,female,marked,1,English,7996,5,main,No
+1508,28,manner_2,Confusing,main,Higher degree,45694,1751368821168,1751368775474,female,too_much,2,English,7809,6,main,Yes
+1478,36,quality_2,N/A,main,Graduated College,110874,1751368627506,1751368516632,male,too_much,3,English,25343,1,main,No
+1478,36,quantity_1,N/A,main,Graduated College,110874,1751368627506,1751368516632,male,irrelevant,12,English,11194,2,main,Yes
+1478,36,relevance_1,N/A,main,Graduated College,110874,1751368627506,1751368516632,male,baseline,1,English,17920,3,main,No
+1478,36,manner_3,N/A,main,Graduated College,110874,1751368627506,1751368516632,male,too_little,1,English,23605,4,main,No
+1478,36,quality_1,N/A,main,Graduated College,110874,1751368627506,1751368516632,male,marked,13,English,9714,5,main,No
+1478,36,NA,N/A,Yes,Graduated College,110874,1751368627506,1751368516632,male,too_little,11,English,7533,6,filler,Yes
+1487,52,manner_4,All good thanks,main,Graduated High-school,130380,1751368686758,1751368556378,female,too_little,21,English,19928,1,main,No
+1487,52,quality_2,All good thanks,main,Graduated High-school,130380,1751368686758,1751368556378,female,irrelevant,22,English,17164,2,main,No
+1487,52,quantity_1,All good thanks,main,Graduated High-school,130380,1751368686758,1751368556378,female,marked,1,English,14723,3,main,No
+1487,52,quality_1,All good thanks,main,Graduated High-school,130380,1751368686758,1751368556378,female,baseline,10,English,11841,4,main,No
+1487,52,NA,All good thanks,Yes,Graduated High-school,130380,1751368686758,1751368556378,female,marked,15,English,11481,5,filler,Yes
+1487,52,manner_1,All good thanks,main,Graduated High-school,130380,1751368686758,1751368556378,female,too_much,6,English,15050,6,main,Yes
+1489,34,manner_1,NA,main,Graduated College,142276,1751368694482,1751368552206,male,baseline,24,english,31997,1,main,No
+1489,34,manner_2,NA,main,Graduated College,142276,1751368694482,1751368552206,male,irrelevant,21,english,23234,2,main,Yes
+1489,34,manner_4,NA,main,Graduated College,142276,1751368694482,1751368552206,male,too_much,23,english,21422,3,main,No
+1489,34,NA,NA,No,Graduated College,142276,1751368694482,1751368552206,male,too_little,11,english,4375,4,filler,No
+1489,34,quality_2,NA,main,Graduated College,142276,1751368694482,1751368552206,male,too_little,17,english,15757,5,main,Yes
+1489,34,quantity_2,NA,main,Graduated College,142276,1751368694482,1751368552206,male,marked,4,english,30022,6,main,Yes
+1517,58,manner_2,NA,main,Graduated College,301770,1751368862612,1751368560842,female,irrelevant,21,english,55752,1,main,Yes
+1517,58,NA,NA,Yes,Graduated College,301770,1751368862612,1751368560842,female,too_little,11,english,21100,2,filler,Yes
+1517,58,quality_2,NA,main,Graduated College,301770,1751368862612,1751368560842,female,marked,24,english,35452,3,main,No
+1517,58,manner_1,NA,main,Graduated College,301770,1751368862612,1751368560842,female,too_much,6,english,50720,4,main,No
+1517,58,relevance_1,NA,main,Graduated College,301770,1751368862612,1751368560842,female,baseline,1,english,29331,5,main,No
+1517,58,manner_3,NA,main,Graduated College,301770,1751368862612,1751368560842,female,too_little,1,english,47500,6,main,No
+1480,45,relevance_1,NA,main,Graduated High-school,177920,1751368631032,1751368453112,male,irrelevant,2,english,25799,1,main,Yes
+1480,45,quality_1,NA,main,Graduated High-school,177920,1751368631032,1751368453112,male,marked,13,english,28576,2,main,No
+1480,45,manner_2,NA,main,Graduated High-school,177920,1751368631032,1751368453112,male,too_little,22,english,24848,3,main,No
+1480,45,manner_3,NA,main,Graduated High-school,177920,1751368631032,1751368453112,male,too_much,5,english,32656,4,main,Yes
+1480,45,NA,NA,Yes,Graduated High-school,177920,1751368631032,1751368453112,male,too_little,11,english,19384,5,filler,Yes
+1480,45,quantity_2,NA,main,Graduated High-school,177920,1751368631032,1751368453112,male,baseline,22,english,28384,6,main,No
+1481,27,quality_1,NA,main,Graduated High-school,142153,1751368639040,1751368496887,male,marked,13,English,30492,1,main,No
+1481,27,NA,NA,No,Graduated High-school,142153,1751368639040,1751368496887,male,marked,15,English,5778,2,filler,No
+1481,27,manner_2,NA,main,Graduated High-school,142153,1751368639040,1751368496887,male,too_much,2,English,23856,3,main,No
+1481,27,manner_3,NA,main,Graduated High-school,142153,1751368639040,1751368496887,male,baseline,8,English,18995,4,main,No
+1481,27,relevance_1,NA,main,Graduated High-school,142153,1751368639040,1751368496887,male,too_little,21,English,5555,5,main,No
+1481,27,quantity_2,NA,main,Graduated High-school,142153,1751368639040,1751368496887,male,irrelevant,14,English,9653,6,main,No
+1497,70,manner_3,Interesting study,main,Higher degree,159910,1751368730939,1751368571029,male,marked,13,English,31112,1,main,No
+1497,70,manner_1,Interesting study,main,Higher degree,159910,1751368730939,1751368571029,male,irrelevant,17,English,19335,2,main,No
+1497,70,NA,Interesting study,Yes,Higher degree,159910,1751368730939,1751368571029,male,marked,15,English,10038,3,filler,Yes
+1497,70,relevance_1,Interesting study,main,Higher degree,159910,1751368730939,1751368571029,male,baseline,1,English,15024,4,main,No
+1497,70,quantity_2,Interesting study,main,Higher degree,159910,1751368730939,1751368571029,male,too_much,19,English,21098,5,main,Yes
+1497,70,manner_4,Interesting study,main,Higher degree,159910,1751368730939,1751368571029,male,too_little,21,English,17422,6,main,Yes
+1486,22,manner_1,NA,main,Higher degree,122942,1751368680285,1751368557343,male,too_much,6,English,41820,1,main,No
+1486,22,manner_2,NA,main,Higher degree,122942,1751368680285,1751368557343,male,too_little,22,English,15288,2,main,Yes
+1486,22,quantity_1,NA,main,Higher degree,122942,1751368680285,1751368557343,male,baseline,16,English,15573,3,main,Yes
+1486,22,NA,NA,No,Higher degree,122942,1751368680285,1751368557343,male,too_little,11,English,3653,4,filler,No
+1486,22,relevance_1,NA,main,Higher degree,122942,1751368680285,1751368557343,male,irrelevant,2,English,9701,5,main,Yes
+1486,22,quality_2,NA,main,Higher degree,122942,1751368680285,1751368557343,male,marked,24,English,12631,6,main,No
+1492,41,quality_1,NA,main,Higher degree,150149,1751368710300,1751368560151,female,irrelevant,18,English,26745,1,main,No
+1492,41,NA,NA,Yes,Higher degree,150149,1751368710300,1751368560151,female,marked,15,English,6182,2,filler,Yes
+1492,41,quality_2,NA,main,Higher degree,150149,1751368710300,1751368560151,female,too_little,17,English,18981,3,main,No
+1492,41,quantity_2,NA,main,Higher degree,150149,1751368710300,1751368560151,female,marked,4,English,13185,4,main,No
+1492,41,manner_4,NA,main,Higher degree,150149,1751368710300,1751368560151,female,baseline,8,English,16033,5,main,No
+1492,41,relevance_1,NA,main,Higher degree,150149,1751368710300,1751368560151,female,too_much,19,English,18239,6,main,Yes
+1488,48,NA,NA,Yes,Graduated College,136468,1751368690525,1751368554057,male,marked,15,English,19769,1,filler,Yes
+1488,48,quality_2,NA,main,Graduated College,136468,1751368690525,1751368554057,male,baseline,9,English,15142,2,main,No
+1488,48,manner_4,NA,main,Graduated College,136468,1751368690525,1751368554057,male,too_little,21,English,10280,3,main,No
+1488,48,quantity_2,NA,main,Graduated College,136468,1751368690525,1751368554057,male,marked,4,English,9108,4,main,Yes
+1488,48,manner_1,NA,main,Graduated College,136468,1751368690525,1751368554057,male,too_much,6,English,20371,5,main,No
+1488,48,quantity_1,NA,main,Graduated College,136468,1751368690525,1751368554057,male,irrelevant,12,English,5898,6,main,Yes
+1522,47,manner_3,Thank you,main,Higher degree,356294,1751368909274,1751368552980,male,too_little,1,English,48614,1,main,No
+1522,47,quality_2,Thank you,main,Higher degree,356294,1751368909274,1751368552980,male,irrelevant,22,English,44754,2,main,Yes
+1522,47,quality_1,Thank you,main,Higher degree,356294,1751368909274,1751368552980,male,baseline,10,English,107329,3,main,No
+1522,47,manner_1,Thank you,main,Higher degree,356294,1751368909274,1751368552980,male,too_much,6,English,34232,4,main,Yes
+1522,47,NA,Thank you,Yes,Higher degree,356294,1751368909274,1751368552980,male,too_little,11,English,7253,5,filler,Yes
+1522,47,quantity_1,Thank you,main,Higher degree,356294,1751368909274,1751368552980,male,marked,1,English,24405,6,main,No
+1502,59,quality_1,NA,main,Graduated High-school,272320,1751368779776,1751368507456,female,too_much,14,English,132356,1,main,No
+1502,59,NA,NA,Yes,Graduated High-school,272320,1751368779776,1751368507456,female,too_little,11,English,8452,2,filler,Yes
+1502,59,manner_1,NA,main,Graduated High-school,272320,1751368779776,1751368507456,female,too_little,21,English,37456,3,main,Yes
+1502,59,manner_3,NA,main,Graduated High-school,272320,1751368779776,1751368507456,female,irrelevant,7,English,16395,4,main,Yes
+1502,59,quality_2,NA,main,Graduated High-school,272320,1751368779776,1751368507456,female,baseline,9,English,12742,5,main,No
+1502,59,relevance_1,NA,main,Graduated High-school,272320,1751368779776,1751368507456,female,marked,4,English,27676,6,main,Yes
+1510,30,relevance_1,NA,main,Higher degree,185430,1751368828396,1751368642966,female,marked,4,English,54954,1,main,No
+1510,30,quality_1,NA,main,Higher degree,185430,1751368828396,1751368642966,female,irrelevant,18,English,19074,2,main,Yes
+1510,30,manner_4,NA,main,Higher degree,185430,1751368828396,1751368642966,female,baseline,8,English,12973,3,main,No
+1510,30,quality_2,NA,main,Higher degree,185430,1751368828396,1751368642966,female,too_little,17,English,15261,4,main,No
+1510,30,manner_1,NA,main,Higher degree,185430,1751368828396,1751368642966,female,too_much,6,English,29772,5,main,Yes
+1510,30,NA,NA,Yes,Higher degree,185430,1751368828396,1751368642966,female,too_little,11,English,5724,6,filler,Yes
+1527,39,manner_3,NA,main,Higher degree,403029,1751368966693,1751368563664,male,too_much,5,English,21214,1,main,Yes
+1527,39,quality_1,NA,main,Higher degree,403029,1751368966693,1751368563664,male,baseline,10,English,53888,2,main,No
+1527,39,NA,NA,No,Higher degree,403029,1751368966693,1751368563664,male,marked,15,English,19130,3,filler,No
+1527,39,quantity_2,NA,main,Higher degree,403029,1751368966693,1751368563664,male,too_little,2,English,195228,4,main,Yes
+1527,39,manner_4,NA,main,Higher degree,403029,1751368966693,1751368563664,male,irrelevant,17,English,8360,5,main,Yes
+1527,39,relevance_1,NA,main,Higher degree,403029,1751368966693,1751368563664,male,marked,4,English,86290,6,main,No
+1505,52,manner_2,NA,main,Graduated High-school,359299,1751368797811,1751368438512,male,marked,3,English,71765,1,main,No
+1505,52,NA,NA,Yes,Graduated High-school,359299,1751368797811,1751368438512,male,too_little,11,English,26645,2,filler,Yes
+1505,52,quantity_2,NA,main,Graduated High-school,359299,1751368797811,1751368438512,male,too_much,19,English,57762,3,main,Yes
+1505,52,manner_1,NA,main,Graduated High-school,359299,1751368797811,1751368438512,male,too_little,21,English,44958,4,main,Yes
+1505,52,quality_2,NA,main,Graduated High-school,359299,1751368797811,1751368438512,male,irrelevant,22,English,33008,5,main,Yes
+1505,52,quality_1,NA,main,Graduated High-school,359299,1751368797811,1751368438512,male,baseline,10,English,21849,6,main,No
+1515,48,NA,no,No,Graduated College,350169,1751368860286,1751368510117,female,marked,15,English,22847,1,filler,No
+1515,48,manner_2,no,main,Graduated College,350169,1751368860286,1751368510117,female,irrelevant,21,English,82992,2,main,Yes
+1515,48,manner_3,no,main,Graduated College,350169,1751368860286,1751368510117,female,marked,13,English,55336,3,main,Yes
+1515,48,relevance_1,no,main,Graduated College,350169,1751368860286,1751368510117,female,baseline,1,English,43560,4,main,No
+1515,48,quality_1,no,main,Graduated College,350169,1751368860286,1751368510117,female,too_little,14,English,39952,5,main,Yes
+1515,48,quantity_2,no,main,Graduated College,350169,1751368860286,1751368510117,female,too_much,19,English,44792,6,main,Yes
+1535,54,quantity_1,NA,main,Higher degree,357253,1751369057805,1751368700552,male,too_little,20,English,141938,1,main,No
+1535,54,manner_3,NA,main,Higher degree,357253,1751369057805,1751368700552,male,irrelevant,7,English,26381,2,main,Yes
+1535,54,manner_4,NA,main,Higher degree,357253,1751369057805,1751368700552,male,too_much,23,English,17982,3,main,No
+1535,54,NA,NA,Yes,Higher degree,357253,1751369057805,1751368700552,male,marked,15,English,28147,4,filler,No
+1535,54,quantity_2,NA,main,Higher degree,357253,1751369057805,1751368700552,male,marked,4,English,31363,5,main,Yes
+1535,54,manner_1,NA,main,Higher degree,357253,1751369057805,1751368700552,male,baseline,24,English,24216,6,main,No
+1537,40,manner_1,NA,main,Graduated College,359257,1751369078776,1751368719519,male,marked,12,English,104678,1,main,Yes
+1537,40,NA,NA,No,Graduated College,359257,1751369078776,1751368719519,male,too_little,11,English,65408,2,filler,No
+1537,40,manner_2,NA,main,Graduated College,359257,1751369078776,1751368719519,male,too_much,2,English,19400,3,main,Yes
+1537,40,relevance_1,NA,main,Graduated College,359257,1751369078776,1751368719519,male,too_little,21,English,24064,4,main,Yes
+1537,40,manner_3,NA,main,Graduated College,359257,1751369078776,1751368719519,male,irrelevant,7,English,30000,5,main,No
+1537,40,quantity_2,NA,main,Graduated College,359257,1751369078776,1751368719519,male,baseline,22,English,63967,6,main,No
+1549,36,manner_1,NA,main,Higher degree,361380,1751369786383,1751369425003,female,too_little,21,English,13100,1,main,No
+1549,36,quantity_1,NA,main,Higher degree,361380,1751369786383,1751369425003,female,irrelevant,12,English,118799,2,main,Yes
+1549,36,quantity_2,NA,main,Higher degree,361380,1751369786383,1751369425003,female,baseline,22,English,165194,3,main,Yes
+1549,36,relevance_1,NA,main,Higher degree,361380,1751369786383,1751369425003,female,marked,4,English,20064,4,main,No
+1549,36,NA,NA,No,Higher degree,361380,1751369786383,1751369425003,female,marked,15,English,10483,5,filler,No
+1549,36,manner_2,NA,main,Higher degree,361380,1751369786383,1751369425003,female,too_much,2,English,7288,6,main,Yes
+1552,42,NA,NA,No,Did not graduate High-school,1494520,1751369957029,1751368462509,female,marked,15,english,1452353,1,filler,Yes
+1552,42,manner_3,NA,main,Did not graduate High-school,1494520,1751369957029,1751368462509,female,irrelevant,7,english,5193,2,main,No
+1552,42,manner_2,NA,main,Did not graduate High-school,1494520,1751369957029,1751368462509,female,too_much,2,english,6474,3,main,Yes
+1552,42,relevance_1,NA,main,Did not graduate High-school,1494520,1751369957029,1751368462509,female,too_little,21,english,1874,4,main,Yes
+1552,42,manner_1,NA,main,Did not graduate High-school,1494520,1751369957029,1751368462509,female,marked,12,english,7501,5,main,Yes
+1552,42,quantity_2,NA,main,Did not graduate High-school,1494520,1751369957029,1751368462509,female,baseline,22,english,2777,6,main,Yes
+1554,54,quality_1,NA,main,Graduated College,202056,1751370535761,1751370333705,female,too_much,14,English,36539,1,main,Yes
+1554,54,NA,NA,No,Graduated College,202056,1751370535761,1751370333705,female,marked,15,English,7043,2,filler,No
+1554,54,quantity_2,NA,main,Graduated College,202056,1751370535761,1751370333705,female,baseline,22,English,17117,3,main,No
+1554,54,manner_1,NA,main,Graduated College,202056,1751370535761,1751370333705,female,marked,12,English,1816,4,main,No
+1554,54,quantity_1,NA,main,Graduated College,202056,1751370535761,1751370333705,female,irrelevant,12,English,13936,5,main,Yes
+1554,54,quality_2,NA,main,Graduated College,202056,1751370535761,1751370333705,female,too_little,17,English,25512,6,main,Yes

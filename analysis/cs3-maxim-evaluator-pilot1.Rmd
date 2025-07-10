@@ -12,7 +12,7 @@ library(cspplot)
 
 Read data:
 ```{r}
-path = "../data/cs3-maxim-evaluator/results_18_SAGE_cs3-maxim-evaluator-evals_pilot-1_10.csv"
+path = "../data/cs3-maxim-evaluator/results_18_SAGE_cs3-maxim-evaluator-evals_full.csv"
 d <- read_csv(path)
 # exclude prolific info
 #d %>% select(-prolific_pid, -prolific_study_id, -prolific_session_id) %>% write_csv(path)

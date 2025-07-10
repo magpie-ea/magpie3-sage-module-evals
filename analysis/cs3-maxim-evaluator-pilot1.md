@@ -11,11 +11,11 @@ library(cspplot)
 Read data:
 
 ``` r
-path = "../data/cs3-maxim-evaluator/results_18_SAGE_cs3-maxim-evaluator-evals_pilot-1_10.csv"
+path = "../data/cs3-maxim-evaluator/results_18_SAGE_cs3-maxim-evaluator-evals_full.csv"
 d <- read_csv(path)
 ```
 
-    ## Rows: 60 Columns: 17
+    ## Rows: 546 Columns: 17
     ## ── Column specification ────────────────────────────────────────────────────────
     ## Delimiter: ","
     ## chr (9): assumption, comments, correct_answer, education, gender, inference_...
@@ -41,7 +41,7 @@ fillers <- d %>% filter(trial_type == "filler") %>%
 sum(fillers$is_correct) / nrow(fillers)
 ```
 
-    ## [1] 1
+    ## [1] 0.9450549
 
 Analyse main trials. Plot the proportion of times where participants
 said a particular assumption was violated. The void parts of the bars

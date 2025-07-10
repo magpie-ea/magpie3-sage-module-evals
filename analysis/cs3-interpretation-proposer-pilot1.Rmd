@@ -12,7 +12,7 @@ library(cspplot)
 
 Read data:
 ```{r}
-path = "../data/cs3-interpretation-proposer/results_19_SAGE_cs3-interpretation-proposer-evals_pilot-1_10.csv"
+path = "../data/cs3-interpretation-proposer/results_19_SAGE_cs3-interpretation-proposer-evals_full.csv"
 d <- read_csv(path)
 # exclude prolific info
 #d %>% select(-prolific_pid, -prolific_study_id, -prolific_session_id) %>% write_csv(path)
@@ -85,4 +85,18 @@ main_trials_long %>%
   facet_grid(.~inference_type) +
   theme_csp() +
   theme(axis.text.x = element_text(size = 13, angle = 45, hjust=1))
+```
+
+```{r}
+main_trials_long_rm <- main_trials_long %>%
+  mutate(condition = factor(condition),
+         inference_type = factor(inference_type))
+contrasts(main_trials_long_rm$condition)
+
+rm_cs3_inter <- brm(
+  rating ~ condition + (1 | item_id) + (1 | submission_id),
+  data = main_trials_long_rm,
+  iter = 4000
+)
+summary(rm_cs3_inter)
 ```
