@@ -11,6 +11,7 @@ library(tidyverse)
 library(brms)
 library(tidyboot)
 library(cspplot)
+library(faintr)
 ```
 
 Read data:
@@ -45,12 +46,15 @@ fillers <- d_preprocessed %>% filter(trial_type == "filler") %>%
          )
 # attention check passing rate
 sum(fillers$is_correct) / nrow(fillers)
+bad_subjects <- fillers %>% filter(is_correct == 0) %>%
+  pull(submission_id) %>% unique()
 ```
 
 Analyse main trials:
 ```{r}
 main_trials <- d_preprocessed %>%
   filter(trial_type == "main") %>%
+#  filter(!(submission_id %in% bad_subjects)) %>%
   select(submission_id, lower_bound, p1, p2, p3, state_type, trialNr, upper_bound, vignette) %>%
   pivot_longer(
     cols = c(p1, p2, p3), names_to = "proposal_nr", values_to = "proposal"
@@ -96,11 +100,67 @@ main_trials_long %>%
 
 ```{r}
 contrasts(main_trials_long$condition)
+main_trials_long_rm <- main_trials_long %>%  
+  mutate(condition = factor(condition, levels = c("proposals", "lower bound", "upper bound")))
 
 rm_cs2_utt <- brm(
   rating ~ condition + (1 + condition | vignette) + (1 + condition | submission_id),
-  data = main_trials_long,
-  iter = 4000
+  data = main_trials_long_rm,
+  iter = 4000,
+  cores = 4,
+  control = list(adapt_delta=0.95)
 )
 summary(rm_cs2_utt)
+```
+
+```{r}
+contrasts(main_trials_long$state_type)
+
+rm_cs2_utt_byState <- brm(
+  rating ~ condition * state_type + (1 + condition * state_type | vignette) + (1 + condition*state_type | submission_id),
+  data = main_trials_long,
+  iter = 4000,
+  cores = 4,
+  control = list(adapt_delta = 0.95)
+)
+summary(rm_cs2_utt_byState)
+```
+
+Check if the upper bound was judged higher than the proposals, and lower bound was judged lower than the proposals, in each state condition:
+```{r}
+compare_groups(
+  rm_cs2_utt_byState,
+  higher = condition == "upper bound" & state_type == "typical state",
+  lower = condition == "proposals" & state_type == "typical state"
+)
+
+compare_groups(
+  rm_cs2_utt_byState,
+  higher = condition == "proposals" & state_type == "typical state",
+  lower = condition == "lower bound" & state_type == "typical state"
+)
+
+compare_groups(
+  rm_cs2_utt_byState,
+  higher = condition == "upper bound" & state_type == "atypical state",
+  lower = condition == "proposals" & state_type == "atypical state"
+)
+
+compare_groups(
+  rm_cs2_utt_byState,
+  higher = condition == "proposals" & state_type == "atypical state",
+  lower = condition == "upper bound" & state_type == "atypical state"
+)
+
+compare_groups(
+  rm_cs2_utt_byState,
+  higher = condition == "proposals" & state_type == "atypical state",
+  lower = condition == "lower bound" & state_type == "atypical state"
+)
+
+compare_groups(
+  rm_cs2_utt_byState,
+  higher = condition == "lower bound" & state_type == "atypical state",
+  lower = condition == "upper bound" & state_type == "atypical state"
+)
 ```
