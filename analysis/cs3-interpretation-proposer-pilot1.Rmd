@@ -8,6 +8,7 @@ library(tidyverse)
 library(brms)
 library(tidyboot)
 library(cspplot)
+library(faintr)
 ```
 
 Read data:
@@ -90,14 +91,29 @@ main_trials_long %>%
 
 ```{r}
 main_trials_long_rm <- main_trials_long %>%
-  mutate(condition = factor(condition),
-         inference_type = factor(inference_type))
+  mutate(condition = factor(condition, levels = c("proposals", "lower bound", "upper bound")))
 contrasts(main_trials_long_rm$condition)
+contrasts(main_trials_long_rm$inference_type)
 
 rm_cs3_inter <- brm(
-  rating ~ condition + (1 | item_id) + (1 | submission_id),
+  rating ~ condition * inference_type + (1 + condition * inference_type | item_id) + (1 + condition * inference_type | submission_id),
   data = main_trials_long_rm,
-  iter = 4000
+  iter = 4000,
+  cores = 4
 )
 summary(rm_cs3_inter)
+```
+
+```{r}
+compare_groups(
+  rm_cs3_inter,
+  higher = condition == "upper bound",
+  lower = condition == "proposals"
+)
+
+compare_groups(
+  rm_cs3_inter,
+  higher = condition == "proposals",
+  lower = condition == "lower bound"
+)
 ```
