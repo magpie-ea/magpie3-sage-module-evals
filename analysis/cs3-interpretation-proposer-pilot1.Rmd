@@ -45,46 +45,47 @@ sum(fillers$is_correct) / nrow(fillers)
 Analyse main trials:
 ```{r}
 main_trials <- d_preprocessed %>%
-  filter(trial_type == "main")
-
-main_trials_summary <- main_trials %>%
-  summarize(
-    lower_bound = mean(lower_bound),
-    upper_bound = mean(upper_bound),
-    p1 = mean(p1),
-    p2 = mean(p2)
-  ) %>%
-  pivot_longer(cols = c(lower_bound, upper_bound, p1, p2), names_to = "condition", values_to = "rating")
+  filter(trial_type == "main") %>%
+  select(submission_id, assumption, inference_type, lower_bound, p1, p2, trial_type, trialNr, upper_bound, item_id, llm_id) %>%
+  pivot_longer(
+    cols = c(p1, p2), names_to = "proposal_nr", values_to = "proposal"
+) 
 
 main_trials_long <- main_trials %>%
-  pivot_longer(cols = c(upper_bound, lower_bound, p1, p2), names_to = "condition", values_to = "rating")
+  pivot_longer(cols = c(upper_bound, lower_bound, proposal), names_to = "condition", values_to = "rating") %>%
+  mutate(condition = factor(condition, levels = c("lower_bound", "proposal", "upper_bound"), labels = c("lower bound", "proposals", "upper bound")),
+         inference_type = factor(inference_type, levels = c("baseline", "irrelevant", "marked", "too_little", "too_much"), labels = c("baseline", "irrelevant", "marked", "too little", "too much")))
+
+main_trials_summary <- main_trials_long %>%
+  group_by(condition) %>%
+  tidyboot_mean(
+    column = rating
+  )
 
 main_trials_long %>%
   ggplot(., aes(x = condition, y = rating, color = condition)) +
-  geom_point(alpha=0.5, position=position_jitter(0.2)) +
-  geom_point(data = main_trials_summary, aes(x = condition, y = rating, color = condition), size=5) +
+  geom_point(alpha=0.3, position=position_jitter(0.2)) +
+  geom_point(data = main_trials_summary, aes(x = condition, y = mean, color = condition), size=4) +
+  geom_errorbar(data = main_trials_summary, aes(x = condition, y = mean, ymin=ci_lower, ymax=ci_upper, color = condition), width=0.4) +
   theme_csp()
 ```
 
 Now group these by condition (type of trigger):
 ```{r}
-main_trials_summary_byCondition <- main_trials %>%
-  group_by(inference_type) %>%
-  summarize(
-    lower_bound = mean(lower_bound),
-    upper_bound = mean(upper_bound),
-    p1 = mean(p1),
-    p2 = mean(p2)
-  ) %>%
-  pivot_longer(cols = c(lower_bound, upper_bound, p1, p2), names_to = "condition", values_to = "rating")
+main_trials_summary_byCondition <- main_trials_long %>%
+  group_by(inference_type, condition) %>%
+  tidyboot_mean(column = rating)
 
 main_trials_long %>%
   ggplot(., aes(x = condition, y = rating, color = condition)) +
-  geom_point(alpha=0.5, position=position_jitter(0.2)) +
-  geom_point(data = main_trials_summary_byCondition, aes(x = condition, y = rating, color = condition), size=5) +
+  geom_point(alpha=0.3, position=position_jitter(0.2)) +
+  geom_point(data = main_trials_summary_byCondition, aes(x = condition, y = mean, color = condition), size=4, alpha=2) +
+  geom_errorbar(data = main_trials_summary_byCondition, aes(x = condition, y = mean, ymin=ci_lower, ymax=ci_upper, color = condition), width=0.4, size=0.8) +
   facet_grid(.~inference_type) +
   theme_csp() +
   theme(axis.text.x = element_text(size = 13, angle = 45, hjust=1))
+
+#ggsave("figs/cs3-interpretation-proposer-results.png", width=9, height=5)
 ```
 
 ```{r}
